@@ -32,4 +32,4 @@
   - Instale [ctags](https://courses.cs.washington.edu/courses/cse451/10au/tutorials/tutorial_ctags.html)
   - [ag](http://conqueringthecommandline.com/book/ack_ag) o [ack](http://conqueringthecommandline.com/book/ack_ag)
   - etc. 
-* [Hágase miembro de la comunidad Google+ PL1819](https://plus.google.com/u/2/communities/101901734024125937720)
+* [Hágase miembro de la comunidad Google+ DSI1819](https://plus.google.com/u/2/communities/101210698918846038099)
