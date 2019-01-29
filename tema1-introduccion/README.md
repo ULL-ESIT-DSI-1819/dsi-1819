@@ -2,7 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Tema 1: Introducción a JavaScript](#tema-1-introducci%C3%B3n-a-javascript)
+- [Tema 1: Introducción a los Entornos de Trabajo, Herramientas, Pruebas, Integración, Calidad, Diseño y Patrones](#tema-1-introducci%C3%B3n-a-los-entornos-de-trabajo-herramientas-pruebas-integraci%C3%B3n-calidad-dise%C3%B1o-y-patrones)
   - [Capítulo 1. Uso del iaas.ull.es. Entornos de Trabajo](#cap%C3%ADtulo-1-uso-del-iaasulles-entornos-de-trabajo)
     - [Prácticas](#pr%C3%A1cticas)
   - [Capítulo 2. Editores. Entornos de Trabajo](#cap%C3%ADtulo-2-editores-entornos-de-trabajo)
@@ -37,7 +37,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Tema 1: Introducción a JavaScript
+# Tema 1: Introducción a los Entornos de Trabajo, Herramientas, Pruebas, Integración, Calidad, Diseño y Patrones 
 
 ## Capítulo 1. Uso del iaas.ull.es. Entornos de Trabajo
 
