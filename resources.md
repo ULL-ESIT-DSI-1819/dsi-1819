@@ -6,9 +6,9 @@
 
 ###### GitHub
 
-* [Página Web de PL (github gitbook)](https://ull-esit-pl-1819.github.io/ull-esit-pl-1819.github.io/_book/)
-* [Organización ULL-ESIT-PL-1819](https://github.com/ULL-ESIT-PL-1819)
-  - [Repo ull-esit-pl-1819.github.io](https://github.com/ULL-ESIT-PL-1819/ull-esit-pl-1819.github.io)
+* [Notas de DSI (github gitbook)](https://ull-esit-dsi-1819.github.io/_book/)
+* [Organización ULL-ESIT-DSI-1819/](https://github.com/ULL-ESIT-DSI-1819/)
+  - [Repo ULL-ESIT-DSI-1819/ull-esit-dsi-1819.github.io](https://github.com/ULL-ESIT-DSI-1819/ull-esit-dsi-1819.github.io)
 
 ###### iaas.ull.es
 
@@ -21,10 +21,10 @@
 ###### Prácticas
 
 * Herramientas para la Asignación de Tareas
-  * [GitHub Classroom ULL-ESIT-PL-1819](https://classroom.github.com/classrooms/33938084-procesadores-de-lenguaje)
+  * [GitHub Classroom ULL-ESIT-DSI-1819](https://classroom.github.com/classrooms/38855224-ull-esit-dsi-1819-classroom-1)
   * [CodeLab TFG de Samuel](https://codelab-tfg1718.herokuapp.com/)
 * [Instrucciones para las entregas de Prácticas y Trabajos](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/instrucciones/)
 
 ###### Google+
 
-* [Comunidad Google+ PL1819](https://plus.google.com/u/2/communities/101901734024125937720)
+* [Comunidad Google+ DSI1819](https://plus.google.com/u/2/communities/101210698918846038099)

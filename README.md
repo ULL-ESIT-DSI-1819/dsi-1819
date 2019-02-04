@@ -1,4 +1,4 @@
-# DESARROLLO DE SISTEMAS INFORMÁTICOS. Itinerario de Tecnologías de la Información. Grado en Ingeniería Informática. Curso 2018/2019.
+
 
 ## [Guía Docente](https://www.ull.es/apps/guias/guias/view_subject_guide/139263524/)
 
