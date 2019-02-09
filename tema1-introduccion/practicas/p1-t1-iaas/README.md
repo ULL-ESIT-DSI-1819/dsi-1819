@@ -1,11 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Descripción de la Práctica p1-t1-iaas](#descripci%C3%B3n-de-la-pr%C3%A1ctica-p1-t1-iaas)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Descripción de la Práctica p1-t1-iaas
 
 * Siguiendo las instrucciones en el  [repositorio SYTW/iaas-ull-es](https://github.com/SYTW/iaas-ull-es) despliegue un ejemplo como el que aparece en [crguezl/express-start](https://github.com/crguezl/express-start) en su máquina virtual del servicio [iaas.ull.es](iaas.ull.es).
@@ -34,10 +26,13 @@
   - etc. 
 * [Hágase miembro de la comunidad Google+ DSI1819](https://plus.google.com/u/2/communities/101210698918846038099)
 
-### GitHub Classroom
+### GitHub Classroom: Outside Colaborators and members
 
 * Una vez acepte la tarea en GitHub Classroom, pasará a ser *outside collaborator* de la organización de la asignatura,
 * En algun momento, el profesor le hará una invitación a ser miembro de pleno derecho de la organización
     - [Acepte la invitacion del profesor a pertenecer a la organización Github de la asignatura visitando la página de la organización](https://github.com/ULL-ESIT-DSI-1819)
     - También recibirá un email con la invitación. Puede aceptar haciendo click en el correspondiente enlace
-    
+
+### Formulario
+
+Rellene el [formulario solicitado](https://campusvirtual.ull.es/1819/mod/assign/view.php?id=150012) en la tarea en el Campus Virtual
