@@ -56,7 +56,7 @@ ipción de la Práctica p1-t1-iaas</a>
     - [Book "Node.js 8 the Right Way"](https://books.google.es/books?id=oA9QDwAAQBAJ&lpg=PT96&ots=-mLQPlvsSj&dq=should%20ldjclient%20emit%20a%20close%20event&hl=es&pg=PP1#v=onepage&q=should%20ldjclient%20emit%20a%20close%20event&f=false) 2018 Edition Google Books
     - [Book "Node.js 8 the Right Way"](https://github.com/iMarcoGovea/books/blob/master/nodejs/Node.js%20the%20Right%20Way.pdf) Old Edition in GitHub
 - Node.JS 8 The Right Way. Practical Server-Side That Scales: [Repo with the solutions (all chapters)](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
-- [Read section *A FileServer* for Eloquent Javascript](https://eloquentjavascript.net/20_node.html#h_yAdw1Y7bgN)
+- [Read sections *The HTTP module* and *A File Server* from Eloquent Javascript](https://eloquentjavascript.net/20_node.html#h_yAdw1Y7bgN)
 #### JavaScript Event Loop
 
 - Tutorial [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
