@@ -51,15 +51,15 @@ ipción de la Práctica p1-t1-iaas</a>
 
 ### The book "Node.js 8 the Right Way". Chapter 2: Wrangling the File System
 
-- [Chapter 2: Wrangling the File System. GitHub Repo. Folder with Solutions to Chapter 2](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way/tree/master/filesystem-chapter-2)
+- <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-idot-getting-up-to-speed-on-nodedotjs-8/chp_filesystem_html" target="_blank">Node.js 8 the Right Way</a> Practical, Server-Side JS that Scales. Jim R. Wilson 2018 Edition. Safari. Chapter 2: Wrangling the File System. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
+- [Chapter 2: Wrangling the File System. GitHub Repo. Folder with Solutions to Chapter 2](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way/tree/master/filesystem-chapter-2) Privado
 - Node.JS 8 The Right Way. Practical Server-Side That Scales: [Repo with the solutions (all chapters)](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
-- <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344" target="_blank">Node.js 8 the Right Way</a> Practical, Server-Side JS that Scales. Jim R. Wilson 2018 Edition. Safari. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
 - [Book "Node.js 8 the Right Way"](https://books.google.es/books?id=oA9QDwAAQBAJ&lpg=PT96&ots=-mLQPlvsSj&dq=should%20ldjclient%20emit%20a%20close%20event&hl=es&pg=PP1#v=onepage&q=should%20ldjclient%20emit%20a%20close%20event&f=false) 2018 Edition Google Books
 - [Book "Node.js 8 the Right Way"](https://github.com/iMarcoGovea/books/blob/master/nodejs/Node.js%20the%20Right%20Way.pdf) Old Edition in GitHub
 
 #### JavaScript Event Loop
 
-- Tutorial [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop) at developer.mozilla.org
+- Tutorial [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
 
 #### Streams
 
