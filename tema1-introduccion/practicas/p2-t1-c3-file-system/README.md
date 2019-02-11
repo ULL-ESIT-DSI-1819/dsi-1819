@@ -1,6 +1,6 @@
 # Descripción de la práctica p2-t1-c3-filesystem
 
-* [Aceptemos la asignación de la tarea]()
+* [Aceptemos la asignación de la tarea](https://classroom.github.com/a/vxrQSTc-)
 * Lea el Capítulo 2 "[Wrangling the File System](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-idot-getting-up-to-speed-on-nodedotjs-8/chp_filesystem_html)" de *Node.JS The Right Way* 
 y resuelva los problemas en la secciónes *Fortifying the code* y *Expanding Functionality*
 * Haga su desarrollo usando Visual studio Code. [Use git y github desde visual studio code](https://code.visualstudio.com/docs/editor/versioncontrol) tanto como pueda
