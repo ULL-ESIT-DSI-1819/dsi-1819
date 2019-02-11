@@ -11,8 +11,7 @@
 
 ### Prácticas
 
-- <a href="practicas/p1-t1-iaas/" target="_blank">Descr
-ipción de la Práctica p1-t1-iaas</a>
+- <a href="practicas/p1-t1-iaas/" target="_blank">Descripción de la Práctica p1-t1-iaas</a>
     - [Express Web Framework (Node.js/JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs) (Mozilla)
 
 ## Capítulo 2. Editores. Entornos de Trabajo
@@ -67,6 +66,11 @@ ipción de la Práctica p1-t1-iaas</a>
 
 - [A Brief History of Node Streams](https://medium.com/the-node-js-collection/a-brief-history-of-node-streams-pt-1-3401db451f21)
 - [A Brief History of Node Streams. Part 2](https://medium.com/the-node-js-collection/a-brief-history-of-node-streams-pt-2-bcb6b1fd7468)
+
+### Prácticas
+
+* [Descripción de la práctica p2-t1-c3-filesystem](p2-t1-c3-file-system/)
+
 
 ## Capítulo 4. Pruebas, Integración y Calidad
 
