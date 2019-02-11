@@ -18,7 +18,8 @@ En el `README.md` escriba un tutorial sobre lo que ha aprendido. Muestre imágen
 * [Node.js 8 the Right Way](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344). Jim Wilson. 2018 (Debes estar autenticado via PuntoQ 
     * [capítulo 20: Node.js](http://eloquentjavascript.net/2nd_edition/20_node.html) 
     * [Node.js 8 the Right Way](https://books.google.es/books?id=oA9QDwAAQBAJ&lpg=PT96&ots=-mLQPlvsSj&dq=should%20ldjclient%20emit%20a%20close%20event&hl=es&pg=PP1#v=onepage&q=should%20ldjclient%20emit%20a%20close%20event&f=false) Google Books
-* [Eloquent JS 2nd Edition](http://eloquentjavascript.net/2nd_edition/)
 * [BULL PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/puntoq/)
 * [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
+* Tutorial [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+* [Eloquent JS 2nd Edition](http://eloquentjavascript.net/2nd_edition/)
 * [GitHub repo ULL-MII-CA-1819/nodejs-the-right-way](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way) (Recurso solo para el profesor)
