@@ -48,6 +48,10 @@
 
 - [Eloquent JS Book Chapter 20](http://eloquentjavascript.net/20_node.html): [Node.js](http://eloquentjavascript.net/20_node.html)
 
+### Anatomy of an HTTP Transaction
+
+- [Anatomy of an HTTP Transaction](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
+
 ### The book "Node.js 8 the Right Way". Chapter 2: Wrangling the File System
 
 - <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-idot-getting-up-to-speed-on-nodedotjs-8/chp_filesystem_html" target="_blank">Node.js 8 the Right Way</a> Practical, Server-Side JS that Scales. Jim R. Wilson 2018 Edition. Safari. Chapter 2: Wrangling the File System. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
