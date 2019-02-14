@@ -30,7 +30,7 @@ Esto es, es equivalente a el siguiente comando:
 ```
 `sol-nodejs-the-right-way/filesystem-chapter-2º`
 
-Sugerencias:
+## Sugerencias:
 
 1. Use spawn para crear un proceso que ejecuta `ssh``
 2. Pase como argumentos a `ssh` el comando `node` con el argumento `-e` y el programa proveido en línea de comandos
