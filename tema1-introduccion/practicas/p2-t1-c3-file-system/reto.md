@@ -42,6 +42,14 @@ Esto es, es equivalente a el siguiente comando:
 4. Ponga manejadores/callbacks `on('data')` para los streams `stdout` y `stderr` del proceso ejecutando la `ssh` de manera 
 que vuelquen en la consola los chunks que van llegando
 
+NOTA (para el profesor):
+```
+[~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ pwd -P
+/Users/casiano/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2
+[~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ ls -l write-to-a-proces.js 
+-rw-r--r--  1 casiano  staff  657 14 feb 15:41 write-to-a-proces.js
+```
+
 # Reto 2 para Chapter 2. Wrangling the File System
 
 Escriba  un programa en Node.js
