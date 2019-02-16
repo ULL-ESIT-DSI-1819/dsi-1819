@@ -1,4 +1,4 @@
-# Reto para Chapter 2. Wrangling the File System
+# Reto 1 para Chapter 2. Wrangling the File System
 
 Cuando al comando  `ssh` se le pasa además del destino un argumento adicional lo interpreta como un comando y lo ejecuta en la máquina de destino:
 
@@ -36,3 +36,18 @@ Esto es, es equivalente a el siguiente comando:
 2. Pase como argumentos a `ssh` el comando `node` con el argumento `-e` y el programa proveido en línea de comandos
 3. Ponga manejadores/callbacks `on('data')` para los streams `stdout` y `stderr` del proceso ejecutando la `ssh` de manera 
 que vuelquen en la consola los chunks que van llegando
+
+# Reto 2 para Chapter 2. Wrangling the File System
+
+Escriba  un programa en Node.js
+que ejecute en remoto usando `ssh` el programa Node.js cuyo nombre es pasado como argumento en línea de comandos.
+
+```
+[~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node write-to-a-proces.js program.js
+child stdout:
+5
+child process exited with code 0 and signal null
+```
+
+El fichero `program.js` se supone que está en la máquina local. Deberá transferirlo a la máquina remota (use `scp`) para su posterior ejecución.
+
