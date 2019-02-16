@@ -32,6 +32,11 @@ Esto es, es equivalente a el siguiente comando:
 
 ## Sugerencias:
 
+1. Cuando al intérprete de Node.js se le apsa la opción `-e`  interpreta que el programa es la cadena que sigue a la opción `-e`. Ejemplo: 
+```
+[~/campus-virtual/1819/dsi1819/introduccion(master)]$ node -e 'console.log(2+3)'
+5
+```
 1. Use spawn para crear un proceso que ejecuta `ssh``
 2. Pase como argumentos a `ssh` el comando `node` con el argumento `-e` y el programa proveido en línea de comandos
 3. Ponga manejadores/callbacks `on('data')` para los streams `stdout` y `stderr` del proceso ejecutando la `ssh` de manera 
