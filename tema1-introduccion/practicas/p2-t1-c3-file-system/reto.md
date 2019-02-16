@@ -12,21 +12,21 @@ Escriba  un programa en Node.js
 que ejecute en remoto usando `ssh` el programa Node.js pasado como argumento en línea de comandos:
 
 ```
-[~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node write-to-a-proces.js 'console.log(2+3)'
+[~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ ./remote-node.js 'console.log(4*5)'
 child stdout:
-5
+20
 child process exited with code 0 and signal null
 ```
 
-Aquí las comillas simples `'console.log(2+3)'` son esenciales 
+Aquí las comillas simples `'console.log(4*5)'` son esenciales 
 para proteger la cadena de su interpretación  por la bash shell.
 
-Este programa se conecta vía `ssh` a la máquina virtual de `iaas.ull.es` del pool de la asignatura y ejecuta `node -e 'console.log(2+3)'`.
+Este programa se conecta vía `ssh` a la máquina virtual de `iaas.ull.es` del pool de la asignatura y ejecuta `node -e 'console.log(4*5)'`.
 Esto es, es equivalente a el siguiente comando:
 
 ```
-[~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ ssh dsi "node -e 'console.log(2+3)'"
-5
+[~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ ssh dsi "node -e 'console.log(4*5)'"
+20
 ```
 `sol-nodejs-the-right-way/filesystem-chapter-2º`
 
