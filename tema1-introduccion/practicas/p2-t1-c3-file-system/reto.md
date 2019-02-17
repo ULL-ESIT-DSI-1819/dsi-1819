@@ -46,8 +46,8 @@ NOTA (para el profesor):
 ```
 [~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ pwd -P
 /Users/casiano/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2
-[~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ ls -l write-to-a-proces.js 
--rw-r--r--  1 casiano  staff  657 14 feb 15:41 write-to-a-proces.js
+[~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ ls -l remote-node.js 
+-rwxr-xr-x  1 casiano  staff  701 16 feb 12:29 remote-node.js
 ```
 
 # Reto 2 para Chapter 2. Wrangling the File System
