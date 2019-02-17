@@ -21,6 +21,6 @@ En el `README.md` escriba un tutorial sobre lo que ha aprendido. Muestre imágen
 * [BULL PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/puntoq/)
 * [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 * Tutorial [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
-* [Eloquent JS 2nd Edition](http://eloquentjavascript.net/2nd_edition/) Cahpter 20
+* [Eloquent JS 2nd Edition](http://eloquentjavascript.net/2nd_edition/) Chapter 20
 * [Node.js Child Processes: Everything you need to know How to use spawn(), exec(), execFile(), and fork()](https://medium.freecodecamp.org/node-js-child-processes-everything-you-need-to-know-e69498fe970a)
 * [GitHub repo ULL-MII-CA-1819/nodejs-the-right-way](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way) (Recurso solo para el profesor)
