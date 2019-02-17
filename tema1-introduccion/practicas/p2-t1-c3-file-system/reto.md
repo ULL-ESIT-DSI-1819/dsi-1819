@@ -56,7 +56,7 @@ Escriba  un programa en Node.js
 que ejecute en remoto usando `ssh` el programa Node.js cuyo nombre es pasado como argumento en línea de comandos.
 
 ```
-[~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node write-to-a-proces.js program.js
+[~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node dsi-node.js program.js
 child stdout:
 5
 child process exited with code 0 and signal null
