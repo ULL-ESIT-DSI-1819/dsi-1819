@@ -37,7 +37,7 @@ Esto es, es equivalente a el siguiente comando:
     [~/campus-virtual/1819/dsi1819/introduccion(master)]$ node -e 'console.log(2+3)'
     5
   ```
-2. Use spawn para crear un proceso que ejecuta `ssh``
+2. Use spawn para crear un proceso que ejecuta `ssh`
 3. Pase como argumentos a `ssh` el comando `node` con el argumento `-e` y el programa proveido en línea de comandos
 4. Ponga manejadores/callbacks `on('data')` para los streams `stdout` y `stderr` del proceso ejecutando la `ssh` de manera 
 que vuelquen en la consola los chunks que van llegando
