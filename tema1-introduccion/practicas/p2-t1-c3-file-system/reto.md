@@ -62,5 +62,12 @@ child stdout:
 child process exited with code 0 and signal null
 ```
 
-El fichero `program.js` se supone que está en la máquina local. Deberá transferirlo a la máquina remota (use `scp`) para su posterior ejecución.
+El fichero `program.js` se supone que está en la máquina local. Deberá transferirlo a la máquina remota (use `scp`) para su posterior ejecución. El comando `scp`permite transferir ficheros entre máquinas usando ssh:
+
+```
+[~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ scp watcher.js dsi:/tmp/w.js
+watcher.js                                                                       100% 1229     8.8KB/s   00:00    
+[~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ ssh dsi ls '/tmp/w*' 
+/tmp/w.js
+```
 
