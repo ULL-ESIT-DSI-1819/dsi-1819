@@ -20,3 +20,4 @@ escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican
 * [gulp quick start](https://gulpjs.com/docs/en/getting-started/quick-start)
 * [gulp getting started](https://gulpjs.org/getting-started.html)
 * [Node.js Guides](https://github.com/nodejs/nodejs.org/tree/master/locale/en/docs/guides)
+* `/Users/casiano/local/src/javascript/eloquent-javascript/chapter20-node-js/` (recurso para el profesor)
