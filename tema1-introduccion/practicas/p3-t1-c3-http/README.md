@@ -17,4 +17,6 @@ escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican
 * [Repo con las soluciones K.](https://github.com/ULL-ESIT-MII-CA-1718/nodejs-KevMCh) (No disponible ahora)
 * [Repo con las soluciones C.](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter20-node-js) (No disponiblei ahora)
 * [Anatomy of an HTTP Transaction](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
+* [gulp quick start](https://gulpjs.com/docs/en/getting-started/quick-start)
+* [gulp getting started](https://gulpjs.org/getting-started.html)
 * [Node.js Guides](https://github.com/nodejs/nodejs.org/tree/master/locale/en/docs/guides)
