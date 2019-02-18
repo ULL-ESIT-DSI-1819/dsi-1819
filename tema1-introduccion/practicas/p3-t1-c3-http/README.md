@@ -1,10 +1,4 @@
-# Práctica: Descripción de la práctica p3-t1-c3-http
-
-### Aceptar Tarea
-
-* [Aceptar asignación de la tarea]()
-
-### Descripción del Código de la Práctica
+# Descripción de la práctica p3-t1-c3-http
 
 1. [Eloquent JS: HTTP](http://eloquentjavascript.net/20_node.html)
   - [Repo de Ejemplo del Capítulo](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter20-node-js)
@@ -15,10 +9,9 @@
   - Add support for a method `MKCOL`, which should create a directory by calling `fs.mkdir` 
 4. Entregue los enlaces al repositorio en GitHub 
 
-### Recursos
+## Recursos
 
-* [Eloquent JS: HTTP](http://eloquentjavascript.net/20_node.html)
-  - [Repo de Ejemplo del Capítulo](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter20-node-js)
+* [Eloquent JS 2nd Edition: Chapter 20 HTTP](http://eloquentjavascript.net/2nd_edition/20_node.html)
 * [Repo con las soluciones K.](https://github.com/ULL-ESIT-MII-CA-1718/nodejs-KevMCh) (No disponible ahora)
 * [Repo con las soluciones C.](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter20-node-js) (No disponiblei ahora)
 * [Anatomy of an HTTP Transaction](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
