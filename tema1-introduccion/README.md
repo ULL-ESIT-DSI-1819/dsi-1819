@@ -74,6 +74,7 @@
 ### Prácticas
 
 * [Descripción de la práctica p2-t1-c3-filesystem](practicas/p2-t1-c3-file-system/)
+* [Descripción de la práctica p3-t1-c3-http](practicas/p3-t1-c3-http/)
 
 
 ## Capítulo 4. Pruebas, Integración y Calidad
