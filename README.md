@@ -18,6 +18,8 @@
 
 ### [Práctica Wrangling the File System (p2-t1-c3-file-system)](tema1-introduccion/practicas/p2-t1-c3-file-system/README.md)
 
+### [Práctica HTTP (p3-t1-c3-http)](tema1-introduccion/practicas/p3-t1-c3-http/README.md)
+
 ## [Tema 2: Entornos de Trabajo y Patrones para la Computación Asíncrona y Distribuida]()
 
 ## [Tema 3: Patrones, Entornos de Trabajo, Pruebas, Integración y Calidad en los Servicios y Aplicaciones Web]()
