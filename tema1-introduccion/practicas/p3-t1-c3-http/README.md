@@ -1,6 +1,6 @@
 # Descripción de la práctica p3-t1-c3-http
 
-1. Siguiendo el capítulo 20 *Node.JS*  de ila segunda edición del libro Eloquent JavaScript (EJS) 
+1. Siguiendo el capítulo 20 *Node.JS*  de la segunda edición del libro Eloquent JavaScript (EJS) 
 escribe tus propios apuntes con ejemplos y realiza los ejercicios que se indican
     - [Eloquent JS: Chapter 20 HTTP](http://eloquentjavascript.net/20_node.html)
 3. Realice sólo el ejercicio *Creating Directories* 
