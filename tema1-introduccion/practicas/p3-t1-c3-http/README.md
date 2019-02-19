@@ -21,7 +21,7 @@ escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican
 * Documentación:  
   * [documentation.js](http://documentation.js.org/), 
   * [jsdoc](https://www.npmjs.com/package/jsdoc), 
-  * [docco](http://jashkenas.github.io/docco/))
+  * [docco](http://jashkenas.github.io/docco/)
 * Gulp
   * Véase la sección [Gulp](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/apuntes/gulp/) de los apuntes
   * [gulp quick start](https://gulpjs.com/docs/en/getting-started/quick-start)
