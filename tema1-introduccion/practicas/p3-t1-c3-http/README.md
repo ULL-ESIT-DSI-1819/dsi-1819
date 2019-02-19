@@ -2,7 +2,7 @@
 
 1. Siguiendo el capítulo 20 *Node.JS*  de la segunda edición del libro Eloquent JavaScript (EJS) 
 escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican
-    - [Eloquent JS: Chapter 20 HTTP](http://eloquentjavascript.net/20_node.html)
+    - [Eloquent JS: Chapter 20 HTTP](http://eloquentjavascript.net/2nd_edition/20_node.html)
 3. Realice sólo el ejercicio *Creating Directories* 
   - Though the `DELETE` method is wired up to delete directories (using `fs.rmdir`), 
   the file server currently does not provide any way to create a directory.  Add 
