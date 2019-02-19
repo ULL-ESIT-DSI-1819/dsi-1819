@@ -7,7 +7,8 @@ escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican
   - Though the `DELETE` method is wired up to delete directories (using `fs.rmdir`), 
   the file server currently does not provide any way to create a directory.  Add 
   support for a method `MKCOL`, which should create a directory by calling `fs.mkdir` 
-4. Instale [insomia](https://insomnia.rest/) o [postman](https://www.getpostman.com/) para usarlo como cliente de prueba. 
+4. Instale [insomia](https://insomnia.rest/) o [postman](https://www.getpostman.com/) para usarlo como cliente de prueba.
+5. Genere documentación para su código usando algunas de las herramientas que aparecen en la sección recursos
 5. Escriba un gulpfile con tareas usando `curl` para probar el comportamiento del servidor con los diferentes requests
 6. Entregue los enlaces al repositorio en GitHub 
 
@@ -17,7 +18,15 @@ escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican
 * [Repo con las soluciones K.](https://github.com/ULL-ESIT-MII-CA-1718/nodejs-KevMCh) (No disponible ahora)
 * [Repo con las soluciones C.](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter20-node-js) (No disponiblei ahora)
 * [Anatomy of an HTTP Transaction](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
-* [gulp quick start](https://gulpjs.com/docs/en/getting-started/quick-start)
-* [gulp getting started](https://gulpjs.org/getting-started.html)
-* [Node.js Guides](https://github.com/nodejs/nodejs.org/tree/master/locale/en/docs/guides)
+* [Apuntes: Programación Orientada a Objetos](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/oop/)
+* Documentación:  [documentation.js](http://documentation.js.org/), [jsdoc](https://www.npmjs.com/package/jsdoc), [docco](http://jashkenas.github.io/docco/))
+* Gulp
+  * Véase la sección [Gulp](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/apuntes/gulp/) de los apuntes
+  * [gulp quick start](https://gulpjs.com/docs/en/getting-started/quick-start)
+  * [gulp getting started](https://gulpjs.org/getting-started.html)
+* Diseño
+  * [Apuntes: Code Smells](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/codesmell.html)
+  * [Principios de Diseño](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/designprinciples.html)
+  * [Patrones de Diseño](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/)
+  * [Strategy Pattern](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/strategypattern.html)
 * `/Users/casiano/local/src/javascript/eloquent-javascript/chapter20-node-js/` (recurso para el profesor)
