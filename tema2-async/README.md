@@ -2,7 +2,7 @@
 
 ## Capítulo 1: Sockets
 
-    2. [Networking with Sockets](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
+2. [Networking with Sockets](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
 
 ## Capítulo 2: Message Queues
 
@@ -16,7 +16,7 @@
     3. [CloudAMQP with Node.js Getting started](https://www.cloudamqp.com/docs/nodejs.html)
     4. [Repo ULL-MII-CA-1819/rabbit-mq-learning](https://github.com/ULL-MII-CA-1819/rabbit-mq-learning) with my experience with RabbitMQ
 
-## Capítulo 3: Programación Asincrona en ECMA 6
+## Capítulo 3: Programación Asíncrona en ECMA 6
 
 1. [Asynchronous Programming with Javascript](https://courses.edx.org/courses/course-v1:Microsoft+DEV234x+1T2018a/course/) EdX Course
 4. Node.JS 8 The Right Way. Practical Server-Side That Scales
