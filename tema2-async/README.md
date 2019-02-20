@@ -1,12 +1,12 @@
 # Tema 2: Entornos de Trabajo y Patrones para la Computación Asíncrona y Distribuida
 
-## Capítulo: Sockets
+## Capítulo 1: Sockets
 
     2. [Networking with Sockets](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
 
-## Capítulo: Message Queues
+## Capítulo 2: Message Queues
 
-    3. [Connecting Robust Microservices](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
+3. [Connecting Robust Microservices](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
         - [GitHub Repo ULL-MII-CA-1819/nodejs-the-right-way](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way/tree/master/connecting-robust-microservices-chapter-4) Chapter 4: Connecting Robust Microservices
         - [Building Distributed Systems with Node.js and ØMQ](https://github.com/ULL-MII-CA-1819/node-zmq-talk) Jim Wilson Talk
         - [Using ZeroMQ with Node.js](https://rastating.github.io/using-zeromq-with-node-js/)
