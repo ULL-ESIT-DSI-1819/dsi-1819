@@ -2,7 +2,7 @@
 
 ## Capítulo 1: Sockets
 
-2. [Networking with Sockets](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
+1. [Networking with Sockets](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
 
 ## Capítulo 2: Message Queues
 
