@@ -1,4 +1,6 @@
 * Lea el [Capítulo 3 "Networking with Sockets" de *Node.JS The Right Way*](https://books.google.es/books?id=oA9QDwAAQBAJ&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false) y resuelva los problemas en la secciónes *Testability* y *Robustness*
+   * [BULL PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/puntoq/)
+   * [Safari. Chapter 3 Networking with Sockets](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-idot-getting-up-to-speed-on-nodedotjs-8/chp_networking_html)
    * [Book "Node.js 8 the Right Way"](https://books.google.es/books?id=oA9QDwAAQBAJ&lpg=PT96&ots=-mLQPlvsSj&dq=should%20ldjclient%20emit%20a%20close%20event&hl=es&pg=PP1#v=onepage&q=should%20ldjclient%20emit%20a%20close%20event&f=false) 2018 Edition. Google Books
     * [Capítulo 3 "Networking with Sockets" de *Node.JS The Right Way*](https://github.com/iMarcoGovea/books/blob/master/nodejs/Node.js%20the%20Right%20Way.pdf)  old edition
 * Añadan pruebas y documentación
