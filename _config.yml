@@ -1,8 +1,9 @@
 title: 'Desarrollo de Sistemas Informáticos'
 subtitle: 'Itinerario de Tecnologías de la Información. Grado en Ingeniería Informática. Curso 2018/2019'
-#theme: jekyll-theme-midnight
+theme: jekyll-theme-midnight
 #theme: jekyll-theme-time-machine
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-hacker
+#theme: jekyll-theme-cayman
 #theme: jekyll-theme-minimal
 #theme: jekyll-theme-slate fatal
 # theme: jekyll-theme-modernist
