@@ -2,15 +2,19 @@
 
 ## Capítulo 1: Sockets
 
-1. [Networking with Sockets](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
+* [Safari. Chapter 3 Networking with Sockets](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-idot-getting-up-to-speed-on-nodedotjs-8/chp_networking_html)
+* [GitHub repo ULL-MII-CA-1819/nodejs-the-right-way](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
+  * [Networking with Sockets](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
+* Video en YouTube. UPM. Node.JS: Programación con Sockets TCP/IP:
+  * [Video en YouTube. UPM. Node.JS: Programación con Sockets TCP/IP](https://youtu.be/UjH7hw9fWWQ)
 
 ## Capítulo 2: Message Queues
 
-1. [Connecting Robust Microservices](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
+* [Connecting Robust Microservices](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
         - [GitHub Repo ULL-MII-CA-1819/nodejs-the-right-way](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way/tree/master/connecting-robust-microservices-chapter-4) Chapter 4: Connecting Robust Microservices
         - [Building Distributed Systems with Node.js and ØMQ](https://github.com/ULL-MII-CA-1819/node-zmq-talk) Jim Wilson Talk
         - [Using ZeroMQ with Node.js](https://rastating.github.io/using-zeromq-with-node-js/)
-5. RabbitMQ
+* RabbitMQ
     1. [Part 1: RabbitMQ for beginners - What is RabbitMQ?](https://www.cloudamqp.com/blog/2015-05-18-part1-rabbitmq-for-beginners-what-is-rabbitmq.html)
     2. [Part 2.2: Getting started with RabbitMQ and Node.js](https://www.cloudamqp.com/blog/2015-05-19-part2-2-rabbitmq-for-beginners_example-and-sample-code-node-js.html)
     3. [CloudAMQP with Node.js Getting started](https://www.cloudamqp.com/docs/nodejs.html)
@@ -19,7 +23,6 @@
 ## Capítulo 3: Programación Asíncrona en ECMA 6
 
 1. [Asynchronous Programming with Javascript](https://courses.edx.org/courses/course-v1:Microsoft+DEV234x+1T2018a/course/) EdX Course
-4. Node.JS 8 The Right Way. Practical Server-Side That Scales
 2. Book Exploring ES6
   1. [Book Exploring ES6: 24. Asynchronous programming (background) ](http://exploringjs.com/es6/ch_async.html)
   5. [Book Exploring ES6: 25. Promises for asynchronous programming](http://exploringjs.com/es6/ch_promises.html)
