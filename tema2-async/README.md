@@ -1,18 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Tema 2: Entornos de Trabajo y Patrones para la Computación Asíncrona y Distribuida](#tema-2-entornos-de-trabajo-y-patrones-para-la-computaci%C3%B3n-as%C3%ADncrona-y-distribuida)
-  - [Capítulo 1: Sockets](#cap%C3%ADtulo-1-sockets)
-    - [WebSockets](#websockets)
-    - [Prácticas](#pr%C3%A1cticas)
-  - [Capítulo 2: Message Queues](#cap%C3%ADtulo-2-message-queues)
-  - [Capítulo 3: Programación Asíncrona en ECMA 6](#cap%C3%ADtulo-3-programaci%C3%B3n-as%C3%ADncrona-en-ecma-6)
-    - [Web Workers](#web-workers)
-  - [Recursos](#recursos)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Tema 2: Entornos de Trabajo y Patrones para la Computación Asíncrona y Distribuida
 
 ## Capítulo 1: Sockets
