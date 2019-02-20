@@ -13,6 +13,7 @@
 * [Build a simple chat app with node.js and socket.io](https://medium.com/@noufel.gouirhate/build-a-simple-chat-app-with-node-js-and-socket-io-ea716c093088)
 * [Simple Chat App](https://github.com/ULL-ESIT-DSI-1819/simpleChatApp)
 * [Introduction to Scoket.io](https://medium.com/@chathuranga94/introduction-to-socket-io-600025322cd2)
+* [Socket.IO Real-time Web Application Development By: Rohit Rai](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781782160786) PuntoQ ULL
 
 ### Prácticas
 
