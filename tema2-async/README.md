@@ -8,6 +8,12 @@
 * Video en YouTube. UPM. Node.JS: Programación con Sockets TCP/IP:
   * [Video en YouTube. UPM. Node.JS: Programación con Sockets TCP/IP](https://youtu.be/UjH7hw9fWWQ)
 
+### WebSockets
+
+* [Build a simple chat app with node.js and socket.io](https://medium.com/@noufel.gouirhate/build-a-simple-chat-app-with-node-js-and-socket-io-ea716c093088)
+* [Simple Chat App](https://github.com/ULL-ESIT-DSI-1819/simpleChatApp)
+* [Introduction to Scoket.io](https://medium.com/@chathuranga94/introduction-to-socket-io-600025322cd2)
+
 ### Prácticas
 
 * [Descripción de la práctica p4-t2-networking](practicas/p4-t2-networking)
