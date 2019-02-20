@@ -39,9 +39,12 @@
 3. Book Understanding ECMAScript 6
   1. [Book Understanding ECMAScript 6: Iterators and Generators](https://leanpub.com/understandinges6/read#leanpub-auto-iterators-and-generators)
   4. [Book Understanding ECMAScript 6: Promises and Asynchronous Programming](https://leanpub.com/understandinges6/read#leanpub-auto-promises-and-asynchronous-programming)
-6. [Book Web Workers: Safari O'Reilly. Usa Acceso ULL](http://proquest.safaribooksonline.com/book/programming/javascript/9781449322120/firstchapter)
 7. [Book You Don't Know JS: Chapter Async & Performance](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance)
 8. [Book ASYNC JavaScript: Build More Responsive Apps with Less Code](https://github.com/tain335/tain335/blob/master/books/Async%20JavaScript%20Build%20More%20Responsive%20Apps%20with%20Less%20Code.pdf)
 9. [Node.js 8: util.promisify()](http://2ality.com/2017/05/util-promisify.html) by Dr. Axel Rauschmayer 
 2. [Async examples in JS in GitHub](https://github.com/search?utf8=%E2%9C%93&q=async-examples+language%3Ajavascript&type=Repositories) 
 6. [Book Eloquent JS: Handling Events](http://eloquentjavascript.net/14_event.html)
+
+### Web Workers
+
+1. [Book Web Workers: Safari O'Reilly. Usa Acceso ULL](http://proquest.safaribooksonline.com/book/programming/javascript/9781449322120/firstchapter)
