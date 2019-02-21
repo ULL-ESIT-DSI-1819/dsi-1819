@@ -29,6 +29,13 @@
 - Collaboration
     - [Introducing Visual Studio Live Share](https://code.visualstudio.com/blogs/2017/11/15/live-share)
     - <a href="https://youtu.be/fWXe1HQ1wVA" target="_blank">Vídeo Visual Studio Live Share Demo on VS Code</a>
+- Editando en la máuina iaas.ull.es
+    - Use un plugin para visual studio que permita montar un sistema de archivos sobre SSH
+      - [SSH FS: File system provider using SSH](https://marketplace.visualstudio.com/items?itemName=Kelvin.vscode-sshfs)
+      - [SSHExtension](https://marketplace.visualstudio.com/items?itemName=kondratiev.sshextension) This extension allows you to open an SSH connection in the integrated terminal. The extension was created in order to have access to the SSH in conjunction with the already available access to the FTP.
+      - [Remote FS](https://marketplace.visualstudio.com/items?itemName=liximomo.remotefs)
+
+
 - <a href="https://youtu.be/3owknsJy-iE" target="_blank">Vídeo de Jesús Torres: Breve intro de cómo programar y depurar C++ con Visual Studio Code + Gatos</a>
 
 ## Capítulo 3. Node.JS
