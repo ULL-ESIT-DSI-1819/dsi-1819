@@ -26,9 +26,7 @@ escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican
   gulp.task("lint", shell.task("jshint *.js **/*.js"));
 
   gulp.task("get", shell.task("curl -v http://localhost:8000/file.txt"));
-  gulp.task("getdir", shell.task("curl -v http://localhost:8000/chuchudir"));
   gulp.task("put", shell.task("curl -v -X PUT -d 'Bye world!' http://localhost:8000/file.txt"));
-  gulp.task("delete", shell.task("curl -v -X DELETE http://localhost:8000/file.txt")); 
   ```
 
 6. Entregue los enlaces al repositorio en GitHub 
