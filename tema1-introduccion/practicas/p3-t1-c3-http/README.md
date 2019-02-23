@@ -18,7 +18,6 @@ escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican
   gulp.task("pre-install", shell.task([
         "npm i -g gulp static-server",
         "npm install -g nodemon",
-        "npm install -g nodemon",
         "npm install -g gulp-shell"
   ]));
 
