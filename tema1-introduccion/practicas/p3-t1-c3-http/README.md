@@ -9,7 +9,7 @@ escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican
   support for a method `MKCOL`, which should create a directory by calling `fs.mkdir` 
 4. Instale [insomia](https://insomnia.rest/) o [postman](https://www.getpostman.com/) para usarlo como cliente de prueba.
 5. Genere documentación para su código usando algunas de las herramientas que aparecen en la sección recursos
-5. Escriba un gulpfile con tareas usando `curl` para probar el comportamiento del servidor con los diferentes requests. Aquí tiene un ejemplo en gulp 3.9:
+5. Escriba un gulpfile con tareas usando `curl` para probar el comportamiento del servidor con los diferentes requests. Aquí tiene un ejemplo (incompleto) en gulp 3.9:
 
   ```js
   var gulp = require("gulp");
