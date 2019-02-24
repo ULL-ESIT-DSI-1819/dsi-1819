@@ -12,7 +12,8 @@
 
 ### WebSockets
 
-* [Build a simple chat app with node.js and socket.io](https://medium.com/@noufel.gouirhate/build-a-simple-chat-app-with-node-js-and-socket-io-ea716c093088) ![](https://cdn-images-1.medium.com/fit/c/50/50/1*xp9LB2kmk5CkjRlDQ2d4mQ.jpeg) Medium.com
+* [Build a simple chat app with node.js and socket.io](https://medium.com/@noufel.gouirhate/build-a-simple-chat-app-with-node-js-and-socket-io-ea716c093088) 
+  - By Noufel Gouirhate Dec 24, 2017 ![](https://cdn-images-1.medium.com/fit/c/50/50/1*xp9LB2kmk5CkjRlDQ2d4mQ.jpeg) Medium.com
   - [Repo ULL-ESIT-DSI-1819/simpleChatApp](https://github.com/ULL-ESIT-DSI-1819/simpleChatApp)
 * [Real-time Presentation Slides with Socket.io, Node.js and Javascript](https://medium.com/@nafeunasir/real-time-presentation-slides-with-socket-io-express-node-js-and-javascript-cf08a95ff098) by Nafeu Nasir at Medium.com
   - [Repo ULL-ESIT-DSI-1819/realtime-slides-tut.git](https://github.com/ULL-ESIT-DSI-1819/realtime-slides-tut.git)
