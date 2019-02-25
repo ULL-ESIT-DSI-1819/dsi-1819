@@ -16,7 +16,7 @@ function urlToPath(url) {
   return "." + decodeURIComponent(path);
 }
 ```
-Now consider the fact that paths passed to the "fs" functions can
+Now consider the fact that paths passed to the `fs` functions can
 be relative—they may contain `../` to go up a directory. What happens
 when a client sends requests to URLs like the ones shown here?
 
