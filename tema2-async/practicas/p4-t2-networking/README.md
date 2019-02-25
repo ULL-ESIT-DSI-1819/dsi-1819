@@ -35,6 +35,9 @@
   * [documentation.js](http://documentation.js.org/), 
   * [jsdoc](https://www.npmjs.com/package/jsdoc), 
   * [docco](http://jashkenas.github.io/docco/)
+* Pruebas
+    * [Mocha](https://mochajs.org/)
+    * [chai](https://www.chaijs.com/)
 
 Recurso para el profesor:
 
