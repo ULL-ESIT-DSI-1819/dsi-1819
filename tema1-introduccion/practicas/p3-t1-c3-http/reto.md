@@ -1,4 +1,94 @@
-# Reto: Fixing a leak
+# Reto 1: Content negotiation
+
+One of the things that HTTP can do, is called *content negotiation*. 
+
+The `Accept` header for a request can be used to tell the server what type of document the client would like to get. 
+
+Some servers ignore this header, but when a server knows of various ways to encode a resource, 
+it can look at this header and send the one that the client prefers.
+
+The URL [http://eloquentjavascript.net/author](http://eloquentjavascript.net/author) is configured to respond with either 
+
+- plaintext,
+- HTML, or
+- JSON,
+
+depending on what the client asks for. 
+
+These formats are identified by the standardized media types `text/plain`, `text/html`, and `application/json`.
+
+Write a Node.js client that send requests to fetch all three formats of this resource:
+
+```js
+["text/plain", "text/html", "application/json"].forEach(function(type) {
+  http.request({
+    hostname: "eloquentjavascript.net",
+    path: "/author", 
+    headers: {Accept: type} 
+  },  ...
+```
+
+Use Node’s [http.request](https://nodejs.org/api/http.html#http_http_request_options_callback) function. 
+The headers of a request can be given as an object, in the `headers` property of `http.request`’s first argument.
+
+```js
+http.request({
+    hostname: "eloquentjavascript.net",
+    path: "/author", 
+    headers: {Accept: type} 
+  }
+```
+
+Write out the content of the responses to each request.
+
+Don’t forget to call the `end` method on the object returned by `http.request` in order to actually fire off the request.
+
+```js
+["text/plain", "text/html", "application/json"].forEach(function(type) {
+  http.request({
+    hostname: "eloquentjavascript.net",
+    path: "/author", 
+    headers: {Accept: type} 
+  }, function(response) {
+    ...
+  }).end();
+```
+
+The `response` object passed to `http.request`’s callback is a [readable stream](https://nodejs.org/api/stream.html#stream_readable_streams).
+
+This means that you must collect the chunks to  get the whole response body from it. 
+
+The following utility function reads a whole stream and calls a callback function with the result, 
+using the usual pattern of passing any errors it encounters as the first argument to the callback:
+
+```js
+function readStreamAsString(stream, callback) {
+  var data = "";
+  stream.on("data", function(chunk) {
+    data += chunk.toString();
+  });
+  stream.on("end", function() {
+    callback(null, data);
+  });
+  stream.on("error", function(error) {
+    callback(error);
+  });
+}
+```
+
+Make use this of this utility function inside your request callback  to read  the response and dump it
+to the console.
+
+```
+[~/EJS/chapter20-node-js/chapter20-node-js-crguezl/exercises/content-negotiation-again(master)]$ ls -l
+total 8
+-rw-r--r--  1 casiano  staff  817 25 feb 13:10 index.js
+[~/EJS/chapter20-node-js/chapter20-node-js-crguezl/exercises/content-negotiation-again(master)]$ pwd -P
+/Users/casiano/local/src/javascript/eloquent-javascript/chapter20-node-js/chapter20-node-js-crguezl/exercises/content-negotiation-again
+```
+
+
+# Reto 2: Fixing a leak
 
 For easy remote access to some files, I might get into the habit
 of having the file server defined in this chapter running on my
