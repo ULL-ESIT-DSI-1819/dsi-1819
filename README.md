@@ -22,7 +22,7 @@
 
 ## [Tema 2: Entornos de Trabajo y Patrones para la Computación Asíncrona y Distribuida](https://ull-esit-dsi-1819.github.io/dsi-1819/tema2-async/)
 
-### [Práctica Networking (p4-t2-networking)](practicas/p4-t2-networking)
+### [Práctica Networking (p4-t2-networking)](tema2-async/practicas/p4-t2-networking)
 
 ## [Tema 3: Patrones, Entornos de Trabajo, Pruebas, Integración y Calidad en los Servicios y Aplicaciones Web]()
 
