@@ -1,4 +1,4 @@
-# Reto 1: Content negotiation
+# Challenge 1: Content negotiation
 
 One of the things that HTTP can do, is called *content negotiation*. 
 
