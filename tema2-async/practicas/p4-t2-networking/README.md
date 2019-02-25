@@ -31,3 +31,14 @@
   * [gulp quick start](https://gulpjs.com/docs/en/getting-started/quick-start)
   * [gulp getting started](https://gulpjs.org/getting-started.html)
 * [Travis](https://crguezl.github.io/ull-esit-1617/_book/apuntes/pruebas/travis.html)
+* Documentación:  
+  * [documentation.js](http://documentation.js.org/), 
+  * [jsdoc](https://www.npmjs.com/package/jsdoc), 
+  * [docco](http://jashkenas.github.io/docco/)
+
+Recurso para el profesor:
+
+```
+[~/sol-nodejs-the-right-way/networking-with-sockets-chapter-3(master)]$ pwd -P
+/Users/casiano/local/src/CA/sol-nodejs-the-right-way/networking-with-sockets-chapter-3
+```
