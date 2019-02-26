@@ -26,6 +26,8 @@
 * [GitHub repo ULL-MII-CA-1819/nodejs-the-right-way](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
 * Video en YouTube. UPM. Node.JS: Programación con Sockets TCP/IP:
     - [Video en YouTube. UPM. Node.JS: Programación con Sockets TCP/IP](https://youtu.be/UjH7hw9fWWQ)
+* [Net module](https://nodejs.org/api/net.html)
+  * [createServer](https://nodejs.org/api/net.html#net_net_createserver_options_connectionlistener)
 * Gulp
   * Véase la sección [Gulp](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/apuntes/gulp/) de los apuntes
   * [gulp quick start](https://gulpjs.com/docs/en/getting-started/quick-start)
