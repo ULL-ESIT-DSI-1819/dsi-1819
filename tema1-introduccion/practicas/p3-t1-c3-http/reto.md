@@ -1,5 +1,6 @@
 # Challenge 1: Content negotiation
 
+
 One of the things that HTTP can do, is called *content negotiation*. 
 
 The `Accept` header for a request can be used to tell the server what type of document the client would like to get. 
@@ -17,7 +18,7 @@ depending on what the client asks for.
 
 These formats are identified by the standardized media types `text/plain`, `text/html`, and `application/json`.
 
-Write a Node.js client that send requests to fetch all three formats of this resource:
+**Write a Node.js client that send requests to fetch all three formats of this resource**:
 
 ```js
 ["text/plain", "text/html", "application/json"].forEach(function(type) {
