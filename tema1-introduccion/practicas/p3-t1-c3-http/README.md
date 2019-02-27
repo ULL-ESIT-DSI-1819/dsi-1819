@@ -28,7 +28,7 @@ escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican
   gulp.task("get", shell.task("curl -v http://localhost:8000/file.txt"));
   gulp.task("put", shell.task("curl -v -X PUT -d 'Bye world!' http://localhost:8000/file.txt"));
 
-  
+
   ```
 
 6. Entregue los enlaces al repositorio en GitHub 
@@ -54,3 +54,7 @@ escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican
   * [Patrones de Diseño](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/)
   * [Strategy Pattern](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/strategypattern.html)
 * `/Users/casiano/local/src/javascript/eloquent-javascript/chapter20-node-js/` (recurso para el profesor)
+
+## Reto
+
+* [Reto para la práctica](reto.md)
