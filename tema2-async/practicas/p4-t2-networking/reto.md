@@ -1,6 +1,6 @@
 # Reto para la práctica p4-t2-networking
 
-Escriba un servidor que permita un *chat*` ` donde los clientes se conectan
+Escriba un servidor que permita un *chat*&nbsp; donde los clientes se conectan
 via `telnet` o `netcat`.
 
 Cuando se arranca el sevidor debe decir algo como esto:
@@ -63,6 +63,10 @@ Guest1> hello all!
 
 * Es conveniente tener un array `sockets` en el que se guarden los sockets 
 creados para los clientes que están conectados
+
+  ```js
+  let sockets = [];
+  ```
 
 * Le será de ayuda una función `broadcast` que envía un `message`que acaba 
 de llegar de un cliente al resto de los clientes:
