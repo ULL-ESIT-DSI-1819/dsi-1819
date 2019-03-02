@@ -51,5 +51,7 @@
   /Users/casiano/local/src/CA/sol-nodejs-the-right-way/networking-with-sockets-chapter-3
 
   ```
+
 * [sol-c](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way/tree/master/networking-with-sockets-chapter-3)
+  - See the branch `chapter3-exercises`
 * [Sol -ai](https://github.com/ULL-MII-CA-1819/networking-ale-ivan)
