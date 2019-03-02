@@ -44,7 +44,8 @@
 
 ### Recursos para el profesor:
 
-* 
+* Paths related:
+
   ```
   [~/sol-nodejs-the-right-way/networking-with-sockets-chapter-3(master)]$ pwd -P
   /Users/casiano/local/src/CA/sol-nodejs-the-right-way/networking-with-sockets-chapter-3
