@@ -51,8 +51,9 @@ On the server side, the server implements this interface and runs a gRPC server 
 gRPC clients and servers can run and talk to each other in a variety of environments - from servers inside Google to your own desktop - and can be written in any of gRPC’s supported languages. 
 In addition, the latest Google APIs will have gRPC versions of their interfaces, letting you easily build Google functionality into your applications.
 
-3. [What is gRPC?](https://grpc.io/docs/guides/)
-  1. [gRPC Documentation](https://grpc.io/docs/guides/)
+* [Intro to gRPC: A Modern Toolkit for Microservice Communication](https://youtu.be/RoXT_Rkg8LA) YouTube 
+* [What is gRPC?](https://grpc.io/docs/guides/)
+  - [gRPC Documentation](https://grpc.io/docs/guides/)
 
 ## Recursos
 
