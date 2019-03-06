@@ -1,7 +1,23 @@
 # Tema 3. Patrones, Entornos de Trabajo, Pruebas, Integración y Calidad en los Servicios y Aplicaciones Web 
 
+## Capítulo: WebSockets
+
+* [Socket.io Guide: a chat](https://socket.io/get-started/chat/)
+  - [Associated Repo](https://github.com/socketio/chat-example)
+* [Build a simple chat app with node.js and socket.io](https://medium.com/@noufel.gouirhate/build-a-simple-chat-app-with-node-js-and-socket-io-ea716c093088) 
+  - By Noufel Gouirhate Dec 24, 2017 ![](https://cdn-images-1.medium.com/fit/c/50/50/1*xp9LB2kmk5CkjRlDQ2d4mQ.jpeg) Medium.com
+  - [Repo ULL-ESIT-DSI-1819/simpleChatApp](https://github.com/ULL-ESIT-DSI-1819/simpleChatApp)
+* [Real-time Presentation Slides with Socket.io, Node.js and Javascript](https://medium.com/@nafeunasir/real-time-presentation-slides-with-socket-io-express-node-js-and-javascript-cf08a95ff098) by Nafeu Nasir at Medium.com
+  - [Repo ULL-ESIT-DSI-1819/realtime-slides-tut.git](https://github.com/ULL-ESIT-DSI-1819/realtime-slides-tut.git)
+* [Web Sockets (Node.js and Socket.io Chat App)](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i4V-_ZVwLmOusj8YAUhj_9) in the Net Ninja Youtube Channel
+  - [Repo ULL-ESIT-DSI-1819/websockets-playlist](https://github.com/ULL-ESIT-DSI-1819/websockets-playlist)
+* [Introduction to Socket.io](https://medium.com/@chathuranga94/introduction-to-socket-io-600025322cd2) by Udara Bibile at Medium.com
+* [Socket.IO Real-time Web Application Development By: Rohit Rai](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781782160786) book at PuntoQ ULL
+
+## Capítulo: REST
+
 1. [REST API concepts and examples](https://youtu.be/7YcW25PHnAA) (Youtube video)
-1. [API for beginners](https://youtu.be/oBW_VNg4qD0) (Youtube video)
+2. [API for beginners](https://youtu.be/oBW_VNg4qD0) (Youtube video)
   - [programmableweb.com/](https://www.programmableweb.com/)
   - [How to Send an SMS With Node.js Using Twilio](https://www.twilio.com/blog/2016/09/how-to-send-an-sms-with-node-js-using-twilio.html)
   - [Google >Servicios web > Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro?hl=es-419)
@@ -13,25 +29,49 @@
   - [RequestBin](https://requestb.in/) gives you a URL that will collect requests made to it and let you inspect them in a human-friendly way.
 Use RequestBin to see what your HTTP client is sending or to inspect and debug webhook requests.
 1. [Tutorial: Crear API RESTful utilizando Node.js + Express.js + MongoDB](https://www.programacion.com.py/web/javascript/tutorial-api-rest-usando-node-js-express-mongodb)
-2. [googlemaps/google-maps-services-js](https://github.com/googlemaps/google-maps-services-js) GitHub
+
+* Christopher Buecheler tutorial
+    * [The Dead-Simple Step-By-Step Guide for Front-End Developers to Getting Up and Running With Node.JS, Express, and MongoDB](https://closebrace.com/tutorials/2017-03-02/the-dead-simple-step-by-step-guide-for-front-end-developers-to-getting-up-and-running-with-nodejs-express-and-mongodb) by Christopher Buecheler
+        - [Repo ULL-ESIT-MII-CA-1718/node-tutorial-for-frontend-devs](https://github.com/ULL-ESIT-MII-CA-1718/node-tutorial-for-frontend-devs)
+    * [Creating a Simple RESTful Web App with Node.js, Express, and MongoDB](https://closebrace.com/tutorials/2017-03-02/creating-a-simple-restful-web-app-with-nodejs-express-and-mongodb)
+* [RESTful Web services: The basics](https://www.ibm.com/developerworks/webservices/library/ws-restful/) by Alex Rodríguez
+* [Build a RESTful API Using Node and Express 4](https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4)
+  - [GitHub repo ULL-ESIT-MII-CA-1718/node-api](https://github.com/ULL-ESIT-MII-CA-1718/node-api)
+* [RESTful API From Scratch Using Node, Express and MongoDB](https://youtu.be/eB9Fq9I5ocs) (YouTube video. Sencillo)
+
+
+## Capítulo: RPC
+
+In gRPC a client application can directly call methods on a server application on a different machine as if it was a local object, making it easier for you to create distributed applications and services. As in many RPC systems, gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types. 
+
+On the server side, the server implements this interface and runs a gRPC server to handle client calls. On the client side, the client has a stub (referred to as just a client in some languages) that provides the same methods as the server.
+
+gRPC clients and servers can run and talk to each other in a variety of environments - from servers inside Google to your own desktop - and can be written in any of gRPC’s supported languages. 
+In addition, the latest Google APIs will have gRPC versions of their interfaces, letting you easily build Google functionality into your applications.
+
 3. [What is gRPC?](https://grpc.io/docs/guides/)
   1. [gRPC Documentation](https://grpc.io/docs/guides/)
-4. Postman
-  1. [API Building and Testing Made Easier with Postman](https://www.sitepoint.com/api-building-and-testing-made-easier-with-postman/)
-  2. [Postman docs](https://learning.getpostman.com/docs/postman/launching_postman/installation_and_updates/)
-5. Curl
-   1. [curl.md](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58) gist
+
+
+### Google
+
+2. [googlemaps/google-maps-services-js](https://github.com/googlemaps/google-maps-services-js) GitHub
 5. [Google Calendar API](https://developers.google.com/google-apps/calendar/)
    1.  [Repo de ejemplo de uso en NodeJS de la API de Calendar](https://github.com/ULL-ESIT-MII-CA-1718/nodejs-google-calendar-example)
    2. Tutorial [Building a Google Calendar Booking App with MongoDB, ExpressJS, AngularJS, and Node.js ](https://github.com/ULL-ESIT-MII-CA-1718/googlecalendarapidemo)
    3. [Google APIs Client Library for JavaScript](https://github.com/google/google-api-javascript-client)
    4. [Google API Client Libraries JavaScript. Tutorial](https://developers.google.com/api-client-library/javascript/start/start-js)
 
-## Recursos
+## Capítulo: Clientes para APIS REST
 
-##### Recursos
+4. Postman
+  1. [API Building and Testing Made Easier with Postman](https://www.sitepoint.com/api-building-and-testing-made-easier-with-postman/)
+  2. [Postman docs](https://learning.getpostman.com/docs/postman/launching_postman/installation_and_updates/)
+5. Curl
+   1. [curl.md](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58) gist
 
-<!--
+## Capítulo: Bases de Datos No Relacionales: MongoDB
+
 **Apuntes del profesor para Mongo**
 
 *   [MongoDB](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/db/mongo/mongodb.html#mongodb)
@@ -84,7 +124,8 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
 	 * [MongoDB Join](https://www.w3schools.com/nodejs/nodejs_mongodb_join.asp)
 * [Repo ULL-ESIT-MII-CA-1718/w3schools-mongodb](https://github.com/ULL-ESIT-MII-CA-1718/w3schools-mongodb)
 * [Mongodb NodeJS API documentation](https://mongodb.github.io/node-mongodb-native/contents.html)
--->
+
+## Capítulo: Authentication
 
 **Sessions y Authentication**
 
@@ -148,15 +189,4 @@ en los apuntes del profesor
 * [A Simple Website in Node.js with Express, Jade and Stylus](https://www.clock.co.uk/insight/a-simple-website-in-nodejs-with-express-jade-and-stylus)
 * [Build a Node.js App with Express + EJS + Stylus by Robin Skafte](https://scotch.io/@robinskafte/build-a-nodejs-app-with-express-ejs-stylus)
 -->
-
-**REST**
-
-* Christopher Buecheler tutorial
-    * [The Dead-Simple Step-By-Step Guide for Front-End Developers to Getting Up and Running With Node.JS, Express, and MongoDB](https://closebrace.com/tutorials/2017-03-02/the-dead-simple-step-by-step-guide-for-front-end-developers-to-getting-up-and-running-with-nodejs-express-and-mongodb) by Christopher Buecheler
-        - [Repo ULL-ESIT-MII-CA-1718/node-tutorial-for-frontend-devs](https://github.com/ULL-ESIT-MII-CA-1718/node-tutorial-for-frontend-devs)
-    * [Creating a Simple RESTful Web App with Node.js, Express, and MongoDB](https://closebrace.com/tutorials/2017-03-02/creating-a-simple-restful-web-app-with-nodejs-express-and-mongodb)
-* [RESTful Web services: The basics](https://www.ibm.com/developerworks/webservices/library/ws-restful/) by Alex Rodríguez
-* [Build a RESTful API Using Node and Express 4](https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4)
-  - [GitHub repo ULL-ESIT-MII-CA-1718/node-api](https://github.com/ULL-ESIT-MII-CA-1718/node-api)
-* [RESTful API From Scratch Using Node, Express and MongoDB](https://youtu.be/eB9Fq9I5ocs) (YouTube video. Sencillo)
 
