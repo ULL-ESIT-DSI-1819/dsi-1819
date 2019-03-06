@@ -14,6 +14,10 @@
 * [Introduction to Socket.io](https://medium.com/@chathuranga94/introduction-to-socket-io-600025322cd2) by Udara Bibile at Medium.com
 * [Socket.IO Real-time Web Application Development By: Rohit Rai](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781782160786) book at PuntoQ ULL
 
+### Prácticas
+
+* [Descripción de la práctica p5-t3-websockets](practicas/p5-t3-websockets)
+
 
 ## Capítulo: Web Workers
 
