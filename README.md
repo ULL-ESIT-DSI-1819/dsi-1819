@@ -26,3 +26,4 @@
 
 ## [Tema 3: Patrones, Entornos de Trabajo, Pruebas, Integración y Calidad en los Servicios y Aplicaciones Web](tema3-web/)
 
+### [Práctica Webscokets (p5-t3-websockets)](tema3-web/practicas/p5-t3-websockets)
