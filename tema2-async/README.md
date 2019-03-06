@@ -42,9 +42,17 @@
 2. [Async examples in JS in GitHub](https://github.com/search?utf8=%E2%9C%93&q=async-examples+language%3Ajavascript&type=Repositories) 
 6. [Book Eloquent JS: Handling Events](http://eloquentjavascript.net/14_event.html)
 
-### Web Workers
+## Capítulo 4: RPC
 
-1. [Book Web Workers: Safari O'Reilly. Usa Acceso ULL](http://proquest.safaribooksonline.com/book/programming/javascript/9781449322120/firstchapter)
+In gRPC a client application can directly call methods on a server application on a different machine as if it was a local object, making it easier for you to create distributed applications and services. As in many RPC systems, gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types. 
+
+On the server side, the server implements this interface and runs a gRPC server to handle client calls. On the client side, the client has a stub (referred to as just a client in some languages) that provides the same methods as the server.
+
+gRPC clients and servers can run and talk to each other in a variety of environments - from servers inside Google to your own desktop - and can be written in any of gRPC’s supported languages. 
+In addition, the latest Google APIs will have gRPC versions of their interfaces, letting you easily build Google functionality into your applications.
+
+3. [What is gRPC?](https://grpc.io/docs/guides/)
+  1. [gRPC Documentation](https://grpc.io/docs/guides/)
 
 ## Recursos
 

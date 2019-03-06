@@ -14,6 +14,11 @@
 * [Introduction to Socket.io](https://medium.com/@chathuranga94/introduction-to-socket-io-600025322cd2) by Udara Bibile at Medium.com
 * [Socket.IO Real-time Web Application Development By: Rohit Rai](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781782160786) book at PuntoQ ULL
 
+
+## Capítulo: Web Workers
+
+1. [Book Web Workers: Safari O'Reilly. Usa Acceso ULL](http://proquest.safaribooksonline.com/book/programming/javascript/9781449322120/firstchapter)
+
 ## Capítulo: REST
 
 1. [REST API concepts and examples](https://youtu.be/7YcW25PHnAA) (Youtube video)
@@ -39,18 +44,6 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
   - [GitHub repo ULL-ESIT-MII-CA-1718/node-api](https://github.com/ULL-ESIT-MII-CA-1718/node-api)
 * [RESTful API From Scratch Using Node, Express and MongoDB](https://youtu.be/eB9Fq9I5ocs) (YouTube video. Sencillo)
 
-
-## Capítulo: RPC
-
-In gRPC a client application can directly call methods on a server application on a different machine as if it was a local object, making it easier for you to create distributed applications and services. As in many RPC systems, gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types. 
-
-On the server side, the server implements this interface and runs a gRPC server to handle client calls. On the client side, the client has a stub (referred to as just a client in some languages) that provides the same methods as the server.
-
-gRPC clients and servers can run and talk to each other in a variety of environments - from servers inside Google to your own desktop - and can be written in any of gRPC’s supported languages. 
-In addition, the latest Google APIs will have gRPC versions of their interfaces, letting you easily build Google functionality into your applications.
-
-3. [What is gRPC?](https://grpc.io/docs/guides/)
-  1. [gRPC Documentation](https://grpc.io/docs/guides/)
 
 
 ## Capítulo: Google APIs
