@@ -53,7 +53,7 @@ In addition, the latest Google APIs will have gRPC versions of their interfaces,
   1. [gRPC Documentation](https://grpc.io/docs/guides/)
 
 
-### Google
+## Capítulo: Google APIs
 
 2. [googlemaps/google-maps-services-js](https://github.com/googlemaps/google-maps-services-js) GitHub
 5. [Google Calendar API](https://developers.google.com/google-apps/calendar/)
