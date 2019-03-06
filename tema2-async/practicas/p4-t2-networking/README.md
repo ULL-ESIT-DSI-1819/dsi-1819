@@ -7,7 +7,7 @@
     * [Capítulo 3 "Networking with Sockets" de *Node.JS The Right Way*](https://github.com/iMarcoGovea/books/blob/master/nodejs/Node.js%20the%20Right%20Way.pdf)  old edition
 * Añadan pruebas y documentación
 * Añada Integración Contínua usando Travis (Haga un badge en su README.md)
-* Escrina en su `README.md`un tutorial con lo que ha aprendido en este capítulo
+* Escriba en su `README.md`un tutorial con lo que ha aprendido en este capítulo
 * Añada un `gulpfile.js` para facilitar la ejecución de las tareas
 * Testability
    * Add a unit test for a single message that is split over two or more data events from the stream
