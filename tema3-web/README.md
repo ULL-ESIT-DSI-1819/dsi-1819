@@ -10,6 +10,12 @@
   - [Repo ULL-ESIT-DSI-1819/realtime-slides-tut.git](https://github.com/ULL-ESIT-DSI-1819/realtime-slides-tut.git)
 * [Web Sockets (Node.js and Socket.io Chat App)](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i4V-_ZVwLmOusj8YAUhj_9) in the Net Ninja Youtube Channel
   - [Repo ULL-ESIT-DSI-1819/websockets-playlist](https://github.com/ULL-ESIT-DSI-1819/websockets-playlist)
+  - [WebSockets (using Socket.io) Tutorial #1 - What Are WebSockets?](https://youtu.be/vQjiN8Qgs3c)
+    - [Branch lesson 1](https://github.com/ULL-ESIT-DSI-1819/websockets-playlist/tree/lesson-1)
+  - [WebSockets (using Socket.io) Tutorial #2 - Creating an Express App](https://youtu.be/UwS3wJoi7fY)
+    - [Branch lesson 2](https://github.com/ULL-ESIT-DSI-1819/websockets-playlist/tree/lesson-2)
+  - [WebSockets (using Socket.io) Tutorial #3 - Using Socket.io](https://youtu.be/UwS3wJoi7fY)
+    - [Branch lesson 3](https://github.com/ULL-ESIT-DSI-1819/websockets-playlist/tree/lesson-3)
 * [Introduction to Socket.io](https://medium.com/@chathuranga94/introduction-to-socket-io-600025322cd2) by Udara Bibile at Medium.com
 * [Socket.IO Real-time Web Application Development By: Rohit Rai](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781782160786) book at PuntoQ ULL
 
