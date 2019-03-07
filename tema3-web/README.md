@@ -12,7 +12,7 @@
   - [Repo ULL-ESIT-DSI-1819/websockets-playlist](https://github.com/ULL-ESIT-DSI-1819/websockets-playlist)
   - [WebSockets (using Socket.io) Tutorial #1 - What Are WebSockets?](https://youtu.be/vQjiN8Qgs3c)
     - [Branch lesson 1](https://github.com/ULL-ESIT-DSI-1819/websockets-playlist/tree/lesson-1)
-  - [WebSockets (using Socket.io) Tutorial #2 - Creating an Express App](https://youtu.be/UwS3wJoi7fY)
+  - [WebSockets (using Socket.io) Tutorial #2 - Creating an Express App](https://youtu.be/ggVsXljT0MI)
     - [Branch lesson 2](https://github.com/ULL-ESIT-DSI-1819/websockets-playlist/tree/lesson-2)
   - [WebSockets (using Socket.io) Tutorial #3 - Using Socket.io](https://youtu.be/UwS3wJoi7fY)
     - [Branch lesson 3](https://github.com/ULL-ESIT-DSI-1819/websockets-playlist/tree/lesson-3)
