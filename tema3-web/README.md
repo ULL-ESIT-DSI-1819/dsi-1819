@@ -72,6 +72,10 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
 5. Curl
    1. [curl.md](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58) gist
 
+## Capítulo: GraphQL
+
+* [Por qué API REST está muerto y debemos usar APIs GraphQL - José María Rodríguez Hurtado](https://youtu.be/cUIhcgtMvGc) YouTube
+* [GraphQL ha muerto: Vivan las APIs REST con Hypermedia - Jorge Ferrer y José Manuel Navarro](https://youtu.be/yr7Tvr9dVNY) YouTube
 
 ## Capítulo: Authentication
 
