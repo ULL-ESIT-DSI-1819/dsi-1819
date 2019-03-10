@@ -30,6 +30,7 @@
 
 ## Capítulo: REST
 
+1. [Pro REST API Development with Node.js by Fernando Doglio. Apress 2015](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781484209172) Book PuntoQ BULL
 1. [REST API concepts and examples](https://youtu.be/7YcW25PHnAA) (Youtube video)
 2. [API for beginners](https://youtu.be/oBW_VNg4qD0) (Youtube video)
   - [programmableweb.com/](https://www.programmableweb.com/)
@@ -72,8 +73,10 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
 5. Curl
    1. [curl.md](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58) gist
 
-## Capítulo: GraphQL
+## Capítulo: Limitaciones de REST. GraphQL
 
+* [REST with Hypermedia - Hot or Not?](https://reflectoring.io/rest-hypermedia/) blog by Tom Hombergs
+  - [mikekelly/hal-browser](https://github.com/mikekelly/hal-browser)
 * [Por qué API REST está muerto y debemos usar APIs GraphQL - José María Rodríguez Hurtado](https://youtu.be/cUIhcgtMvGc) YouTube
 * [GraphQL ha muerto: Vivan las APIs REST con Hypermedia - Jorge Ferrer y José Manuel Navarro](https://youtu.be/yr7Tvr9dVNY) YouTube
 
