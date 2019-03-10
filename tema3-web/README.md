@@ -75,6 +75,7 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
 
 ## Capítulo: Limitaciones de REST. GraphQL
 
+* [Learning GraphQL and Relay by Samer Buna. Pack. 2016](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781786465757)
 * [REST with Hypermedia - Hot or Not?](https://reflectoring.io/rest-hypermedia/) blog by Tom Hombergs
   - [mikekelly/hal-browser](https://github.com/mikekelly/hal-browser)
 * [Por qué API REST está muerto y debemos usar APIs GraphQL - José María Rodríguez Hurtado](https://youtu.be/cUIhcgtMvGc) YouTube
