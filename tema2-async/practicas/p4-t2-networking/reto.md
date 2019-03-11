@@ -84,10 +84,11 @@ de llegar de un cliente al resto de los clientes:
   };
   ```
 
-* Documentación de [forEach](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach)
+  * Documentación de [forEach](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach)
 
 * Cada vez que un cliente se desconecta deberemos eliminar el socket de dicho cliente
 del array `sockets`
+  * Documentación de [splice](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/splice)
 
 ## Recursos para el profesor
 
