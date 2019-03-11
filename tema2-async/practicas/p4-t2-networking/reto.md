@@ -89,6 +89,7 @@ de llegar de un cliente al resto de los clientes:
 * Cada vez que un cliente se desconecta deberemos eliminar el socket de dicho cliente
 del array `sockets`
   * Documentación de [splice](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/splice)
+  * Documentación de [indexOf](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/indexOf)
 
 ## Recursos para el profesor
 
