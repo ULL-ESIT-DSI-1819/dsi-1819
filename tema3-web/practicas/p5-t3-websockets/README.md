@@ -24,6 +24,7 @@ Estudie y desarrolle el ejemplo explicado en:
     * [Synchronizing HTML5 slides with Node.js by Tim Branyen](https://bocoup.com/blog/synchronizing-html5-slides-with-node-js)
   * Libros
     * [Socket.IO Real-time Web Application Development By: Rohit Rai](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781782160786) book at PuntoQ ULL
+      - [Repo con soluciones al libro](https://github.com/piscolomo/example-socketio)
 * Programación Web
   * Express
     * [Apuntes de Express 1617](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/express/)
