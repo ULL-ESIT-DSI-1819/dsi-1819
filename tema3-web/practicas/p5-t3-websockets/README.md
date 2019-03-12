@@ -9,9 +9,12 @@ Estudie y desarrolle el ejemplo explicado en:
 ## Recursos
 
 * WebSockets
-  * Chats
+  * Socket.io
     * [Socket.io Guide: a chat](https://socket.io/get-started/chat/)
       - [Associated Repo](https://github.com/socketio/chat-example)
+    * [Docs](https://socket.io/docs/)
+      * [Namespaces](https://socket.io/docs/rooms-and-namespaces/#Default-namespace)
+  * Chats
     * [Build a simple chat app with node.js and socket.io](https://medium.com/@noufel.gouirhate/build-a-simple-chat-app-with-node-js-and-socket-io-ea716c093088) - By Noufel Gouirhate Dec 24, 2017  Medium.com
       - [Repo ULL-ESIT-DSI-1819/simpleChatApp](https://github.com/ULL-ESIT-DSI-1819/simpleChatApp)
     * [Web Sockets (Node.js and Socket.io Chat App)](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i4V-_ZVwLmOusj8YAUhj_9) in the Net Ninja Youtube Channel
