@@ -27,6 +27,11 @@
   * [CloudAMQP with Node.js Getting started](https://www.cloudamqp.com/docs/nodejs.html)
   * [Repo ULL-MII-CA-1819/rabbit-mq-learning](https://github.com/ULL-MII-CA-1819/rabbit-mq-learning) with my experience with RabbitMQ
 
+### Prácticas
+
+* [Descripción de la práctica Connecting Robust Microservices (p6-t2-microservices](practicas/p6-t2-miroservices)
+
+
 ## Capítulo 3: Programación Asíncrona en ECMA 6
 
 1. [Asynchronous Programming with Javascript](https://courses.edx.org/courses/course-v1:Microsoft+DEV234x+1T2018a/course/) EdX Course
