@@ -24,6 +24,8 @@
 
 ### [Práctica Networking (p4-t2-networking)](tema2-async/practicas/p4-t2-networking)
 
+### [Práctica Connecting Robust Microservices (p6-t2-microservices)](tema2-async/practicas/p6-t2-microservices)
+
 ## [Tema 3: Patrones, Entornos de Trabajo, Pruebas, Integración y Calidad en los Servicios y Aplicaciones Web](tema3-web/)
 
 ### [Práctica Websockets (p5-t3-websockets)](tema3-web/practicas/p5-t3-websockets)
