@@ -1,6 +1,6 @@
 # Práctica Conecting Robust Microservices (p6-t2-microservices)
 
-* Lea el [Capítulo 4 "Connecting Robust Microservices" de *Node.JS The Right Way*](https://github.com/iMarcoGovea/books/blob/master/nodejs/Node.js%20the%20Right%20Way.pdf) y resuelva los problemas en la secciones 
+* Lea el [Capítulo 4 "Connecting Robust Microservices" de *Node.JS The Right Way*](https://github.com/iMarcoGovea/books/blob/master/nodejs/Node.js%20the%20Right%20Way.pdf) ` ` y resuelva los problemas en la secciones 
 
 - *Error Handling*, 
 - *Robustness*` ` y 
