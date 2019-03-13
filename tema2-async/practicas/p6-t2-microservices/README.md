@@ -49,8 +49,7 @@
 * [GitHub repo ULL-MII-CA-1819/nodejs-the-right-way](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way). 
     - Mira el [directorio connecting-robust-microservices-chapter-4](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way/tree/master/connecting-robust-microservices-chapter-4)
     - [El subdirectorio  connecting-robust-microservices-chapter-4/microservices contiene los ejemplos del libro](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way/tree/master/connecting-robust-microservices-chapter-4/microservices)
-* YouTube vídeo: Building Distributed Systems with Node.js and 0MQ: https://www.youtube.com/watch?v=zgDjaJdAB9c
-    * [YouTube vídeo: Building Distributed Systems with Node.js and 0MQ](https://www.youtube.com/watch?v=zgDjaJdAB9c)
+* [YouTube vídeo: Building Distributed Systems with Node.js and 0MQ](https://www.youtube.com/watch?v=zgDjaJdAB9c)
 
 ### Node.js 0MQ API
 
