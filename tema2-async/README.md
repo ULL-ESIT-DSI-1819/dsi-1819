@@ -29,7 +29,7 @@
 
 ### Prácticas
 
-* [Descripción de la práctica Connecting Robust Microservices (p6-t2-microservices)](practicas/p6-t2-miroservices)
+* [Descripción de la práctica Connecting Robust Microservices (p6-t2-microservices)](practicas/p6-t2-microservices)
 
 
 ## Capítulo 3: Programación Asíncrona en ECMA 6
