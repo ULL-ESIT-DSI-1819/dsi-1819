@@ -11,6 +11,10 @@
 * [Node.js 8 the Right Way](https://books.google.es/books?id=oA9QDwAAQBAJ&lpg=PT96&ots=-mLQPlvsSj&dq=should%20ldjclient%20emit%20a%20close%20event&hl=es&pg=PP1#v=onepage&q=should%20ldjclient%20emit%20a%20close%20event&f=false) Google Books
 * [Node.js 8 the Right Way](https://github.com/iMarcoGovea/books/blob/master/nodejs/Node.js%20the%20Right%20Way.pdf) GitHub. versión de 2013.
 
+* <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/programming/javascript/9781617292576" target="_blank"> Node.js in Action, Second Edition by: Bradley Meck Alex Young and Mike Cantelon</a>. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
+
+* <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781785888960" target="_blank"> Mastering Node.js - Second Edition by: Sandro Pasquali; Kevin Faaborg</a>. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
+
 ## RabbitMQ
 
 * [RabbitMQ Essentials By: David Dossot](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781783983209) (Debes estar autenticado via PuntoQ BULL)
@@ -30,35 +34,41 @@
 
 * [Node.js High Performance By: Diogo Resende](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781785286148)
 
+## REST
 
-## Bibliografía Auxiliar
-
-* <a href="https://ull-mii-ca-1819.github.io/docs/" target="_blank">Página de la Asignatura</a>
-* <a href="https://ull-mii-ca-1819.github.io/learning-js/_book/" target="_blank">Apuntes del profesor: Computación Avanzada</a>
-* <a href="http://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a>
-* <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344" target="_blank">Node.js 8 the Right Way</a> Practical, Server-Side JS that Scales. Jim R. Wilson 2018 Edition. Safari. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
-* <a href="https://books.google.es/books?id=oA9QDwAAQBAJ&lpg=PT96&ots=-mLQPlvsSj&dq=should%20ldjclient%20emit%20a%20close%20event&hl=es&pg=PP1#v=onepage&q=should%20ldjclient%20emit%20a%20close%20event&f=false" target="_blank">Node.js 8 the Right Way</a> Practical, Server-Side JS that Scales. Jim R. Wilson 2018 Edition. Google Books
 * <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781788623322" target="_blank"> RESTful Web API Design with Node.js 10 - Third Edition by: Valentin Bojinov</a>. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
-* <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/programming/javascript/9781617292576" target="_blank"> Node.js in Action, Second Edition by: Bradley Meck Alex Young and Mike Cantelon</a>. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
-* <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781785888960" target="_blank"> Mastering Node.js - Second Edition by: Sandro Pasquali; Kevin Faaborg</a>. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
-
-
-
 * <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/programming/javascript/9781484224427" target="_blank">Building APIs with Node.js by Caio Ribeiro Pereira</a>. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
 * <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781785887406" target="_blank">Developing Microservices with Node.js by David González</a>. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
 * <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781788830751" target="_blank">TypeScript Microservices
 By: Parth Ghiya</a>. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
+
+## Web Workers
+
+* <a href="http://proquest.safaribooksonline.com/book/programming/javascript/9781449322120/firstchapter" target="_blank">Book Web Workers: Safari O'Reilly. Usa Acceso ULL</a>
+
+## Git, Github
+
+* <a href="https://git-scm.com/book/en/v2/" target="_blank">Chacon's book on Git</a>
+* <a href="https://campusvirtual.ull.es/ocw/course/view.php?id=136" target="_blank">OCW ULL: Integración de las Herramientas "GitHub Education" en el Aula</a> Casiano et Al.
+
+## Bibliografía Auxiliar
+
+* <a href="https://ull-mii-ca-1819.github.io/docs/" target="_blank">Página de la Asignatura CA del MII</a>
+* <a href="https://ull-mii-ca-1819.github.io/learning-js/_book/" target="_blank">Apuntes del profesor: Computación Avanzada</a>
+
+
 * <a href="https://github.com/iMarcoGovea/books/blob/master/nodejs/Node.js%20the%20Right%20Way.pdf" target="_blank">Node.js 8 the Right Way</a> Practical, Server-Side JS that Scales. Jim R. Wilson. Old Edition
+
 * <a href="https://github.com/tain335/tain335/blob/master/books/Async%20JavaScript%20Build%20More%20Responsive%20Apps%20with%20Less%20Code.pdf" target="_blank">Book ASYNC JavaScript: Build More Responsive Apps with Less Code</a> Trevor Burnham
+
 * <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance" target="_blank">Book You Don't Know JS: Async & Performance</a>
+
 * <a href="http://thirstyhead.com/mean-architecture-2.0/" target="_blank">Slides "MEAN Architecture 2.0" by Scott Davis</a>
 
 * <a href="https://github.com/mbeaudru/modern-js-cheatsheet" target="_blank">Modern JavaScript Cheatsheet</a>
-* <a href="http://proquest.safaribooksonline.com/book/programming/javascript/9781449322120/firstchapter" target="_blank">Book Web Workers: Safari O'Reilly. Usa Acceso ULL</a>
+
 * <a href="https://leanpub.com/understandinges6" target="_blank">Book: Understanding ECMAScript 6</a>
 * <a href="http://exploringjs.com/es6/" target="_blank">Book Exploring ES6 </a>
-* <a href="https://git-scm.com/book/en/v2/" target="_blank">Chacon's book on Git</a>
-* <a href="https://campusvirtual.ull.es/ocw/course/view.php?id=136" target="_blank">OCW ULL: Integración de las Herramientas "GitHub Education" en el Aula</a> Casiano et Al.
 
 ## Cursos  y Apuntes Relacionados
 
