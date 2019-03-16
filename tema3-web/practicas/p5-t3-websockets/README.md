@@ -20,8 +20,10 @@ Estudie y desarrolle el ejemplo explicado en:
     * [Web Sockets (Node.js and Socket.io Chat App)](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i4V-_ZVwLmOusj8YAUhj_9) in the Net Ninja Youtube Channel
       - [Repo ULL-ESIT-DSI-1819/websockets-playlist](https://github.com/ULL-ESIT-DSI-1819/websockets-playlist)
     * [Introduction to Socket.io](https://medium.com/@chathuranga94/introduction-to-socket-io-600025322cd2) by Udara Bibile at Medium.com
+  * [Socket.io & Express NodeJS Tutorial to build a Realtime Chat App](https://youtu.be/tzNOqcoupWQ)
     * [Socket.io & Express NodeJS Tutorial to build a Realtime Chat App - Part 1](https://youtu.be/tzNOqcoupWQ)
     * [Socket.io & Express NodeJS Tutorial to build a Realtime Chat App - Part 2](https://youtu.be/emnlFamYx7Y)
+    * [Corresponding repo at GitHub](https://github.com/MyNameIsURL/Socket_io_Chat_Room)
   * Real Time Slide Presentation
     * [Real-time Presentation Slides with Socket.io, Node.js and Javascript](https://medium.com/@nafeunasir/real-time-presentation-slides-with-socket-io-express-node-js-and-javascript-cf08a95ff098) by Nafeu Nasir at Medium.com
       - [Repo ULL-ESIT-DSI-1819/realtime-slides-tut.git](https://github.com/ULL-ESIT-DSI-1819/realtime-slides-tut.git)
