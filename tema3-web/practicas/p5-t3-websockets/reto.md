@@ -7,7 +7,7 @@
 ## Tip: Decida en que lugar del documento saldrá el mensaje `... is typing`
 
 En el HTML, deberá decidir donde va a aparecer el mensaje de *feedback* indicando que un usuario
-esta tecleando y añadirle un `id`. Por ejemplo: 
+esta tecleando y añadirle un `id`.` `Por ejemplo: 
 
 ```html
 <div id="feedback"></div>
