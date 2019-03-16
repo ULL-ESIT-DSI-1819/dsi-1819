@@ -1,4 +1,4 @@
-# Reto para la práctica p5-t3-websockets
+# Reto 1 para la práctica p5-t3-websockets
 
 * Add *{user} is typing ...* functionality.
 
@@ -27,3 +27,12 @@ target.addEventListener(tipo, listener);
  event is fired for all keys, regardless of whether they produce a character value.
 * `listener`: normalmente la function que será llamada cuando ocurre el evento `tipo` sobre el elemento del DOM representado por `target`. En este caso el código de `listener` deberá emitir un mensaje indicando que el usuario esta tecleando.
 * El server debería recoger el mensaje y hacer un broadcast del mismo al resto de clientes conectados
+
+# Reto 2 para la práctica p5-t3-websockets
+
+* Añádale rooms a su chat
+
+Vea los ejemplos en [ULL-ESIT-DSI-1819/socket-io-namespaces](https://github.com/ULL-ESIT-DSI-1819/socket-io-namespaces)
+y lea la sección [Namespaces](https://socket.io/docs/rooms-and-namespaces/) de la documentación de Socket.io
+
+
