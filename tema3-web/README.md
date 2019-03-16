@@ -19,7 +19,7 @@
 * [Socket.io & Express NodeJS Tutorial to build a Realtime Chat App](https://youtu.be/tzNOqcoupWQ)
   * [Socket.io & Express NodeJS Tutorial to build a Realtime Chat App - Part 1](https://youtu.be/tzNOqcoupWQ)
   * [Socket.io & Express NodeJS Tutorial to build a Realtime Chat App - Part 2](https://youtu.be/emnlFamYx7Y)
-  * [Corresponding repo at GitHub](https://github.com/MyNameIsURL/Socket_io_Chat_Room)
+  * [Corresponding repo at GitHub](https://github.com/ULL-ESIT-DSI-1819/Socket_io_Chat_Room)
 * [Introduction to Socket.io](https://medium.com/@chathuranga94/introduction-to-socket-io-600025322cd2) by Udara Bibile at Medium.com
 * [Socket.IO Real-time Web Application Development By: Rohit Rai](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781782160786) book at PuntoQ ULL
 
