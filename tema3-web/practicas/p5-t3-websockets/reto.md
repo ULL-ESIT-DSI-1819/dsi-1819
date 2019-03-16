@@ -25,3 +25,4 @@ target.addEventListener(tipo, listener);
   - The [keydown](https://developer.mozilla.org/en-US/docs/Web/Events/keydown) event is fired when a key is pressed down.
   - Unlike the [keypress](https://developer.mozilla.org/en-US/docs/Web/Events/keypress) event, the keydown event is fired for all keys, regardless of whether they produce a character value.
 * `listener`: normalmente la function que será llamada cuando ocurre el evento `tipo` sobre el elemento del DOM representado por `target`. En este caso el código de `listener` deberá emitir un mensaje indicando que el usuario esta tecleando.
+  - El server debería recoger el mensaje y hacer un broadcast del mismo al resto de clientes conectados
