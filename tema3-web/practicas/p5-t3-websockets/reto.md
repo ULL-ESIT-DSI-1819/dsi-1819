@@ -4,6 +4,14 @@
 
 ![user is typing](reto-user-is-typing.png)
 
+## Tip: Introduzca un `div` en el documento para que salga el mensaje
+
+En el HTML, deberá decidir donde va a aparecer el mensaje de *feedback* indicando que un usuario
+esta tecleando: 
+
+```html
+<div id="feedback"></div>
+```
 
 ## Tip: Como escuchar por las pulsaciones de teclas
 
