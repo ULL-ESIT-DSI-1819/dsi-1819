@@ -4,6 +4,9 @@
 
 ![user is typing](reto-user-is-typing.png)
 
+
+## Tip: Como escuchar por las pulsaciones de teclas
+
 Le puede ayudar añadir en el código del cliente una llamada a el método `addEventListener`:
 
 ```js
