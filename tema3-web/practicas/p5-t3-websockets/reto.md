@@ -35,7 +35,9 @@ target.addEventListener(tipo, listener);
 Vea los ejemplos en [ULL-ESIT-DSI-1819/socket-io-namespaces](https://github.com/ULL-ESIT-DSI-1819/socket-io-namespaces)
 y lea la sección [Namespaces](https://socket.io/docs/rooms-and-namespaces/) de la documentación de Socket.io
 
-Puede hacer este ejercicio usando namespaces o rooms. en el directorio `ns` tiene un ejemplo usando namespaces:
+Puede hacer este ejercicio usando namespaces o rooms. 
+
+En el directorio `ns` tiene un ejemplo usando namespaces:
 
 Fichero **ns/index.js**
 
