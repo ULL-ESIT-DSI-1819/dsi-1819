@@ -107,8 +107,7 @@ Fichero **ns/views/space.ejs**:
    <head>
       <title>Hello world</title>
    </head>
-   <script src = "/socket.io/socket.io.js"></script>
-   <div id="chat"></div>
+   <script src="/socket.io/socket.io.js"></script>
 
    <script>
       const socket = io('/<%- space %>');
@@ -117,7 +116,9 @@ Fichero **ns/views/space.ejs**:
         chat.innerHTML += `<p>${data}</p>`;
       });
    </script>
-   <body></body>
+   <body>
+     <div id="chat"></div>
+   </body>
 </html>
 ```
 
