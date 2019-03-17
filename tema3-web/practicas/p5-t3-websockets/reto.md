@@ -185,7 +185,6 @@ Fichero **rooms/views/room.ejs**:
       <title>Hello world</title>
    </head>
    <script src = "/socket.io/socket.io.js"></script>
-   <div id="chat"></div>
 
    <script>
       const socket = io('/my-namespace');
@@ -197,6 +196,8 @@ Fichero **rooms/views/room.ejs**:
         chat.innerHTML += `<p>${data}</p>`;
       });
    </script>
-   <body></body>
+   <body>
+     <div id="chat"></div>
+   </body>
 </html>
 ```
