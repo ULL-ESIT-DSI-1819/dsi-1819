@@ -37,6 +37,8 @@ y lea la sección [Namespaces](https://socket.io/docs/rooms-and-namespaces/) de 
 
 Puede hacer este ejercicio usando namespaces o rooms.
 
+## Usando namespaces
+
 En el directorio `ns` tiene un ejemplo de como usar *namespaces*:
 
 Fichero **ns/index.js**
