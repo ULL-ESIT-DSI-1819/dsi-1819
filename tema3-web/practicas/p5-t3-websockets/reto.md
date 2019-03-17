@@ -7,7 +7,7 @@
 ## Tip: Decida en que lugar del documento saldrá el mensaje `... is typing`
 
 En el HTML, deberá decidir donde va a aparecer el mensaje de *feedback* indicando que un usuario
-esta tecleando y añadirle un `id`.` `Por ejemplo: 
+esta tecleando y añadirle un `id`.` `Por ejemplo:
 
 ```html
 <div id="feedback"></div>
@@ -21,7 +21,7 @@ Le puede ayudar añadir en el código del cliente una llamada a el método `addE
 target.addEventListener(tipo, listener);
 ```
 
-* `tipo`: Una cadena representando el  tipo de evento a escuchar. 
+* `tipo`: Una cadena representando el  tipo de evento a escuchar.
   - The [keydown](https://developer.mozilla.org/en-US/docs/Web/Events/keydown) event is fired when a key is pressed down.
   - Unlike the [keypress](https://developer.mozilla.org/en-US/docs/Web/Events/keypress) event, the `keydown`:w
  event is fired for all keys, regardless of whether they produce a character value.
@@ -35,9 +35,9 @@ target.addEventListener(tipo, listener);
 Vea los ejemplos en [ULL-ESIT-DSI-1819/socket-io-namespaces](https://github.com/ULL-ESIT-DSI-1819/socket-io-namespaces)
 y lea la sección [Namespaces](https://socket.io/docs/rooms-and-namespaces/) de la documentación de Socket.io
 
-Puede hacer este ejercicio usando namespaces o rooms. 
+Puede hacer este ejercicio usando namespaces o rooms.
 
-En el directorio `ns` tiene un ejemplo usando namespaces:
+En el directorio `ns` tiene un ejemplo de como usar *namespaces*:
 
 Fichero **ns/index.js**
 
