@@ -22,6 +22,8 @@
   * [Corresponding repo at GitHub](https://github.com/ULL-ESIT-DSI-1819/Socket_io_Chat_Room)
 * [Introduction to Socket.io](https://medium.com/@chathuranga94/introduction-to-socket-io-600025322cd2) by Udara Bibile at Medium.com
 * [Node.js & Socket.io Chat video list](https://www.youtube.com/watch?v=pNKNYLv2BpQ&list=PLicY6aYZ8ilpmHfJ8jP1lt7ihPpRWBJ9P) by Smitha Milli (4 videos. Includes private messaging and MongoDB)
+  - [code: nodejs-chat-complete](https://github.com/smilli/nodejs-chat-complete)
+  - [Skeleton code for 2014 Hackers@Berkeley Node.js workshop](https://github.com/smilli/nodejs-chat)
 
 * [Socket.IO Real-time Web Application Development By: Rohit Rai](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781782160786) book at PuntoQ ULL
 
