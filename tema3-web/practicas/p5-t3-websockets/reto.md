@@ -97,7 +97,7 @@ Fichero **ns/public/index.html**
 </html>
 ```
 
-Fichero **ns/views/space.ejs **:
+Fichero **ns/views/space.ejs**:
 
 ```html
 <!DOCTYPE html>
