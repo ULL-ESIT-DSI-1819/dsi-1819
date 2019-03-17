@@ -37,6 +37,8 @@ y lea la sección [Namespaces](https://socket.io/docs/rooms-and-namespaces/) de 
 
 Puede hacer este ejercicio usando namespaces o rooms. en el directorio `ns` tiene un ejemplo usando namespaces:
 
+Fichero **ns/index.js**
+
 ```js
 const path = require('path');
 const express = require('express');
@@ -75,3 +77,42 @@ http.listen(3000, function() {
 });
 ```
 
+Fichero **ns/public/index.html**
+
+```html
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <ul>
+    <li><a href="/my-namespace">my-namespace</a></li>
+    <li><a href="/your-namespace">your-namespace</a></li>
+  </ul>
+</body>
+</html>
+```
+
+Fichero **ns/views/space.ejs **:
+
+```ejs
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Hello world</title>
+   </head>
+   <script src = "/socket.io/socket.io.js"></script>
+   <div id="chat"></div>
+
+   <script>
+      const socket = io('/<%- space %>');
+      let chat = document.getElementById("chat");
+      socket.on('hi',function(data) {
+        chat.innerHTML += `<p>${data}</p>`;
+      });
+   </script>
+   <body></body>
+</html>
+```
