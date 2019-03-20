@@ -6,6 +6,16 @@ Estudie y desarrolle el ejemplo explicado en:
   - [Repo ULL-ESIT-DSI-1819/simpleChatApp](https://github.com/ULL-ESIT-DSI-1819/simpleChatApp)
 * Despliegue la aplicación en Heroku y en iaas.ull.es
     * Para el despliegue en Heroku deberá leer el artículo: [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+    * Repo [ULL-ESIT-DSI-1819/websocket-socket-io-heroku](https://github.com/ULL-ESIT-DSI-1819/websocket-socket-io-heroku) 
+    * Aquí es esencial habilitar [session affinity](https://devcenter.heroku.com/articles/session-affinity):
+
+      ```
+      [~/local/src/javascript/learning/websockets/websockets-heroku-socket-io(master)]$ heroku features:enable http-session-affinity
+      Enabling http-session-affinity for ⬢ dsi-socket-io-example... done
+      ```
+
+      Session affinity, sometimes referred to as sticky sessions, is a platform feature that associates all HTTP requests coming from an end-user with a single application instance (web dyno).
+    * Repo [ULL-ESIT-DSI-1819/websocket-ws-heroku](https://github.com/ULL-ESIT-DSI-1819/websocket-ws-heroku)
 
 ## Recursos
 
@@ -40,7 +50,16 @@ Estudie y desarrolle el ejemplo explicado en:
   * Despliegues
     * [Como Desplegar una Aplicación Web en iaas.ull.es](https://github.com/SYTW/iaas-ull-es)
     * [Apuntes de Heroku](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/recursos/heroku.html)
-    * [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+    * Para el despliegue en Heroku deberá leer el artículo: [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+    * Repo [ULL-ESIT-DSI-1819/websocket-socket-io-heroku](https://github.com/ULL-ESIT-DSI-1819/websocket-socket-io-heroku) 
+    * Aquí es esencial habilitar [session affinity](https://devcenter.heroku.com/articles/session-affinity):
+
+      ```
+      [~/local/src/javascript/learning/websockets/websockets-heroku-socket-io(master)]$ heroku features:enable http-session-affinity
+      Enabling http-session-affinity for ⬢ dsi-socket-io-example... done
+      ```
+
+      Session affinity, sometimes referred to as sticky sessions, is a platform feature that associates all HTTP requests coming from an end-user with a single application instance (web dyno).
   * Webpack
     * [Webpack guide: "getting started"](https://webpack.js.org/guides/getting-started/)
     * [Youtube video Webpack 4 por Fatz](https://youtu.be/vF2emKbaP4M)
