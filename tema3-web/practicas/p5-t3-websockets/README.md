@@ -5,6 +5,7 @@ Estudie y desarrolle el ejemplo explicado en:
 * [Build a simple chat app with node.js and socket.io](https://medium.com/@noufel.gouirhate/build-a-simple-chat-app-with-node-js-and-socket-io-ea716c093088) By Noufel Gouirhate Dec 24, 2017  Medium.com
   - [Repo ULL-ESIT-DSI-1819/simpleChatApp](https://github.com/ULL-ESIT-DSI-1819/simpleChatApp)
 * Despliegue la aplicación en Heroku y en iaas.ull.es
+    * Para el despliegue en Heroku deberá leer el artículo: [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
 
 ## Recursos
 
@@ -39,6 +40,7 @@ Estudie y desarrolle el ejemplo explicado en:
   * Despliegues
     * [Como Desplegar una Aplicación Web en iaas.ull.es](https://github.com/SYTW/iaas-ull-es)
     * [Apuntes de Heroku](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/recursos/heroku.html)
+    * [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
   * Webpack
     * [Webpack guide: "getting started"](https://webpack.js.org/guides/getting-started/)
     * [Youtube video Webpack 4 por Fatz](https://youtu.be/vF2emKbaP4M)
