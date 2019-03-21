@@ -1,4 +1,8 @@
-# Reto para la práctica p6-t2-microservices
+# Retos para la práctica p6-t2-microservices
+
+## Reto 1: Granja de Trabajadores
+
+## Reto 2: Chat
 
 Escriba un chat de línea de comandos - con rooms - usando 0MQ.
 
