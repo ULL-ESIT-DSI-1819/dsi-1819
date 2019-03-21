@@ -59,6 +59,8 @@ Escriba un chat de línea de comandos - con rooms - usando 0MQ.
     rl.prompt();
   }).on('close', () => bye);
   ```
-4. El cliente envía sus mensajes al servidor usando a su vez un PUB/SUB invertido.
-Cada vez que un nuevo cliente se conecta, el servidor se subscribe a todos los mensajes
-de ese cliente
+4. El cliente envía sus mensajes al servidor usando a su vez un REQ/REP.
+El cliente envía su mensaje al servidor como un request JSON indicando la room a la que va dirigida. 
+El servidor, una vez recibe el mensaje en el socket REQ/REP, lo 
+publica a los clientes conectados a la room especificada usando el socket PUB/SUB
+
