@@ -1,6 +1,6 @@
 # Reto para la práctica p6-t2-microservices
 
-Escriba un chat con rooms usando 0MQ.
+Escriba un chat de línea de comandos - con rooms - usando 0MQ.
 
 1. Use el patrón PUB/SUB. 
 2. Use el "tópico" del patrón PUB/SUB para implantar las rooms
