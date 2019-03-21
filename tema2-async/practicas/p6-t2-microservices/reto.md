@@ -57,3 +57,6 @@ Escriba un chat con rooms usando 0MQ.
     rl.prompt();
   }).on('close', () => bye);
   ```
+4. El cliente envía sus mensajes al servidor usando a su vez un PUB/SUB invertido.
+Cada vez que un nuevo cliente se conecta, el servidor se subscribe a todos los mensajes
+de ese cliente
