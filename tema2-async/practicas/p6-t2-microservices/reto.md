@@ -26,7 +26,7 @@ Escriba un chat con rooms usando 0MQ.
       ```
 3. En el cliente, para la lectura desde teclado use [readline](https://nodejs.org/api/readline.html#readline_readline). Sigue un ejemplo:
 
-  **local/src/javascript/learning/readline-examples/small-cli.js**
+  Fichero **local/src/javascript/learning/readline-examples/small-cli.js**
 
   ```js
   const readline = require('readline');
