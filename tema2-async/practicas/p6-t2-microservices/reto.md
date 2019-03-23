@@ -19,6 +19,7 @@ de otros procesos y usuarios e independientemente de que las tareas
 sean heterogéneas en sus necesidades de tiempo de cómputo.
 
 Compute en paralelo una aproximación al número $$pi$$ aprovechando la siguiente fórmula:
+
 $$
 \int_{0}^{1} \frac{4}{(1+x^2)} dx  = 4 \arctan(x) |_{0}^{1}\ = 4 ( \frac{\pi}{4} - 0) = \pi 
 $$
