@@ -107,6 +107,15 @@ if (cluster.isMaster) main();
 else workerTask();
 ```
 
+* The ROUTER socket, unlike other sockets, tracks every connection
+it has, and tells the caller about these. 
+* The way it tells the caller is to stick the connection **identity** in front of each message
+received
+* An **identity**, sometimes called an **address**, is just a binary
+string with no meaning except *"this is a unique handle to the
+connection"* 
+* Then, when you send a message via a ROUTER socket, you first send an identity frame.
+
 Cuando ejecuto este programa, obtengo una salida parecida a esta:
 
 ```
