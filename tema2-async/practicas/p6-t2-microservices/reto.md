@@ -26,7 +26,7 @@ $$
 
 Para computar $$pi$$ aproxime la integral mediante sumas de rectángulos:
 
-![](integration-as-a-sum.gif)
+![](integration-as-a-sum.jpg)
 
 1. El capataz  le indicará a cada trabajador que intervalo debe sumar. 
 2. El trabajador computa y devuelve el área correspondiente a esa parte la cual es acumulada por el capataz al subtotal de área computada.
