@@ -116,6 +116,11 @@ string with no meaning except *"this is a unique handle to the
 connection"* 
 * Then, when you send a message via a ROUTER socket, you first send an identity frame.
 
+The `zmq_socket()` man page describes it thus:
+
+> When receiving messages a `ZMQ_ROUTER` socket shall prepend a message part containing the identity of the originating peer to the message before passing it to the application. Messages received are fair-queued from among all connected peers. 
+> When sending messages a `ZMQ_ROUTER` socket shall remove the first part of the message and use it to determine the identity of the peer the message shall be routed to.
+
 Cuando ejecuto este programa, obtengo una salida parecida a esta:
 
 ```
