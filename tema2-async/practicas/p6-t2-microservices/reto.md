@@ -107,6 +107,20 @@ if (cluster.isMaster) main();
 else workerTask();
 ```
 
+Cuando ejecuto este programa, obtengo una salida parecida a esta:
+
+```
+[~/.../microservices(master)]$ node dealer.js 
+identity worker0 process 56820 port = 60300
+identity worker2 process 56822 port = 60300
+identity worker3 process 56823 port = 60300
+identity worker1 process 56821 port = 60300
+Completed: 24 tasks (worker3 56823)
+Completed: 22 tasks (worker2 56822)
+Completed: 19 tasks (worker1 56821)
+Completed: 18 tasks (worker0 56820)
+```
+
 Compute en paralelo una aproximación al número $$pi$$ aprovechando la siguiente fórmula:
 
 $$
