@@ -7,7 +7,7 @@ Procesadores* la tarea que se quiere realizar es dividida en un subconjunto de s
 bastante mayor que el número de procesadores disponibles. 
 1. Un procesador denominado maestro o capataz envia las
 tareas a los restantes procesos-trabajadores. 
-2. Tan pronto como un trabajador devuelve el resultado de una subtarea el capataz le da una
+2. Tan pronto como un trabajador devuelve el resultado de una subtarea el capataz le envía una
 nueva subtarea. 
 3.  El capataz combina el resultado parcial con los que
 haya obtenido hasta ese momento. 
