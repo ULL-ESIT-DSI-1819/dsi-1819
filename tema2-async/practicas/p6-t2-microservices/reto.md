@@ -116,7 +116,7 @@ Observa que pese a que el worker envía solamente `[ 'ready' ]`:
     setTimeout(sendMessage, randomBetween(0, 500));
 ```
 
-En el master recibimos como primer elemento la **identity* del worker:
+En el master recibimos como primer elemento la **identity** del worker:
 
 ```js
   broker.on('message', function (...args) {
