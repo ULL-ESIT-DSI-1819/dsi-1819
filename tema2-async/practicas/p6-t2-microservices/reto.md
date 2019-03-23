@@ -135,7 +135,7 @@ Para computar π aproxime la integral mediante sumas de áreas de rectángulos:
 2. El capataz  le indicará a cada trabajador para que intervalo debe calcular el  área 
 3. El trabajador computa el área haciendo la correspondiente suma de Riemann y la devuelve al capataz, 
 4. El capataz añade dicha subárea al acumulador de área computada.
-4. El capataz envía un nuevo intervalo al trabajador.
+4. El capataz envía un nuevo intervalo al trabajador si quedan intervalos por computar. En caso contrario envía un mensaje de parada.
 
 
 
