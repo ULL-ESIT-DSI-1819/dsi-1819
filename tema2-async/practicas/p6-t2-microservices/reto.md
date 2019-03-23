@@ -10,7 +10,7 @@ tareas a los restantes procesos-trabajadores.
 2. Tan pronto como un trabajador devuelve el resultado de una subtarea el capataz le envía una
 nueva subtarea. 
 3.  El capataz combina el resultado parcial con los que
-haya obtenido hasta ese momento. 
+haya obtenido hasta ese momento para ir cosntruyendo la solución a la tarea inicial. 
 
 Una ventaja que tiene este paradigma es que consigue equilibrar la carga de trabajo entre las máquinas,
 independientemente de que estas sean heterogéneas o no, independientemente
