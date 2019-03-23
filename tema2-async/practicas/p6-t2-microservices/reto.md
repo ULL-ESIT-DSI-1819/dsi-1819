@@ -13,10 +13,10 @@ nueva subtarea.
 haya obtenido hasta ese momento para ir cosntruyendo la solución a la tarea inicial. 
 
 Una ventaja que tiene este paradigma es que consigue equilibrar la carga de trabajo entre las máquinas,
-independientemente de que estas sean heterogéneas o no, independientemente
-de cual sea la carga dinámica de las estaciones por la presencia
-de otros procesos y usuarios e independientemente de que las tareas
-sean heterogéneas en sus necesidades de tiempo de cómputo.
+* independientemente de que estas sean heterogéneas o no, 
+* independientemente de cual sea la carga dinámica de las estaciones por la presencia
+de otros procesos y usuarios e 
+* independientemente de que las tareas sean heterogéneas en sus necesidades de tiempo de cómputo.
 
 En el siguiente código mostramos como usar los sockets ROUTER  y DEALER junto 
 con los clusters de Node.js para  crear un borrador de una granja de trabajadores:
