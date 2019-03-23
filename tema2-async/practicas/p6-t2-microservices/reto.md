@@ -107,6 +107,23 @@ if (cluster.isMaster) main();
 else workerTask();
 ```
 
+Observa que pese a que el wroker envía `ready`:
+
+```js
+  const sendMessage = () => dealer.send(['ready']);
+  ...
+    // Simulate some work
+    setTimeout(sendMessage, randomBetween(0, 500));
+```
+
+En el master recibimos como primer elemento la **identity* del worker:
+
+```js
+  broker.on('message', function (...args) {
+    // console.log("Inside Master. args = "+ins(args.map(x => x.toString())));
+    const identity = args[0]
+```
+
 * The ROUTER socket, unlike other sockets, tracks every connection
 it has, and tells the caller about these. 
 * The way it tells the caller is to stick the connection **identity** in front of each message
