@@ -121,7 +121,7 @@ Completed: 19 tasks (worker1 56821)
 Completed: 18 tasks (worker0 56820)
 ```
 
-Compute en paralelo una aproximación al número $$pi$$ aprovechando la siguiente fórmula:
+Usando 0MQ y paralelismo de granja, compute en paralelo una aproximación al número $$pi$$ aprovechando la siguiente fórmula:
 
 $$
 \int_{0}^{1} \frac{4}{(1+x^2)} dx  = 4 \arctan(x) |_{0}^{1}\ = 4 ( \frac{\pi}{4} - 0) = \pi 
