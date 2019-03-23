@@ -85,6 +85,10 @@
 * [ZeroMQ Tutoriasl: Butterfly](http://zeromq.org/tutorials:butterfly)
 * [Easy cluster parallelization with ZeroMQ](http://mdup.fr/blog/easy-cluster-parallelization-wit)
 
+## Retos
+
+* [Retos para el Capítulo *Connectiong Robust  Microservices*](reto)
+
 <!--
 * ZeroMQ is the answer: https://youtu.be/v6AGUeZOVSU
     * [ZeroMQ is the answer](https://youtu.be/v6AGUeZOVSU)
