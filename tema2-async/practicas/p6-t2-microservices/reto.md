@@ -18,7 +18,7 @@ Una ventaja que tiene este paradigma es que consigue equilibrar la carga de trab
 de otros procesos y usuarios e 
 * independientemente de que las tareas sean heterogéneas en sus necesidades de tiempo de cómputo.
 
-En el siguiente código mostramos como usar los sockets ROUTER  y DEALER junto 
+En el siguiente código mostramos como usar los sockets ROUTER  y DEALER de 0MQ junto 
 con los clusters de Node.js para  crear un borrador de una granja de trabajadores:
 
 **Fichero connecting-robust-microservices-chapter-4/microservices/dealer.js**
