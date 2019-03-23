@@ -123,6 +123,7 @@ En el master recibimos como primer elemento la **identity* del worker:
     // console.log("Inside Master. args = "+ins(args.map(x => x.toString())));
     const identity = args[0]
 ```
+Consultemos la documentación de 0MQ:
 
 * The ROUTER socket, unlike other sockets, tracks every connection
 it has, and tells the caller about these. 
