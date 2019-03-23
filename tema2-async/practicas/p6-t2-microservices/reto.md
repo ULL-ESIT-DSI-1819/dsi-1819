@@ -107,7 +107,7 @@ if (cluster.isMaster) main();
 else workerTask();
 ```
 
-Observa que pese a que el wroker envía `ready`:
+Observa que pese a que el worker envía solamente `[ 'ready' ]`:
 
 ```js
   const sendMessage = () => dealer.send(['ready']);
