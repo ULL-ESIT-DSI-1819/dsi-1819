@@ -18,6 +18,95 @@ de cual sea la carga dinámica de las estaciones por la presencia
 de otros procesos y usuarios e independientemente de que las tareas
 sean heterogéneas en sus necesidades de tiempo de cómputo.
 
+En el siguiente código mostramos como usar los sockets ROUTER  y DEALER junto 
+con los clusters de Node.js para  crear un borrador de una granja de trabajadores:
+
+**Fichero connecting-robust-microservices-chapter-4/microservices/dealer.js**
+
+```js
+'use strict';
+
+const PORT = require("./port.js");
+const ins = require("./ins.js");
+const cluster = require("cluster");
+const zmq = require("zeromq");
+
+const numWorkers = require("os").cpus().length;
+
+const randomBetween = (min, max) => Math.floor(Math.random() * (max - min) + min);
+
+function workerTask() {
+  const dealer = zmq.socket('dealer');
+  dealer.identity = process.env["identity"]; 
+
+  console.log("identity "+dealer.identity+
+              " process "+process.pid+" port = "+PORT);
+
+  dealer.connect('tcp://localhost:'+PORT);
+
+  let total = 0;
+
+  const sendMessage = () => dealer.send(['ready']);
+
+  //  Get workload from broker, until finished
+  dealer.on('message', function onMessage(...args) {
+    // console.log("Inside Worker. args = "+ins(args.map(x => x.toString())));
+    const workload = args[0].toString('utf8');
+    //console.log("Inside Worker. workload = "+workload);
+
+    if (workload === 'stop') {
+      console.log('Completed: '+total+' tasks ('+dealer.identity+' '+process.pid+')');
+      dealer.removeListener('message', onMessage);
+      // https://nodejs.org/api/events.html#events_emitter_removelistener_eventname_listener is a method of EventsEmitter
+      dealer.close();
+      return;
+    }
+    total++;
+
+    // Simulate some work
+    setTimeout(sendMessage, randomBetween(0, 500));
+  });
+
+  //  Tell the broker we're ready for work
+  sendMessage();
+}
+
+function main() {
+  const broker = zmq.socket('router');
+  //broker.bindSync('tcp://*:5671');
+  broker.bind('tcp://*:'+PORT);
+
+  let endTime = Date.now() + 5000
+    , workersFired = 0;
+
+  broker.on('message', function (...args) {
+    // console.log("Inside Master. args = "+ins(args.map(x => x.toString())));
+    const identity = args[0]
+      , now = Date.now();
+
+    if (now < endTime) {
+      broker.send([identity, 'more work']);
+    } else {
+      broker.send([identity, 'stop']);
+      workersFired++;
+      if (workersFired === numWorkers) {
+        setImmediate(function () { // See https://nodejs.org/api/timers.html#timers_setimmediate_callback_args
+          broker.close();
+          cluster.disconnect();
+        });
+      }
+    }
+  });
+
+  for (let i=0;i<numWorkers;i++) {
+    cluster.fork({identity: "worker"+i});
+  }
+}
+
+if (cluster.isMaster) main();
+else workerTask();
+```
+
 Compute en paralelo una aproximación al número $$pi$$ aprovechando la siguiente fórmula:
 
 $$
