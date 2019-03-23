@@ -24,7 +24,13 @@ $$
 \int_{0}^{1} \frac{4}{(1+x^2)} dx  = 4 \arctan(x) |_{0}^{1}\ = 4 ( \frac{\pi}{4} - 0) = \pi 
 $$
 
+Para computar $$pi$$ aproxime la integral mediante sumas de rectángulos:
+
 ![](integration-as-a-sum.gif)
+
+1. El capataz  le indicará a cada trabajador que intervalo debe sumar. 
+2. El trabajador computa y devuelve el área correspondiente a esa parte la cual es acumulada por el capataz al subtotal de área computada.
+3. El capataz envía un nuevo intervalo al trabajador.
 
 
 ## Reto 2: Chat
