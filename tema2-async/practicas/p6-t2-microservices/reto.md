@@ -3,7 +3,7 @@
 ## Reto 1: Granja de Trabajadores
 
 En el paradigma de paralelismo conocido como *Farm* o *Granja de
-Procesadores* la tarea es dividida en el subconjunto de tareas a
+Procesadores* la tarea que se quiere realizar es dividida en el subconjunto de tareas a
 realizar. 
 1. Un procesador denominado maestro o capataz envia las
 tareas a las restantes estaciones-trabajadores. 
