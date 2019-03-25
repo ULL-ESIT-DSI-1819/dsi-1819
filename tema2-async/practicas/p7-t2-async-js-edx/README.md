@@ -13,6 +13,10 @@ y resuelva los problemas planteados en dichos módulos
 * [GitHub repoULL-MII-CA-1819/async-js](https://github.com/ULL-MII-CA-1819/async-js)
 * [Cómo funciona Async/Await en menos de 15 minutos](https://youtu.be/u2axmPnxUoo) YouTube Vídeo por Appdelante
 
+## Recursos para el profesor
 
+* [Iván](https://github.com/ULL-MII-CA-1819/t2-p10-async-js-alu0100693737)
+* [MarreA](https://github.com/ULL-MII-CA-1819/t2-p10-async-js-marreA)
+* `/Users/casiano/formacion/edx/async-js`
 
 
