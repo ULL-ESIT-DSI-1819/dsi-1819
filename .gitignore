@@ -4,23 +4,31 @@ Gemfile.lock
 iaas.ull.es
 wrangling-the-fs-ale-ivan
 .vscode/settings.json
+.jekyll-metadata
 
+tema1-introduccion/practicas/p1-t1-iaas/repo-iaas.ull.es
+tema1-introduccion/practicas/p1-t1-iaas/express-start
+
+tema1-introduccion/practicas/p3-t1-c3-http/chapter20-node-js-2nd-sols
 tema1-introduccion/practicas/p2-t1-c3-file-system/sol-nodejs-filesystem-ch2
 tema1-introduccion/practicas/p2-t1-c3-file-system/sol-nodejs-the-right-way
 tema1-introduccion/practicas/p3-t1-c3-http/chapter20-node-js
-tema1-introduccion/practicas/p1-t1-iaas/repo-iaas.ull.es
-tema1-introduccion/practicas/p3-t1-c3-http/chapter20-node-js-2nd-sols
-tema1-introduccion/practicas/p1-t1-iaas/express-start
+
+tema2-async/RPC/
 
 tema2-async/practicas/p4-t2-networking/sols-ca1819
-tema2-async/RPC/
 tema2-async/practicas/p4-t2-networking/evaluacion/
 tema2-async/practicas/p4-t2-networking/eval-p4-t2-networking/
+
 tema2-async/practicas/p6-t2-microservices/05-njstrw-crm-alu0100693737
 tema2-async/practicas/p6-t2-microservices/05-njstrw-crm-marreA
 tema2-async/practicas/p6-t2-microservices/connecting-robust-microservices-chapter-4
 tema2-async/practicas/p6-t2-microservices/node-zmq-talk
 tema2-async/practicas/p6-t2-microservices/sol-nodejs-the-right-way
+
+tema2-async/practicas/p7-t2-async-js-edx/t2-p10-async-js-alu0100693737
+tema2-async/practicas/p7-t2-async-js-edx/t2-p10-async-js-marreA
+tema2-async/practicas/p7-t2-async-js-edx/t2-p10-async-js-crguezl
 
 tema2-async/practicas/p7-t2-async-js-edx/crguezl-async-js-edx 
 
