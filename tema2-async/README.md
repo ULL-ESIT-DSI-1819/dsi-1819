@@ -37,11 +37,11 @@
 
 1. [Asynchronous Programming with Javascript](https://courses.edx.org/courses/course-v1:Microsoft+DEV234x+1T2018a/course/) EdX Course
 2. Book Exploring ES6
-  1. [Book Exploring ES6: 24. Asynchronous programming (background) ](http://exploringjs.com/es6/ch_async.html)
-  5. [Book Exploring ES6: 25. Promises for asynchronous programming](http://exploringjs.com/es6/ch_promises.html)
+    1. [Book Exploring ES6: 24. Asynchronous programming (background) ](http://exploringjs.com/es6/ch_async.html)
+    2. [Book Exploring ES6: 25. Promises for asynchronous programming](http://exploringjs.com/es6/ch_promises.html)
 3. Book Understanding ECMAScript 6
-  1. [Book Understanding ECMAScript 6: Iterators and Generators](https://leanpub.com/understandinges6/read#leanpub-auto-iterators-and-generators)
-  4. [Book Understanding ECMAScript 6: Promises and Asynchronous Programming](https://leanpub.com/understandinges6/read#leanpub-auto-promises-and-asynchronous-programming)
+    1. [Book Understanding ECMAScript 6: Iterators and Generators](https://leanpub.com/understandinges6/read#leanpub-auto-iterators-and-generators)
+    2. [Book Understanding ECMAScript 6: Promises and Asynchronous Programming](https://leanpub.com/understandinges6/read#leanpub-auto-promises-and-asynchronous-programming)
 7. [Book You Don't Know JS: Chapter Async & Performance](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance)
 8. [Book ASYNC JavaScript: Build More Responsive Apps with Less Code](https://github.com/tain335/tain335/blob/master/books/Async%20JavaScript%20Build%20More%20Responsive%20Apps%20with%20Less%20Code.pdf)
 9. [Node.js 8: util.promisify()](http://2ality.com/2017/05/util-promisify.html) by Dr. Axel Rauschmayer 
