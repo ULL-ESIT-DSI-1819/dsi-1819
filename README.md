@@ -26,6 +26,8 @@
 
 ### [Práctica Connecting Robust Microservices (p6-t2-microservices)](tema2-async/practicas/p6-t2-microservices)
 
+### [Práctica Asynchronous Programming with Javascript EdX Course: Modules 1 (Asynchronous Fundamentals) and 2 (Promises) (p7-t2-async-js-edx)](tema2-async/practicas/p7-t2-async-js-edx)
+
 ## [Tema 3: Patrones, Entornos de Trabajo, Pruebas, Integración y Calidad en los Servicios y Aplicaciones Web](tema3-web/)
 
 ### [Práctica Websockets (p5-t3-websockets)](tema3-web/practicas/p5-t3-websockets)
