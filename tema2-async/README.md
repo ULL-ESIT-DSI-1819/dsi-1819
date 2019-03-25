@@ -37,7 +37,7 @@
 
 1. [Asynchronous Programming with Javascript](https://courses.edx.org/courses/course-v1:Microsoft+DEV234x+1T2018a/course/) EdX Course
     * [GitHub repoULL-MII-CA-1819/async-js](https://github.com/ULL-MII-CA-1819/async-js)
-2. [Cómo funciona Async/Await en menos de 15 minutos](https://youtu.be/u2axmPnxUoo) YouTube Vídeo por Appdelante
+2. Vídeo [Cómo funciona Async/Await en menos de 15 minutos](https://youtu.be/u2axmPnxUoo) YouTube Vídeo por Appdelante
 2. Book Exploring ES6
     1. [Book Exploring ES6: 24. Asynchronous programming (background) ](http://exploringjs.com/es6/ch_async.html)
     2. [Book Exploring ES6: 25. Promises for asynchronous programming](http://exploringjs.com/es6/ch_promises.html)
