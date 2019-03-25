@@ -48,6 +48,11 @@
 2. [Async examples in JS in GitHub](https://github.com/search?utf8=%E2%9C%93&q=async-examples+language%3Ajavascript&type=Repositories) 
 6. [Book Eloquent JS: Handling Events](http://eloquentjavascript.net/14_event.html)
 
+### Prácticas
+
+* [Descripción de la práctica Asynchronous Programming with Javascript EdX Course: Modules 1 (Asynchronous Fundamentals) and 2 (Promises) p7-t2-async-js-edx(practicas/p7-t2-async-js-edx)
+
+
 ## Capítulo 4: RPC
 
 In gRPC a client application can directly call methods on a server application on a different machine as if it was a local object, making it easier for you to create distributed applications and services. As in many RPC systems, gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types. 
