@@ -50,7 +50,7 @@
 
 ### Prácticas
 
-* [Descripción de la práctica Asynchronous Programming with Javascript EdX Course: Modules 1 (Asynchronous Fundamentals) and 2 (Promises) p7-t2-async-js-edx(practicas/p7-t2-async-js-edx)
+* [Descripción de la práctica Asynchronous Programming with Javascript EdX Course: Modules 1 (Asynchronous Fundamentals) and 2 (Promises) p7-t2-async-js-edx](practicas/p7-t2-async-js-edx)
 
 
 ## Capítulo 4: RPC
