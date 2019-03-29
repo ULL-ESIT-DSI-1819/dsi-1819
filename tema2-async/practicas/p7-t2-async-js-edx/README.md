@@ -12,6 +12,13 @@ y resuelva los problemas planteados en dichos módulos
 * Curso  EdX [Asynchronous Programming with Javascript](https://courses.edx.org/courses/course-v1:Microsoft+DEV234x+1T2018a/course/)
 * [GitHub repoULL-MII-CA-1819/async-js](https://github.com/ULL-MII-CA-1819/async-js)
 * [Cómo funciona Async/Await en menos de 15 minutos](https://youtu.be/u2axmPnxUoo) YouTube Vídeo por Appdelante
+* [Javascript Async Await, Promesas y Callbacks](https://youtu.be/Q3HtXuDEy5s) por Fatz
+
+## The Coding Train
+
+* [16.11: Promises Part 1 - Topics of JavaScript/ES6](https://youtu.be/QO4NXhWo_NM)
+* [GitHub repo for The Coding Train website](https://github.com/CodingTrain/website)
+
 
 ## Recursos para el profesor
 
