@@ -49,6 +49,9 @@
 9. [Node.js 8: util.promisify()](http://2ality.com/2017/05/util-promisify.html) by Dr. Axel Rauschmayer 
 2. [Async examples in JS in GitHub](https://github.com/search?utf8=%E2%9C%93&q=async-examples+language%3Ajavascript&type=Repositories) 
 6. [Book Eloquent JS: Handling Events](http://eloquentjavascript.net/14_event.html)
+10. [Curso JavaScript Promises en Udacity](https://classroom.udacity.com/courses/ud898)
+10. [Book *The Modern Javascript Tutorial*. Chapter Promises, async/await](https://javascript.info/async)
+10. [Promises Workshop for JavaScript! Learn to wield promises like a master to write clean asynchronous code](https://github.com/stevekane/promise-it-wont-hurt) GitHub Repo. A Workshopper module that teaches you to use promises in javascript
 
 ### Prácticas
 
