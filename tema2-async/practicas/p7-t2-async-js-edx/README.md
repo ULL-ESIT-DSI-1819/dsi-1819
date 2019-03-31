@@ -13,6 +13,9 @@ y resuelva los problemas planteados en dichos módulos
 * [GitHub repoULL-MII-CA-1819/async-js](https://github.com/ULL-MII-CA-1819/async-js)
 * [Cómo funciona Async/Await en menos de 15 minutos](https://youtu.be/u2axmPnxUoo) YouTube Vídeo por Appdelante
 * [Javascript Async Await, Promesas y Callbacks](https://youtu.be/Q3HtXuDEy5s) por Fatz
+* [Curso JavaScript Promises en Udacity](https://classroom.udacity.com/courses/ud898)
+* [Book *The Modern Javascript Tutorial*. Chapter Promises, async/await](https://javascript.info/async)
+* [Promises Workshop for JavaScript! Learn to wield promises like a master to write clean asynchronous code](https://github.com/stevekane/promise-it-wont-hurt) GitHub Repo. A Workshopper module that teaches you to use promises in javascript
 
 ## The Coding Train
 
