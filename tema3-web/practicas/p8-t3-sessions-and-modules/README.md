@@ -78,7 +78,7 @@ En npm  puede encontrar este ejemplo:
    * `/login`, `/register` via GET and POST methods, 
    * `/logout`  via the GET method only. And 
    * `/content` 
-     *   via the GET method and this is the route that will be protected. Users must be logged in before accessing this route, otherwise a 401. Otherwise a message will be sent with an unauthorized view.
+     *   via the GET method and this is the route that will be protected. Users must be logged in before accessing this route, otherwise a `401`. Otherwise a message will be sent with an unauthorized view.
    * It receives a parameter `object`. This is the configuration needed for the authentication. The properties are the following:
        * `passwordFile`: location of the file to store the users credentials.
        * `pathToProtect`: the files that will be accessible only when users are logged in.
