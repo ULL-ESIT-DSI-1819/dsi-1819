@@ -53,7 +53,9 @@ En npm  puede encontrar este ejemplo:
     unauthorizedView: 'unauthorizedView',
   }));
   ```
-* El ejemplo de uso anterior muestra la interfaz de nuestro módulo. Esta es la API del ejemplo proveído:
+* El ejemplo de uso anterior muestra la interfaz de nuestro módulo. Esta es la cabecera de la función `authentication` exportada:
+
+  **auth.js**
 
   ```js
   function authentication(options) {
