@@ -83,20 +83,20 @@ En npm  puede encontrar este ejemplo:
    *   via the GET method and this is the route that will be protected. 
    *   Users must be logged in before accessing this route, otherwise a 401 
    *   message will be sent with an unauthorized view.
-   * @param {Object} options This is the configuration needed for the authentication.
+   * It receives a parameter `object`. This is the configuration needed for the authentication.
    * The properties are the following:
-   * passwordFile: location of the file to store the users credentials.
-   * pathToProtect: the files that will be accessible only when users are logged in.
-   * registerView: view containing the form to register. It will be served at `/register`
+   * `passwordFile`: location of the file to store the users credentials.
+   * `pathToProtect`: the files that will be accessible only when users are logged in.
+   * `registerView`: view containing the form to register. It will be served at `/register`
    * via the HTTP GET method.
-   * successRegisterView: view with the message to render when the user registers successfully.
-   * errorRegisterView: view to render when there is an error in the registration.
-   * loginView: view containing the form to log in. It will be served at `/login`
+   * `successRegisterView`: view with the message to render when the user registers successfully.
+   * `errorRegisterView`: view to render when there is an error in the registration.
+   * `loginView`: view containing the form to log in. It will be served at `/login`
    * via the HTTP GET method.
-   * successLoginView: view with the message to render when the user logs in successfully.
-   * errorLoginView: view to render when there is an error in the login.
-   * logoutView: view to render when they log out.
-   * unauthorizedView: view to render when a user tries to access `/content` without being logged in
+   * `successLoginView`: view with the message to render when the user logs in successfully.
+   * `errorLoginView`: view to render when there is an error in the login.
+   * `logoutView`: view to render when they log out.
+   * `unauthorizedView`: view to render when a user tries to access `/content` without being logged in
 * La aplicación que use nuestro módulo proveera las vistas en `ejs`. Por ejemplo:
 
   ```
