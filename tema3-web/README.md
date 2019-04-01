@@ -162,6 +162,9 @@ en los apuntes del profesor
 * [Build a Node.js App with Express + EJS + Stylus by Robin Skafte](https://scotch.io/@robinskafte/build-a-nodejs-app-with-express-ejs-stylus)
 -->
 
+
+### [Práctica: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)](practicas/p8-t3-sessions-and-modules)
+
 ## Capítulo: Bases de Datos No Relacionales: MongoDB
 
 **Apuntes del profesor para Mongo**
