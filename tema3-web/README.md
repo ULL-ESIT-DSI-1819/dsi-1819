@@ -104,6 +104,8 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
 Véase la sección [Cookies y Autenticación](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/cookies/)
 en los apuntes del profesor
 
+### [Práctica: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)](practicas/p8-t3-sessions-and-modules)
+
 **OAuth**
 
 * [Introducción a OAuth](http://nereida.deioc.ull.es/~lpp/perlexamples/node773.html) (Apuntes del profesor)
@@ -162,8 +164,6 @@ en los apuntes del profesor
 * [Build a Node.js App with Express + EJS + Stylus by Robin Skafte](https://scotch.io/@robinskafte/build-a-nodejs-app-with-express-ejs-stylus)
 -->
 
-
-### [Práctica: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)](practicas/p8-t3-sessions-and-modules)
 
 ## Capítulo: Bases de Datos No Relacionales: MongoDB
 
