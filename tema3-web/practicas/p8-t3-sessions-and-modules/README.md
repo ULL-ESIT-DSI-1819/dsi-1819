@@ -94,7 +94,8 @@ En npm  puede encontrar este ejemplo:
        * `errorLoginView`: view to render when there is an error in the login.
        * `logoutView`: view to render when they log out.
        * `unauthorizedView`: view to render when a user tries to access `/content` without being logged in
-* La aplicación que use nuestro módulo proveera las vistas en `ejs`. Por ejemplo:
+* La aplicación que use nuestro módulo proveera las vistas en `ejs`. 
+La siguiente figura muestra la estructura de vistas del ejemplo que estamos usando:
 
   ```
   src/server/views/
