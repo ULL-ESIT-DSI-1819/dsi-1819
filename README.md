@@ -31,3 +31,6 @@
 ## [Tema 3: Patrones, Entornos de Trabajo, Pruebas, Integración y Calidad en los Servicios y Aplicaciones Web](tema3-web/)
 
 ### [Práctica Websockets (p5-t3-websockets)](tema3-web/practicas/p5-t3-websockets)
+
+### [Práctica: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)](tema3-web/practicas/p8-t3-sessions-and-modules)
+
