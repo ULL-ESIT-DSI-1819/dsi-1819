@@ -172,6 +172,7 @@ por [@ull-esit-pl/auth](https://www.npmjs.com/package/@ull-esit-pl/auth):
 
 * [ejs](https://ejs.co/)
 * Cookies, Sessions, Authentication
+  * [https://github.com/ULL-ESIT-DSI-1819/hello-cookies-and-sessions](https://github.com/ULL-ESIT-DSI-1819/hello-cookies-and-sessions)
   * Ejemplo de server con cookies y sessions: [ULL-ESIT-PL-1617/evaluar-manejo-de-cookies-y-sessions-en-expressjs](https://github.com/ULL-ESIT-PL-1617/evaluar-manejo-de-cookies-y-sessions-en-expressjs-alu0100825510).
   * [Cookies y Sessiones (apuntes gitbook 16/17)](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/cookies/)
   * [Sessions y Authentication (apuntes 16/17)](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/authentication/)
