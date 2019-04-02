@@ -212,7 +212,7 @@ por [@ull-esit-pl/auth](https://www.npmjs.com/package/@ull-esit-pl/auth):
 * [git help submodule](https://git-scm.com/docs/git-submodule)
 * Stackoverflow: [How do I remove a submodule?](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule)
 * [Chris Jean blog in WordPress: Git Submodules: Adding, Using, Removing, Updating](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)
-* [Vídeo *uso de sub modulos en git: practica "modulos en npm"*](https://youtu.be/17cZY3na3As). Se refiere a otra práctica pero puede serles útil
+* [Vídeo *uso de sub modulos en git: practica "modulos en npm"*](https://youtu.be/17cZY3na3As). Se refiere a otra práctica pero puede que les sea útil para esta práctica
 
 ## Notas para el Profesor
 
