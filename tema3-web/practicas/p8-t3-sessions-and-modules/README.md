@@ -170,7 +170,10 @@ por [@ull-esit-pl/auth](https://www.npmjs.com/package/@ull-esit-pl/auth):
 
 ### Programación Web
 
-* [ejs](https://ejs.co/)
+* EJS
+  * [ejs](https://ejs.co/) 
+  * [Using EJS with Express](https://github.com/mde/ejs/wiki/Using-EJS-with-Express) GitHub Wiki
+  * [blog Use EJS to Template Your Node Application](https://scotch.io/tutorials/use-ejs-to-template-your-node-application)
 * Cookies, Sessions, Authentication
   * [https://github.com/ULL-ESIT-DSI-1819/hello-cookies-and-sessions](https://github.com/ULL-ESIT-DSI-1819/hello-cookies-and-sessions)
 
