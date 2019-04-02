@@ -1,7 +1,6 @@
 ## Práctica: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)
 
-Cree y publique un módulo npm  que provea un middleware express que provee autenticación para acceder a una determinada 
-ruta. 
+Cree y publique un módulo npm  que provea un middleware express que provee autenticación para acceder a los ficheros en una determinada ruta. 
 
 En npm  puede encontrar este ejemplo:
 
@@ -52,10 +51,14 @@ En npm  puede encontrar este ejemplo:
     logoutView: 'logout',
     unauthorizedView: 'unauthorizedView',
   }));
-  ```
-* El ejemplo de uso anterior muestra la interfaz de nuestro módulo. Esta es la cabecera de la función `authentication` exportada:
 
-  **auth.js**
+  ...
+
+  ```
+* El ejemplo de uso anterior muestra la interfaz de nuestro módulo. Esta es la cabecera de la función `authentication` exportada 
+por [@ull-esit-pl/auth](https://www.npmjs.com/package/@ull-esit-pl/auth):
+
+  **auth.js**)
 
   ```js
   function authentication(options) {
@@ -80,22 +83,22 @@ En npm  puede encontrar este ejemplo:
    * `/login`, `/register` via GET and POST methods, 
    * `/logout`  via the GET method only. And 
    * `/content` 
-     *   via the GET method and this is the route that will be protected. Users must be logged in before accessing this route, otherwise a `401`. Otherwise a message will be sent with an unauthorized view.
-   * It receives a parameter `object`. This is the configuration needed for the authentication. The properties are the following:
+     * via the GET method and this is the route that will be protected. 
+     * Users must be logged in before accessing this route, otherwise a `401` message will be sent with an unauthorized view.
+   * It receives an Object as first  parameter. This object describes the configuration needed for the authentication. 
+   * The properties are the following:
        * `passwordFile`: location of the file to store the users credentials.
        * `pathToProtect`: the files that will be accessible only when users are logged in.
-       * `registerView`: view containing the form to register. It will be served at `/register`
-       * via the HTTP GET method.
+       * `registerView`: view containing the form to register. It will be served at `/register` via the HTTP GET method.
        * `successRegisterView`: view with the message to render when the user registers successfully.
        * `errorRegisterView`: view to render when there is an error in the registration.
-       * `loginView`: view containing the form to log in. It will be served at `/login`
-       * via the HTTP GET method.
+       * `loginView`: view containing the form to log in. It will be served at `/login` via the HTTP GET method.
        * `successLoginView`: view with the message to render when the user logs in successfully.
        * `errorLoginView`: view to render when there is an error in the login.
-       * `logoutView`: view to render when they log out.
+       * `logoutView`: view to render when the user logs out (visits `/logout`).
        * `unauthorizedView`: view to render when a user tries to access `/content` without being logged in
-* La aplicación que use nuestro módulo proveera las vistas en `ejs`. 
-La siguiente figura muestra la estructura de vistas del ejemplo que estamos usando:
+* Aunque el módulo de autorización soporta cualquier *view engine*, la aplicación de ejemplo que use nuestro módulo provee las vistas en [ejs](https://ejs.co/)
+* La siguiente figura muestra la estructura de vistas del ejemplo que estamos usando:
 
   ```
   src/server/views/
@@ -153,9 +156,9 @@ La siguiente figura muestra la estructura de vistas del ejemplo que estamos usan
   module.exports = authentication;
   ```
 
-* Escriba un programa servidor que use su módulo.  
-* Despliegue su aplicación en la máquina virtual del [iaas](https://github.com/SYTW/iaas-ull-es) o en [Heroku](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/recursos/heroku.html) 
-* En el `README.md` escriba un tutorial con lo que ha aprendido en esta práctica
+* Escriba también un programa servidor en express que use su módulo. Deberá proteger una ruta conteniendo un tutorial que describe lo aprendido en esta práctica 
+* Despliegue su aplicación en la máquina virtual del [iaas](https://github.com/SYTW/iaas-ull-es) y en [Heroku](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/recursos/heroku.html) 
+* Escriba un tutorial con lo que ha aprendido en esta práctica
 * Cuando haga la entrega indique los enlaces a los repos (analizador) así como a los despliegues. Ponga también el enlace al despliegue en el README de su repo.
 
 
