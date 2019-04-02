@@ -159,7 +159,10 @@ por [@ull-esit-pl/auth](https://www.npmjs.com/package/@ull-esit-pl/auth):
 * Escriba también un programa servidor en express que use su módulo. Deberá proteger una ruta conteniendo un tutorial que describe lo aprendido en esta práctica 
 * Despliegue su aplicación en la máquina virtual del [iaas](https://github.com/SYTW/iaas-ull-es) y en [Heroku](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/recursos/heroku.html) 
 * Escriba un tutorial con lo que ha aprendido en esta práctica
-* Cuando haga la entrega indique los enlaces a los repos (analizador) así como a los despliegues. Ponga también el enlace al despliegue en el README de su repo.
+* Cuando acepte la asignación en Github Classroom se le creará el repo `p8-t3-sessions-and-modules-aluXXXX`correspondiente. Proceda de esta forma:
+  1. Cree dentro de la organización un repo `ULL-ESIT-DSI-1819/auth-aluXXXX` con el código del módulo de autorización que publicará en npm en su ámbito `@aluXXXX`
+  2. Cree dentro de la organización un repo `ULL-ESIT-DSI-1819/server-auth-aluXXXX` que contiene el código del server que usa el módulo y que contiene el tutorial
+  3. Añada al repo `ULL-ESIT-DSI-1819/p8-t3-sessions-and-modules-aluXXXX` como submódulos git  los dos módulos anteriores. Incluya un `README.md` en este repo
 
 
 
@@ -203,13 +206,12 @@ por [@ull-esit-pl/auth](https://www.npmjs.com/package/@ull-esit-pl/auth):
     ```
    Those suck for maintenance and they're ugly.
 
-### Diseño
+### Git submodulos
 
-* [Apuntes: Code Smells](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/codesmell.html)
-* [Principios de Diseño](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/designprinciples.html)
-* [Patrones de Diseño](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/)
-* [Strategy Pattern](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/strategypattern.html)
-* [Práctica: Eliminando Switch Smell](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicanoswitchsmell.html)
+* Libro de Git. Chapter [7.11 Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+* [git help submodule](https://git-scm.com/docs/git-submodule)
+* Stackoverflow: [How do I remove a submodule?](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule)
+* [Vídeo *uso de sub modulos en git: practica "modulos en npm"*](https://youtu.be/17cZY3na3As). Se refiere a otra práctica pero puede serles útil
 
 ## Notas para el Profesor
 
