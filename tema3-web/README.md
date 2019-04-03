@@ -166,7 +166,7 @@ en los apuntes del profesor
 
 ## Capítulo: Web Scrapping
 
-> **Crawling** refers to the act of going through multiple sites. **Web scrapping** refers to going after content from a website. Scrapping refers to the act of getting the content from the site.
+> **Crawling** refers to the act of going through multiple sites. **Web scrapping** refers to going after content from a website. Scrapping refers to the act of getting the content from the site. See [Stackoverflow](https://stackoverflow.com/questions/4327392/what-is-the-difference-between-web-crawling-and-web-scraping)
 
 * How to Perform Web-Scraping using Node.js- Part 1
   * [How to Perform Web-Scraping using Node.js- Part 1](https://blog.bitsrc.io/https-blog-bitsrc-io-how-to-perform-web-scraping-using-node-js-5a96203cb7cb)
