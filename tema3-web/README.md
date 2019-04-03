@@ -164,6 +164,13 @@ en los apuntes del profesor
 * [Build a Node.js App with Express + EJS + Stylus by Robin Skafte](https://scotch.io/@robinskafte/build-a-nodejs-app-with-express-ejs-stylus)
 -->
 
+## Capítulo: Web Scrapping
+
+* How to Perform Web-Scraping using Node.js- Part 1
+  * [How to Perform Web-Scraping using Node.js- Part 1](https://blog.bitsrc.io/https-blog-bitsrc-io-how-to-perform-web-scraping-using-node-js-5a96203cb7cb)
+  * [How to Perform Web-Scraping using Node.js- Part 2](https://blog.bitsrc.io/how-to-perform-web-scraping-using-node-js-part-2-7a365aeedb43)
+  * [ankitjain28may/scraping-nodejs](https://github.com/ankitjain28may/scraping-nodejs)
+  * [ankitjain28may/scraping-using-node](https://github.com/ankitjain28may/scraping-using-node)
 
 ## Capítulo: Bases de Datos No Relacionales: MongoDB
 
