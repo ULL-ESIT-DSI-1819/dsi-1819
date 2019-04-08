@@ -104,7 +104,9 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
 Véase la sección [Cookies y Autenticación](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/cookies/)
 en los apuntes del profesor
 
-### [Práctica: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)](practicas/p8-t3-sessions-and-modules)
+### Prácticas
+
+* [Práctica: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)](practicas/p8-t3-sessions-and-modules)
 
 **OAuth**
 
@@ -173,6 +175,7 @@ en los apuntes del profesor
   * [How to Perform Web-Scraping using Node.js- Part 2](https://blog.bitsrc.io/how-to-perform-web-scraping-using-node-js-part-2-7a365aeedb43)
   * [ankitjain28may/scraping-nodejs](https://github.com/ankitjain28may/scraping-nodejs)
   * [ankitjain28may/scraping-using-node](https://github.com/ankitjain28may/scraping-using-node)
+* [How can I scrape sites that require authentication using node.js?](https://stackoverflow.com/questions/8726079/how-can-i-scrape-sites-that-require-authentication-using-node-js) Stackoverflow
 
 ## Capítulo: Bases de Datos No Relacionales: MongoDB
 
