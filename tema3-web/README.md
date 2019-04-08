@@ -104,10 +104,6 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
 Véase la sección [Cookies y Autenticación](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/cookies/)
 en los apuntes del profesor
 
-### Prácticas
-
-* [Práctica: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)](practicas/p8-t3-sessions-and-modules)
-
 **OAuth**
 
 * [Introducción a OAuth](http://nereida.deioc.ull.es/~lpp/perlexamples/node773.html) (Apuntes del profesor)
@@ -158,6 +154,10 @@ en los apuntes del profesor
     (e.g.: `http://localhost:3000/login/facebook/return`).
     This will allow you to test your facebook plugins locally.
 * StackOverflow: [Facebook Site URL?](http://stackoverflow.com/questions/8107911/facebook-site-url)
+
+### Prácticas
+
+* [Práctica: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)](practicas/p8-t3-sessions-and-modules)
 
 <!--
 **Stylus**
