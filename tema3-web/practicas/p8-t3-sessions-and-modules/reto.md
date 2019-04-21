@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Indice de Contenidos**
 
 - [Reto: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)](#reto-cookies-sesiones-autenticaci%C3%B3n-y-m%C3%B3dulos-npm-p8-t3-sessions-and-modules)
   - [Requisitos Básicos](#requisitos-b%C3%A1sicos)
