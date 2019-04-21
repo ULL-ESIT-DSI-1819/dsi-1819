@@ -60,7 +60,7 @@ Su aplicación deberá tener estas rutas:
   - Cuando el request sea con `POST ` es que el formulario ha sido rellenado y enviado. Crearemos la tarea  y actualizaremos la vista 
 * Añadir tareas: `/todo/add`
 * Suprimir la tarea nº `id`:  `/todo/delete/:id:` 
-
+* Cualquier otra ruta será redirigida a `/todo` ([vea el método `redirect` del objeto `response`](http://expressjs.com/es/api.html#res.redirect))
 
 
 
