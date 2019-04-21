@@ -83,7 +83,7 @@ Su aplicación deberá tener estas rutas:
 * Suprimir la tarea nº `id`:  `/todo/delete/:id:` 
 * Cualquier otra ruta será redirigida a `/todo` ([vea el método `redirect` del objeto `response`](http://expressjs.com/es/api.html#res.redirect))
 
-## Requisito adicional:  Implementar Middleware Contador de Nº de Visitas
+### Requisito adicional:  Implementar Middleware Contador de Nº de Visitas
 
 Añada a su app un middleware que lleve la cuenta de los caminos de las rutas visitadas. Cada vez que una ruta es visitada muestre la cuenta en al consola del servidor
 
