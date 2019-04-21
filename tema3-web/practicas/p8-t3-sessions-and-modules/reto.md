@@ -62,8 +62,14 @@ Su aplicación deberá tener estas rutas:
 * Suprimir la tarea nº `id`:  `/todo/delete/:id:` 
 * Cualquier otra ruta será redirigida a `/todo` ([vea el método `redirect` del objeto `response`](http://expressjs.com/es/api.html#res.redirect))
 
+## Middleware
 
+Añada a su app un middleware que lleve la cuenta de los caminos de las rutas visitadas. Cada vez que una ruta es visitada muestre la cuenta en al consola del servidor
 
+Véase:
+
+- [url-parse](https://www.npmjs.com/package/url-parse)
+- [parseurl](https://www.npmjs.com/package/parseurl)
 
 ## Recursos
 * [Documentación de Express](http://expressjs.com/en/api.html)
@@ -71,5 +77,9 @@ Su aplicación deberá tener estas rutas:
 * [express-session](https://www.npmjs.com/package/express-session) y  
 * [cookie-session](https://www.npmjs.com/package/cookie-session)
     - A user session can be stored in two main ways with cookies: on the server or on the client. 
+* [parseurl](https://www.npmjs.com/package/parseurl)
+* [url-parse](https://www.npmjs.com/package/url-parse)
     - cookie-session stores the session data on the client within a cookie, while a module like [express-session](https://www.npmjs.com/package/express-session) stores only a session identifier on the client within a cookie and stores the session data on the server, typically in a database.
 * [body-parser](https://www.npmjs.com/package/body-parser)
+* Repo de ejemplo [ULL-ESIT-DSI-1819/hello-cookies-and-sessions](https://github.com/ULL-ESIT-DSI-1819/hello-cookies-and-sessions)
+
