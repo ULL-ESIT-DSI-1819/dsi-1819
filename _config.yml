@@ -11,4 +11,7 @@ theme: jekyll-theme-midnight
 description: '3º. 2 cuatrimestre. Itinerario de Tecnologías de la Información. Grado en Ingeniería Informática. Curso 2018/2019'
 future: true
 show_downloads: false
-exclude: ['/Users/casiano/campus-virtual/1819/dsi1819/introduccion/tema1-introduccion/practicas/p2-t1-c3-file-system/sol-nodejs-filesystem-ch2/wrangling-the-fs-ale-ivan', '/Users/casiano/campus-virtual/1819/dsi1819/introduccion/tema1-introduccion/practicas/p2-t1-c3-file-system/sol-nodejs-filesystem-ch2/chapter20-node-ejs', '/Users/casiano/campus-virtual/1819/dsi1819/introduccion/tema1-introduccion/practicas/p2-t1-c3-file-system/sol-nodejs-the-right-way/filesystem-chapter-2', '/Users/casiano/campus-virtual/1819/dsi1819/introduccion/tema1-introduccion/practicas/p2-t1-c3-file-system/sol-nodejs-the-right-way/commanding-databases-chapter-6/sol-nodejs-the-right-way']
+exclude: 
+  - tema1-introduccion/practicas/p2-t1-c3-file-system/sol-nodejs-filesystem-ch2/ 
+  - tema2-async/practicas/p6-t2-microservices/eval/
+  - tema3-web/practicas/p8-t3-sessions-and-modules/resources/
