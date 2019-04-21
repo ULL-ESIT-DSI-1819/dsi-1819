@@ -22,8 +22,8 @@ El cliente puede añadir y suprimir tareas a hacer.
 ### Requisitos Básicos
 
 * Podemos añadir elementos a la lista usando el formulario.  
-* Podemos suprimir items haciendo click en las cruces en la lista.  
-* La lista es almacenada en la session del visitante.  Si otro se conecta al site, tendrá su propia lista por cuanto está guardada en la session.
+* Podemos suprimir items haciendo click en las cruces que aparecen en cada elemento de la lista.
+* La lista es almacenada en la session del visitante.  Si otro visitante se conecta al site, tendrá su propia lista por cuanto está guardada en la session.
 
 ### La Vista
 
