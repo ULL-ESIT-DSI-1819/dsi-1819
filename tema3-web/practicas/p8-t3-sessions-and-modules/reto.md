@@ -10,6 +10,7 @@
   - [Requisito adicional:  Implementar Middleware Contador de Nº de Visitas](#requisito-adicional--implementar-middleware-contador-de-n%C2%BA-de-visitas)
   - [Requisito adicional: Guardar los datos de las sesiones](#requisito-adicional-guardar-los-datos-de-las-sesiones)
   - [Recursos para el Reto](#recursos-para-el-reto)
+  - [Solución al Reto](#solucion-al-reto)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -115,6 +116,8 @@ Puede ayudarle este módulo:
 * Repo de ejemplo [ULL-ESIT-DSI-1819/hello-cookies-and-sessions](https://github.com/ULL-ESIT-DSI-1819/hello-cookies-and-sessions)
 * [session-file-store](https://www.npmjs.com/package/session-file-store)
 * [session-file-store](https://www.npmjs.com/package/session-file-store)
+
+### Solucion al Reto 
 
 * [Solución al reto](https://github.com/ULL-ESIT-DSI-1819/reto-p8-t3-sessions-todolist) (No accesible)
 
