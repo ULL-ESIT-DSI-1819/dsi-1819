@@ -77,9 +77,9 @@ Puede que le sea útil alguno de estos módulos:
 - [url-parse](https://www.npmjs.com/package/url-parse)
 - [parseurl](https://www.npmjs.com/package/parseurl)
 
-### Requisito adicional
+### Requisito adicional: Guardar los datos de las sesiones
 
-* Guarde los datos de sesión en un fichero JSON
+* Guarde los datos de las sesiones en un fichero JSON
 
 Puede ayudarle este módulo:
 
