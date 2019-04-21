@@ -2,7 +2,7 @@
 
 Cree una web app usando express que gestione uan lista TODO de cosas que hacer.
 El cliente puede añadir y suprimir tareas a hacer.
-Este es la vista principal:
+Esta es la vista principal:
 
 ![todo.png](todo.png)
 
