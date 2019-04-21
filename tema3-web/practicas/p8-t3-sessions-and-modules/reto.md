@@ -48,25 +48,8 @@ Este es el código de la vista en `ejs`:
 Podemos usar express para el servidor, 
 [EJS](https://ejs.co/#docs) para las vistas y como middlewares 
 
-* [cookie-session]([cookie-session](https://www.npmjs.com/package/cookie-session)) y  
+* [express-session](https://www.npmjs.com/package/express-session) y  
 * [body-parser](https://www.npmjs.com/package/body-parser):
-
-**[~/javascript/expressjs/todo/my-todolist(master)]$ cat package.json**
-
-```js
-{
-    "name": "my-todolist",
-    "version": "0.1.0",
-    "dependencies": {
-        "express": "~4.11.0",
-        "ejs": "~2.1.4",
-        "cookie-session": "~1.1.0",
-        "body-parser": "~1.10.1"
-    },
-    "author": "DSI1819",
-    "description": "A very basic to do list manager"
-}
-```
 
 ## Rutas
 
@@ -85,7 +68,8 @@ Su aplicación deberá tener estas rutas:
 ## Recursos
 * [Documentación de Express](http://expressjs.com/en/api.html)
 * [EJS](https://ejs.co/#docs) 
+* [express-session](https://www.npmjs.com/package/express-session) y  
 * [cookie-session](https://www.npmjs.com/package/cookie-session)
     - A user session can be stored in two main ways with cookies: on the server or on the client. 
     - cookie-session stores the session data on the client within a cookie, while a module like [express-session](https://www.npmjs.com/package/express-session) stores only a session identifier on the client within a cookie and stores the session data on the server, typically in a database.
-* [bodie-parser](https://www.npmjs.com/package/body-parser)
+* [body-parser](https://www.npmjs.com/package/body-parser)
