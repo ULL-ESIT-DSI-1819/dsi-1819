@@ -1,14 +1,18 @@
 ## Reto: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)
 
-Cree una web app usando express que gestione uan lista TODO de cosas que hacer.
+Cree una web app usando express que gestione una lista *TODO* de cosas que hacer.
 El cliente puede añadir y suprimir tareas a hacer.
 Esta es la vista principal:
 
 ![todo.png](todo.png)
 
+### Requisitos Básicos
+
 * Podemos añadir elementos a la lista usando el formulario.  
 * Podemos suprimir items haciendo click en las cruces en la lista.  
 * La lista es almacenada en la session del visitante.  Si otro se conecta al site, tendrá su propia lista por cuanto está guardada en la session.
+
+### La Vista
 
 Este es el código de la vista en `ejs`:
 
@@ -45,13 +49,15 @@ Este es el código de la vista en `ejs`:
 </html>
 ```
 
+### Middlewares a usar
+
 Podemos usar express para el servidor, 
 [EJS](https://ejs.co/#docs) para las vistas y como middlewares 
 
 * [express-session](https://www.npmjs.com/package/express-session) y  
 * [body-parser](https://www.npmjs.com/package/body-parser):
 
-## Rutas
+### Rutas que deberá implementar
 
 Su aplicación deberá tener estas rutas:
 
@@ -62,16 +68,17 @@ Su aplicación deberá tener estas rutas:
 * Suprimir la tarea nº `id`:  `/todo/delete/:id:` 
 * Cualquier otra ruta será redirigida a `/todo` ([vea el método `redirect` del objeto `response`](http://expressjs.com/es/api.html#res.redirect))
 
-## Middleware
+## Requsito adicional:  Implementar Middleware Contador de Nº de Visitas
 
 Añada a su app un middleware que lleve la cuenta de los caminos de las rutas visitadas. Cada vez que una ruta es visitada muestre la cuenta en al consola del servidor
 
-Véase:
+Puede que le sea útil alguno de estos módulos:
 
 - [url-parse](https://www.npmjs.com/package/url-parse)
 - [parseurl](https://www.npmjs.com/package/parseurl)
 
-## Recursos
+### Recursos para el Reto 
+
 * [Documentación de Express](http://expressjs.com/en/api.html)
 * [EJS](https://ejs.co/#docs) 
 * [express-session](https://www.npmjs.com/package/express-session) y  
