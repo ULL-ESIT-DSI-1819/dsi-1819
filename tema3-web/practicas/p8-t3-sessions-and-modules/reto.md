@@ -68,7 +68,7 @@ Su aplicación deberá tener estas rutas:
 * Suprimir la tarea nº `id`:  `/todo/delete/:id:` 
 * Cualquier otra ruta será redirigida a `/todo` ([vea el método `redirect` del objeto `response`](http://expressjs.com/es/api.html#res.redirect))
 
-## Requsito adicional:  Implementar Middleware Contador de Nº de Visitas
+## Requisito adicional:  Implementar Middleware Contador de Nº de Visitas
 
 Añada a su app un middleware que lleve la cuenta de los caminos de las rutas visitadas. Cada vez que una ruta es visitada muestre la cuenta en al consola del servidor
 
@@ -76,6 +76,15 @@ Puede que le sea útil alguno de estos módulos:
 
 - [url-parse](https://www.npmjs.com/package/url-parse)
 - [parseurl](https://www.npmjs.com/package/parseurl)
+
+### Requisito adicional
+
+* Guarde los datos de sesión en un fichero JSON
+
+Puede ayudarle este módulo:
+
+* [session-file-store](https://www.npmjs.com/package/session-file-store)
+
 
 ### Recursos para el Reto 
 
@@ -89,4 +98,8 @@ Puede que le sea útil alguno de estos módulos:
     - cookie-session stores the session data on the client within a cookie, while a module like [express-session](https://www.npmjs.com/package/express-session) stores only a session identifier on the client within a cookie and stores the session data on the server, typically in a database.
 * [body-parser](https://www.npmjs.com/package/body-parser)
 * Repo de ejemplo [ULL-ESIT-DSI-1819/hello-cookies-and-sessions](https://github.com/ULL-ESIT-DSI-1819/hello-cookies-and-sessions)
+* [session-file-store](https://www.npmjs.com/package/session-file-store)
+* [session-file-store](https://www.npmjs.com/package/session-file-store)
+
+* [Solución al reto](https://github.com/ULL-ESIT-DSI-1819/reto-p8-t3-sessions-todolist) (No accesible)
 
