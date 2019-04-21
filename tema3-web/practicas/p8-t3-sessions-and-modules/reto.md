@@ -18,9 +18,6 @@
 
 Cree una web app usando express que gestione una lista *TODO* de cosas que hacer.
 El cliente puede añadir y suprimir tareas a hacer.
-Esta es la vista principal:
-
-![todo.png](todo.png)
 
 ### Requisitos Básicos
 
@@ -29,6 +26,10 @@ Esta es la vista principal:
 * La lista es almacenada en la session del visitante.  Si otro se conecta al site, tendrá su propia lista por cuanto está guardada en la session.
 
 ### La Vista
+
+Esta es la vista principal:
+
+![todo.png](todo.png)
 
 Este es el código de la vista en `ejs`:
 
