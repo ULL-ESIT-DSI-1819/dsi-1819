@@ -177,6 +177,10 @@ en los apuntes del profesor
   * [ankitjain28may/scraping-using-node](https://github.com/ankitjain28may/scraping-using-node)
 * [How can I scrape sites that require authentication using node.js?](https://stackoverflow.com/questions/8726079/how-can-i-scrape-sites-that-require-authentication-using-node-js) Stackoverflow
 
+### Prácticas
+
+* [Práctica Transforming Data and Testing Continuously (p9-t3-transfoming-data)](practicas/p9-t3-transforming-data/)
+
 ## Capítulo: Bases de Datos No Relacionales: MongoDB
 
 **Apuntes del profesor para Mongo**
