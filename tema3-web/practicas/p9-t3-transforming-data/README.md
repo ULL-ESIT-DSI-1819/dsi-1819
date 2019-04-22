@@ -1,6 +1,8 @@
 # Práctica Transforming Data and Testing Continuously (p9-t3-transfoming-data)
 
-* Lea el [Capítulo 5 "Transforming Data and Testing Continuously" de *Node.JS The Right Way*](https://github.com/ULL-MII-CA-1819/resources/blob/master/node-js-the-right-way/chapter-5-transforming-data-and-testing-coninuously.pdf) y resuelva los problemas en la secciónes *Extracting Classification Codes* y *Extracting Sources*
+* Lea el 
+[Capítulo 5 "Transforming Data and Testing Continuously" de *Node.JS The Right Way*](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-iidot-working-with-data/chp_databases_html)
+y resuelva los problemas en la secciónes *Extracting Classification Codes* y *Extracting Sources*
 
 ##### Extracting Classification Codes
 
