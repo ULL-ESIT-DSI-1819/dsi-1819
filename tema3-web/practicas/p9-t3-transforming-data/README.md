@@ -9,7 +9,7 @@ y resuelva los problemas en la secciónes *Extracting Classification Codes* y *E
 - When extracting fields from the Project Gutenberg RDF (XML) files,
 in Traversing the Document, we specifically selected the Library
 of Congress Subject Headings (LCSH) and stored them in an array
-called subjects. 
+called subjects.
 - At that time, we carefully avoided the Library of
 Congress Classification (LCC) single-letter codes. Recall that the
 LCC portion of an RDF file looks like this:
