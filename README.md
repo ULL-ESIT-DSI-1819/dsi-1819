@@ -34,3 +34,4 @@
 
 ### [Práctica: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)](tema3-web/practicas/p8-t3-sessions-and-modules)
 
+### [Práctica Transforming Data and Testing Continuously (p9-t3-transfoming-data)](tema3-web/practicas/p9-t3-transforming-data/)
