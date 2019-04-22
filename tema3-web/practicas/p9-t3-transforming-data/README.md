@@ -5,7 +5,7 @@
 y resuelva los problemas en la secciónes 
 [*Extracting Classification Codes* y *Extracting Sources*](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-iidot-working-with-data/chp_databases_html#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMTQ3NDZfaHRtbCZxdWVyeT0=)
 
-##### Extracting Classification Codes
+## Extracting Classification Codes
 
 - When extracting fields from the Project Gutenberg RDF (XML) files,
 in Traversing the Document, we specifically selected the Library
@@ -34,7 +34,7 @@ Using your BDD infrastructure built on Mocha and Chai, implement the following:
 2. Add code to your exported module function in `parse-rdf.js` to make the tests pass.
 
 
-##### Extracting Sources
+## Extracting Sources
 
 Most of the metadata in the Project Gutenberg RDF files describes
 where each book can be downloaded in various formats. 
