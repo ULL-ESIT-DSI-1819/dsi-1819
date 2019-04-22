@@ -4,14 +4,20 @@
 
 ##### Extracting Classification Codes
 
-When extracting fields from the Project Gutenberg RDF (XML) files, in Traversing the Document, we specifically selected the Library of Congress Subject Headings (LCSH) and stored them in an array called subjects. At that time, we carefully avoided the Library of Congress Classification (LCC) single-letter codes. Recall that the LCC portion of an RDF file looks like this:
+- When extracting fields from the Project Gutenberg RDF (XML) files,
+in Traversing the Document, we specifically selected the Library
+of Congress Subject Headings (LCSH) and stored them in an array
+called subjects. 
+- At that time, we carefully avoided the Library of
+Congress Classification (LCC) single-letter codes. Recall that the
+LCC portion of an RDF file looks like this:
 
-```
+```xml
 <dcterms:subject>
-<rdf:Description rdf:nodeID="Nfb797557d91f44c9b0cb80a0d207eaa5">
-<dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-<rdf:value>U</rdf:value>
-</rdf:Description>
+  <rdf:Description rdf:nodeID="Nfb797557d91f44c9b0cb80a0d207eaa5">
+    <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+    <rdf:value>U</rdf:value>
+  </rdf:Description>
 </dcterms:subject>
 ```
 
@@ -21,31 +27,35 @@ Using your BDD infrastructure built on Mocha and Chai, implement the following:
 * It should be of type `string` and it should be at least one character long.
 * It should start with an uppercase letter of the English alphabet, but not I, O, W, X, or Y.
 
-Run the tests to see that they fail.
-
-Add code to your exported module function in `parse-rdf.js` to make the tests pass.
+1. Run the tests to see that they fail.
+2. Add code to your exported module function in `parse-rdf.js` to make the tests pass.
 
 
 ##### Extracting Sources
 
-Most of the metadata in the Project Gutenberg RDF files describes where each book can be downloaded in various formats. For example, here’s the part that shows where to download the plain text of The Art of War:
+Most of the metadata in the Project Gutenberg RDF files describes
+where each book can be downloaded in various formats. 
 
-```
+For example,
+here’s the part that shows where to download the plain text of The
+Art of War:
+
+```xml
 <dcterms:hasFormat>
-<pgterms:file rdf:about="http://www.gutenberg.org/ebooks/132.txt.utf-8">
-<dcterms:isFormatOf rdf:resource="ebooks/132"/>
-<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">
-2016-09-01T01:20:00.437616</dcterms:modified>
-<dcterms:format>
-<rdf:Description rdf:nodeID="N2293d0caa918475e922a48041b06a3bd">
-<dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-<rdf:value
-rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
-</rdf:Description>
-</dcterms:format>
-<dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">
-343691</dcterms:extent>
-</pgterms:file>
+  <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/132.txt.utf-8">
+    <dcterms:isFormatOf rdf:resource="ebooks/132"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">
+    2016-09-01T01:20:00.437616</dcterms:modified>
+    <dcterms:format>
+      <rdf:Description rdf:nodeID="N2293d0caa918475e922a48041b06a3bd">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+        <rdf:value
+        rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+      </rdf:Description>
+    </dcterms:format>
+    <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">
+    343691</dcterms:extent>
+  </pgterms:file>
 </dcterms:hasFormat>
 
         ...
@@ -62,10 +72,15 @@ rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
-    </dcterms:hasFormat>
+</dcterms:hasFormat>
 ```
 
-Suppose we wanted to include a list of download sources in each JSON object we create from an RDF file. To get an idea of what data you might want, take a look at the [Project Gutenberg page for The Art of War](http://www.gutenberg.org/ebooks/132).
+Suppose we wanted to include a list of download sources in each
+JSON object we create from an RDF file. 
+
+To get an idea of what data
+you might want, take a look at the [Project Gutenberg page for The
+Art of War](http://www.gutenberg.org/ebooks/132).
 
 Consider these questions:
 
@@ -73,9 +88,14 @@ Consider these questions:
 * What structure would make the most sense for this data?
 * What information would you need to be able to produce a table that looked like the one on the Project Gutenberg site?
 
-Once you have an idea of what data you’ll want to extract, try creating a JSON object by hand for this one download source. When you’re happy with your data representation, use your existing continuous testing infrastructure and add a test that checks for this new information.
+Once you have an idea of what data you’ll want to extract, try
+creating a JSON object by hand for this one download source. When
+you’re happy with your data representation, use your existing
+continuous testing infrastructure and add a test that checks for
+this new information.
 
-Finally, extend the book object produced in `parse-rdf.js` to include this data to make the test pass.
+Finally, extend the book object produced in `parse-rdf.js` to include
+this data to make the test pass.
 
 
 ## Recursos
