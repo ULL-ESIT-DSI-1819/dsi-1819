@@ -68,6 +68,10 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
 
 * [REST API con Express, Mongodb y Async/Await](https://www.youtube.com/watch?v=0XgRqjAAsaU&list=PLL0TiOXBeDajy0GJ47Ce9dU_iYxddpR4o) 6 vídeos por Fatz
 
+### Prácticas
+
+* [Descripción de la práctica p10-t3-commanding-databases](practicas/p10-t3-commanding-databases)
+
 
 ## Capítulo: Google APIs
 
