@@ -36,4 +36,4 @@
 
 ### [Práctica: Transforming Data and Testing Continuously (p9-t3-transfoming-data)](tema3-web/practicas/p9-t3-transforming-data/)
 
-### [Práctica: p10-t3-commanding-databases](practicas/p10-t3-commanding-databases)
+### [Práctica: p10-t3-commanding-databases](tema3-web/practicas/p10-t3-commanding-databases)
