@@ -71,6 +71,7 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
 ### Prácticas
 
 * [Descripción de la práctica p10-t3-commanding-databases](practicas/p10-t3-commanding-databases)
+* [Práctica: developing RESTful Web Services (p11-t3-restful)](practicas/p11-t3-restful)
 
 
 ## Capítulo: Google APIs

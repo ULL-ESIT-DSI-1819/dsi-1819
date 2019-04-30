@@ -37,3 +37,5 @@
 ### [Práctica: Transforming Data and Testing Continuously (p9-t3-transfoming-data)](tema3-web/practicas/p9-t3-transforming-data/)
 
 ### [Práctica: Commanding Databases (p10-t3-commanding-databases)](tema3-web/practicas/p10-t3-commanding-databases)
+
+### [Práctica: developing RESTful Web Services (p11-t3-restful)](tema3-web/practicas/p11-t3-restful)
