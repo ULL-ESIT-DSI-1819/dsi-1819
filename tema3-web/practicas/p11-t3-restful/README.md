@@ -1,6 +1,9 @@
 # Práctica: Developing RESTful Web Services (p11-t3-restful)
 
-* Lea el  [Chapter 7. Developing RESTful Web Services](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344/sec_using_request_to_fetch_html?sessionid=#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZjaHBfd2ViX3NlcnZpY2VzX2h0bWwmcXVlcnk9) y resuelva los problemas en la secciónes [*Deleting a Bundle Entirely*](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344/sec_using_request_to_fetch_html?sessionid=#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMjcxODZfaHRtbCZxdWVyeT0=) y 
+* Lea el  [Chapter 7. Developing RESTful Web Services](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344/sec_using_request_to_fetch_html?sessionid=#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZjaHBfd2ViX3NlcnZpY2VzX2h0bWwmcXVlcnk9) 
+y resuelva los problemas en la secciónes 
+[*Deleting a Bundle Entirely*](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344/sec_using_request_to_fetch_html?sessionid=#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMjcxODZfaHRtbCZxdWVyeT0=) 
+y 
 [*Removing a Book from a Bundle*](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344/sec_using_request_to_fetch_html?sessionid=#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMjcxODZfaHRtbCZxdWVyeT0=)
 
 ## Recursos
