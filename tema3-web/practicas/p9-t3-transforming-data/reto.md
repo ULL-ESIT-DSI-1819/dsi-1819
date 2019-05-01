@@ -39,8 +39,8 @@ Pruebe su programa con las entradas:
 * conservas-fruta-y-dulces.
 
 En general, se puede saber que categorías de alimentos están disponibles visitando la página
-[https://www.hiperdino.es/](https://www.hiperdino.es/). Cuando visite la página,
-pulse inspeccionar estando sobre la categoría de alimento deseada:
+[https://www.hiperdino.es/](https://www.hiperdino.es/). Cuando visite esta página,
+pulse inspeccionar estando sobre la categoría de alimento deseada y así podrá saber el nombre la página HTML:
 
 ![Categorías de Alimentos en Hiperdino](hiperdino-alimento-categoria.png)
 
