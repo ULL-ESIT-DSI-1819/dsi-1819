@@ -10,7 +10,7 @@ del supermercado Hiperdino y obtenga la lista de precios
 de hiperdino para un alimento pasado como argumento en línea de comandos. Algo similar a esto:
 
 ```
-[~/TFGsrc/tfg-nicolangelo/tfg-nicolangelo-software(scra-pi)]$ node precios-hiperdino.js arroz
+[~/TFGsrc/tfg-nicolangelo/tfg-nicolangelo-software(scra-pi)]$ ./hiperdino.js arroz
 {4,70 €: Trevijano quinoa 300 gr}
 {2,57 €: La Campana arroz basmati 1 kg}
 {2,86 €: La Campana arroz bomba 1 kg}
