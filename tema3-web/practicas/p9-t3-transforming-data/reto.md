@@ -44,3 +44,19 @@ pulse inspeccionar estando sobre la categoría de alimento deseada:
 
 ![Categorías de Alimentos en Hiperdino](hiperdino-alimento-categoria.png)
 
+## Sugerencias para Buscar la Descripción y Precio de un Item de una Categoría de Producto
+
+A fecha de Mayo de 2019 la página de Hiperdino para una categoría de producto
+`https://online.hiperdino.es/c9495/alimentacion/categoria-de-alimento.html`
+tiene una estructura
+
+* Cada producto se describe en un elemento `div` con la clase `.product-list-item`
+
+  ![item](item.png)
+
+* La descripción del producto está en un `div` con la clase `.description__text`
+* El precio aparece en un elemento `div`con la clase `.price__left` y dentro de el un `div` con la clase
+`.price__text`
+
+  ![precio](precio.png)
+
