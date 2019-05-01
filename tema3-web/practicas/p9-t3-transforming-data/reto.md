@@ -55,6 +55,9 @@ tiene una estructura como sigue:
   ![item](item.png)
 
 * La descripción del producto está en un `div` con la clase `.description__text`
+
+  ![item](description.png)
+
 * El precio aparece en un elemento `div`con la clase `.price__left` y dentro del mismo en un `div` con la clase
 `.price__text`
 
