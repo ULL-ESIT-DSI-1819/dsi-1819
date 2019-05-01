@@ -32,11 +32,11 @@ será una URL como `https://online.hiperdino.es/c9495/alimentacion/categoria-de-
 
 Pruebe su programa con las entradas: 
 
-* arroz, 
-* aceites, 
-* azucar-y-edulcorantes, 
-* cacao-y-cafe, 
-* conservas-fruta-y-dulces.
+* [arroz](https://online.hiperdino.es/c9495/alimentacion/arroz) 
+* [aceites](https://online.hiperdino.es/c9495/alimentacion/aceites) 
+* [azucar-y-edulcorantes](https://online.hiperdino.es/c9495/alimentacion/azucar-y-edulcorantes) 
+* [cacao-y-cafe](https://online.hiperdino.es/c9495/alimentacion/cacao-y-cafe) 
+* [conservas-fruta-y-dulces](https://online.hiperdino.es/c9495/alimentacion/conservas-fruta-y-dulces)
 
 En general, se puede saber que categorías de alimentos están disponibles visitando la página
 [https://www.hiperdino.es/](https://www.hiperdino.es/). Cuando visite esta página,
