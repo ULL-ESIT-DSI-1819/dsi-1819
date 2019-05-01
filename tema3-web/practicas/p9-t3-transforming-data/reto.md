@@ -38,7 +38,7 @@ Pruebe su programa con las entradas:
 * cacao-y-cafe, 
 * conservas-fruta-y-dulces.
 
-En general, se puede saber que categorías de alimentos están disponibles en la página
+En general, se puede saber que categorías de alimentos están disponibles visitando la página
 [https://www.hiperdino.es/](https://www.hiperdino.es/). Cuando visite la página,
 pulse inspeccionar estando sobre la categoría de alimento deseada:
 
