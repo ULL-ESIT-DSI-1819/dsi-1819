@@ -5,18 +5,26 @@ Usando los módulos
 * [request](https://www.npmjs.com/package/request)  o [request-promise](https://www.npmjs.com/package/request-promise) y 
 * [cheerio](https://www.npmjs.com/package/cheerio), 
 
-Escriba un  programa Node.js que se conecte a la página 
-del supermercado Hiperdino y obtenga la lista de precios
-de Hiperdino para una categoría de alimento pasado como argumento en línea de comandos. Algo similar a esto:
+Escriba un programa Node.js  al que se le pasa como argumento en línea de comandos una categoría de alimento 
+y que muestre una lista de objetos JSON con las descripciones de 
+los productos y precios de los productos en Hiperdino que caen en dicha categoría.
+
+Algo similar a esto:
 
 ```
-[~/TFGsrc/tfg-nicolangelo/tfg-nicolangelo-software(scra-pi)]$ ./hiperdino.js arroz
-{4,70 €: Trevijano quinoa 300 gr}
-{2,57 €: La Campana arroz basmati 1 kg}
-{2,86 €: La Campana arroz bomba 1 kg}
-{2,95 €: Nomen arroz basmati 1 kg}
-{3,13 €: Nomen arroz bomba 1 kg}
-{0,75 €: Nomen arroz coción rápida 250 gr}
+$ ./hiperdino.js cacao-y-cafe
+{ "precio": "1,04 €", "descripcion": "Candelaria baxcao cacao 250 gr"}
+{ "precio": "2,72 €", "descripcion": "Cola Cao avenacao cacao soluble 350 gr"}
+{ "precio": "2,42 €", "descripcion": "Cola Cao cacao 0% fibra 300 gr"}
+{ "precio": "13,94 €", "descripcion": "Cola Cao cacao 3 kg"}
+{ "precio": "22,52 €", "descripcion": "Cola Cao cacao caja 5 kg"}
+{ "precio": "2,62 €", "descripcion": "Cola Cao cacao complet 360 gr"}
+{ "precio": "5,46 €", "descripcion": "Cola Cao cacao ecobolsa 1,2 kg"}
+{ "precio": "6,59 €", "descripcion": "Cola Cao cacao en polvo instantáneo 0% 700 gr"}
+{ "precio": "2,96 €", "descripcion": "Cola Cao cacao light 325 gr"}
+{ "precio": "3,29 €", "descripcion": "Cola Cao cacao noir300 gr"}
+{ "precio": "2,70 €", "descripcion": "Cola Cao cacao original 400 gr"}
+{ "precio": "4,41 €", "descripcion": "Cola Cao cacao original 800 gr"}
 ...
 
 ```
