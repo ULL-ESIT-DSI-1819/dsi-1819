@@ -48,7 +48,7 @@ pulse inspeccionar estando sobre la categoría de alimento deseada:
 
 A fecha de Mayo de 2019 la página de Hiperdino para una categoría de producto
 `https://online.hiperdino.es/c9495/alimentacion/categoria-de-alimento.html`
-tiene una estructura
+tiene una estructura como sigue:
 
 * Cada producto se describe en un elemento `div` con la clase `.product-list-item`
 
