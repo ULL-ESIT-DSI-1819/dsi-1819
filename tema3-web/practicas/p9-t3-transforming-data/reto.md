@@ -29,16 +29,16 @@ $ ./hiperdino.js cacao-y-cafe
 
 ```
 
-Para obtener el precio del arroz nos conectaremos a la página
+La idea es que en la web  de Hiperdino para obtener la información sobre una categoría de productos como `arroz` debemos ahcer un request a una ruta como esta:
 
 [https://online.hiperdino.es/c9495/alimentacion/arroz.html](https://online.hiperdino.es/c9495/alimentacion/arroz.html)
 
-En general para una `categoria-de-alimento` 
-será una URL como `https://online.hiperdino.es/c9495/alimentacion/categoria-de-alimento.html`
+En general para una `:categoria-de-alimento` 
+la ruta será `https://online.hiperdino.es/c9495/alimentacion/:categoria-de-alimento.html`
 
 ## Categorías de Alimentos de Hiperdino
 
-Pruebe su programa con las entradas: 
+Estas son algunas categorías de alimentos reconocidas por Hiperdino:
 
 * [arroz](https://online.hiperdino.es/c9495/alimentacion/arroz) 
 * [aceites](https://online.hiperdino.es/c9495/alimentacion/aceites) 
