@@ -44,6 +44,35 @@ pulse inspeccionar estando sobre la categoría de alimento deseada y así podrá
 
 ![Categorías de Alimentos en Hiperdino](hiperdino-alimento-categoria.png)
 
+De hecho un simple `grep` como este nos da la lista de categorías:
+
+```
+$ grep 'https://www.hiperdino.es/c9495/alimentacion/' hiperdino.md 
+
+"https://www.hiperdino.es/c9495/alimentacion/aceites.html" rel=
+"noreferrer noopener">https://www.hiperdino.es/c9495/alimentacion/aceites.html</a>"
+"https://www.hiperdino.es/c9495/alimentacion/aperitivo.html" rel=
+"noreferrer noopener">https://www.hiperdino.es/c9495/alimentacion/aperitivo.html</a>"
+"https://www.hiperdino.es/c9495/alimentacion/arroz.html" rel=
+"noreferrer noopener">https://www.hiperdino.es/c9495/alimentacion/arroz.html</a>"
+"https://www.hiperdino.es/c9495/alimentacion/azucar-y-edulcorantes.html"
+"noreferrer noopener">https://www.hiperdino.es/c9495/alimentacion/azucar-y-edulcorantes.html</a>"
+"https://www.hiperdino.es/c9495/alimentacion/cacao-y-cafe.html"
+rel="noreferrer noopener">https://www.hiperdino.es/c9495/alimentacion/cacao-y-cafe.html</a>"
+"https://www.hiperdino.es/c9495/alimentacion/caldos-sopas-y-cremas.html"
+"noreferrer noopener">https://www.hiperdino.es/c9495/alimentacion/caldos-sopas-y-cremas.html</a>"
+"https://www.hiperdino.es/c9495/alimentacion/cereales.html" rel=
+"noreferrer noopener">https://www.hiperdino.es/c9495/alimentacion/cereales.html</a>"
+"https://www.hiperdino.es/c9495/alimentacion/chocolate.html" rel=
+"noreferrer noopener">https://www.hiperdino.es/c9495/alimentacion/chocolate.html</a>"
+"https://www.hiperdino.es/c9495/alimentacion/comida-internacional.html"
+"noreferrer noopener">https://www.hiperdino.es/c9495/alimentacion/comida-internacional.html</a>"
+"https://www.hiperdino.es/c9495/alimentacion/condimentos.html" rel=
+"noreferrer noopener">https://www.hiperdino.es/c9495/alimentacion/condimentos.html</a>"
+"https://www.hiperdino.es/c9495/alimentacion/conservas-carne.html"
+...
+```
+
 ## Sugerencias para Buscar la Descripción y Precio de un Item de una Categoría de Producto
 
 A fecha de Mayo de 2019 la página de Hiperdino para una categoría de producto
