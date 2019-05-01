@@ -26,9 +26,9 @@ Para obtener el precio del arroz nos conectamos a la página
 
 Pruebe con las entradas: arroz, aceites, azucar-y-edulcorantes, cacao-y-cafe, conservas-fruta-y-dulces.
 
-En general, se puede obtener una lista de las categorías de alimentos disponibles eb la página
+En general, se puede saber que categorías de alimentos están disponibles en la página
 [https://www.hiperdino.es/](https://www.hiperdino.es/). Cuando visite la página,
-pulse inspeccionar sobre el elemento deseado:
+pulse inspeccionar estando sobre la categoría de alimento deseada:
 
 ![Categorías de Alimentos en Hiperdino](hiperdino-alimento-categoria.png)
 
