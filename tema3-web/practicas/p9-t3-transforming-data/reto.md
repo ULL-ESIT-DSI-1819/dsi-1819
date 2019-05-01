@@ -18,6 +18,7 @@ de hiperdino para una categoría de alimento pasado como argumento en línea de 
 {3,13 €: Nomen arroz bomba 1 kg}
 {0,75 €: Nomen arroz coción rápida 250 gr}
 ...
+
 ```
 
 Para obtener el precio del arroz nos conectaremos a la página
