@@ -7,7 +7,7 @@ Usando los módulos
 
 Escriba un  programa Node.js que se conecte a la página 
 del supermercado Hiperdino y obtenga la lista de precios
-de hiperdino para un alimento pasado como argumento en línea de comandos. Algo similar a esto:
+de hiperdino para una categoría de alimento pasado como argumento en línea de comandos. Algo similar a esto:
 
 ```
 [~/TFGsrc/tfg-nicolangelo/tfg-nicolangelo-software(scra-pi)]$ ./hiperdino.js arroz
@@ -20,9 +20,14 @@ de hiperdino para un alimento pasado como argumento en línea de comandos. Algo 
 ...
 ```
 
-Para obtener el precio del arroz nos conectamos a la página
+Para obtener el precio del arroz nos conectaremos a la página
 
 [https://online.hiperdino.es/c9495/alimentacion/arroz.html](https://online.hiperdino.es/c9495/alimentacion/arroz.html)
+
+En general para una `categoria-de-alimento` 
+será una URL como `https://online.hiperdino.es/c9495/alimentacion/categoria-de-alimento.html`
+
+## Categorías de Alimentos
 
 Pruebe con las entradas: arroz, aceites, azucar-y-edulcorantes, cacao-y-cafe, conservas-fruta-y-dulces.
 
