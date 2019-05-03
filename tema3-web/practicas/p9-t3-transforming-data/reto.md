@@ -110,5 +110,5 @@ tiene una estructura como sigue:
 
 ## Recursos. Páginas Completas
 
-* [Página Completa https://www.hiperdino.es/c9495/alimentacion/arroz.html](arroz.md) (Mayo 2019)
+* [Página Completa de la categoría *arroz*: https://www.hiperdino.es/c9495/alimentacion/arroz.html](arroz.md) (Mayo 2019)
 * [Página Completa https://www.hiperdino.es/c9495/](hiperdino.md) (Mayo 2019)
