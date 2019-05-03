@@ -53,11 +53,18 @@ sobre la categoría de alimento deseada y así podrá saber el nombre la página
 
 ![Categorías de Alimentos en Hiperdino](hiperdino-alimento-categoria.png)
 
-De hecho un simple `grep` en [la página html de https://www.hiperdino.es/](hiperdino.md) como este nos da la lista de categorías:
+De hecho si nos descargamos 
+[la página html de https://www.hiperdino.es/](hiperdino.md) 
+y hacemos una búsqueda con `grep` 
+como esta:
 
 ```
 $ grep 'https://www.hiperdino.es/c9495/alimentacion/' hiperdino.md 
+```
 
+obtenemos la lista de páginas HTML para las categorías de alimentos:
+
+```
 "https://www.hiperdino.es/c9495/alimentacion/aceites.html" rel=
 "noreferrer noopener">https://www.hiperdino.es/c9495/alimentacion/aceites.html</a>"
 "https://www.hiperdino.es/c9495/alimentacion/aperitivo.html" rel=
