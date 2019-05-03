@@ -29,7 +29,7 @@ $ ./hiperdino.js cacao-y-cafe
 
 ```
 
-La idea es que en la web  de Hiperdino para obtener la información sobre una categoría de productos como `arroz` debemos ahcer un request a una ruta como esta:
+La idea es que en la web  de Hiperdino para obtener la información sobre una categoría de productos como `arroz` debemos hacer un request a una ruta como esta:
 
 [https://online.hiperdino.es/c9495/alimentacion/arroz.html](https://online.hiperdino.es/c9495/alimentacion/arroz.html)
 
