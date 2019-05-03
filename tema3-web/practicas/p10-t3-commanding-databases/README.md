@@ -26,3 +26,7 @@ y resuelva los problemas en la secciónes
 
 * [jq manual](https://stedolan.github.io/jq/manual/)
 * [JSON on the command line with jq](https://shapeshed.com/jq-json/)
+
+### Elasticsearch
+
+* [A Practical Introduction to Elasticsearch By Ismael Hasan Romero](https://www.elastic.co/es/blog/a-practical-introduction-to-elasticsearch)
