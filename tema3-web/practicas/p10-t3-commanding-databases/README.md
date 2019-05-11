@@ -26,6 +26,7 @@ y resuelva los problemas en la secciónes
 
 * [jq manual](https://stedolan.github.io/jq/manual/)
 * [JSON on the command line with jq](https://shapeshed.com/jq-json/)
+* [jq simplified grammar extracted from the files parser.y and lexer.l in the jq sources](https://github.com/fadado/JBOL/blob/master/doc/JQ-language-grammar.md)
 
 ### Elasticsearch
 
