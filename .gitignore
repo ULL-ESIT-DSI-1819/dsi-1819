@@ -9,16 +9,23 @@ wrangling-the-fs-ale-ivan
 tema1-introduccion/practicas/p1-t1-iaas/repo-iaas.ull.es
 tema1-introduccion/practicas/p1-t1-iaas/express-start
 
-tema1-introduccion/practicas/p3-t1-c3-http/chapter20-node-js-2nd-sols
 tema1-introduccion/practicas/p2-t1-c3-file-system/sol-nodejs-filesystem-ch2
 tema1-introduccion/practicas/p2-t1-c3-file-system/sol-nodejs-the-right-way
+
+tema1-introduccion/practicas/p3-t1-c3-http/chapter20-node-js-2nd-sols
 tema1-introduccion/practicas/p3-t1-c3-http/chapter20-node-js
 
 tema2-async/RPC/
+tema2-async/promises/
+tema2-async/async-examples
+tema2-async/async-js-book
 
 tema2-async/practicas/p4-t2-networking/sols-ca1819
 tema2-async/practicas/p4-t2-networking/evaluacion/
 tema2-async/practicas/p4-t2-networking/eval-p4-t2-networking/
+
+tema3-web/practicas/p5-t3-websockets/websockets
+tema3-web/practicas/p5-t3-websockets/express-start
 
 tema2-async/practicas/p6-t2-microservices/05-njstrw-crm-alu0100693737
 tema2-async/practicas/p6-t2-microservices/05-njstrw-crm-marreA
@@ -30,15 +37,10 @@ tema2-async/practicas/p6-t2-microservices/eval/
 tema2-async/practicas/p7-t2-async-js-edx/t2-p10-async-js-alu0100693737-ivan
 tema2-async/practicas/p7-t2-async-js-edx/t2-p10-async-js-marreA
 tema2-async/practicas/p7-t2-async-js-edx/t2-p10-async-js-crguezl
-
-tema2-async/promises/
-
 tema2-async/practicas/p7-t2-async-js-edx/crguezl-async-js-edx 
-tema2-async/async-examples
-tema2-async/async-js-book
 
-tema3-web/practicas/p5-t3-websockets/websockets
-tema3-web/practicas/p5-t3-websockets/express-start
+tema3-web/web_workers
+tema3-web/websockets
 
 tema3-web/practicas/p8-t3-sessions-and-modules/modulo-npm
 tema3-web/practicas/p8-t3-sessions-and-modules/pl1718-solutions
@@ -47,15 +49,18 @@ tema3-web/practicas/p8-t3-sessions-and-modules/cookies/
 tema3-web/practicas/p8-t3-sessions-and-modules/ull-esit-pl-auth-module
 tema3-web/practicas/p8-t3-sessions-and-modules/resources/
 tema3-web/practicas/p8-t3-sessions-and-modules/my-todolist-reto
-tema3-web/practicas/p9-t3-transforming-data/ca1819-transforming-data
-tema3-web/practicas/p9-t3-transforming-data/transforming-data-and-testing-continuously-chapter-5
 tema3-web/practicas/p8-t3-sessions-and-modules/eval/
 
-tema3-web/web_workers
-tema3-web/websockets
+tema3-web/practicas/p9-t3-transforming-data/ca1819-transforming-data
+tema3-web/practicas/p9-t3-transforming-data/transforming-data-and-testing-continuously-chapter-5
 
 tema3-web/practicas/p10-t3-commanding-databases/ca1819-marre-ivan
 tema3-web/practicas/p10-t3-commanding-databases/ca1819-practicas
 tema3-web/practicas/p10-t3-commanding-databases/commanding-databases-chapter-6
 tema3-web/practicas/p10-t3-commanding-databases/sol-nodejs-the-right-way
+
+tema3-web/practicas/p11-t3-restful/crguezl-restful
+tema3-web/practicas/p11-t3-restful/ivan-restful
+tema3-web/practicas/p11-t3-restful/marrea-restful
+tema3-web/practicas/p11-t3-restful/sol-nodejs-the-right-way
 
