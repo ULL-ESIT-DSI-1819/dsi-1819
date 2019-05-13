@@ -5,44 +5,19 @@ Reescriba el programa de línea de comandos `esclu` usando `yargs` en vez de `co
 ## yargs
 
 * [yargs en npm](https://www.npmjs.com/package/yargs)
-* [Examples](https://github.com/yargs/yargs/blob/master/docs/examples.md)
 * [yargs home page](https://yargs.js.org/)
-
-### Ejemplo
-
-```javascript
-#!/usr/bin/env node
-require('yargs') // eslint-disable-line
-  .command('serve [port]', 'start the server', (yargs) => {
-    yargs
-      .positional('port', {
-        describe: 'port to bind on',
-        default: 5000
-      })
-  }, (argv) => {
-    if (argv.verbose) console.info(`start server on :${argv.port}`)
-    serve(argv.port)
-  })
-  .option('verbose', {
-    alias: 'v',
-    default: false
-  })
-  .argv
-```
-
-```
-$ hello-yargs.js --help
-
-hello-yargs.js [command]
-
-Comandos:
-  hello-yargs.js serve [port]  start the server
-
-Opciones:
-  --help         Muestra ayuda                                        [booleano]
-  --version      Muestra número de versión                            [booleano]
-  --verbose, -v                                                 [defecto: false]
-```
+* [Yargs' API](https://github.com/yargs/yargs/blob/master//docs/api.md)
+* [Examples](https://github.com/yargs/yargs/blob/master//docs/examples.md)
+* [Parsing Tricks](https://github.com/yargs/yargs/blob/master//docs/tricks.md)
+  * [Stop the Parser](https://github.com/yargs/yargs/blob/master//docs/tricks.md#stop)
+  * [Negating Boolean Arguments](https://github.com/yargs/yargs/blob/master//docs/tricks.md#negate)
+  * [Numbers](https://github.com/yargs/yargs/blob/master//docs/tricks.md#numbers)
+  * [Arrays](https://github.com/yargs/yargs/blob/master//docs/tricks.md#arrays)
+  * [Objects](https://github.com/yargs/yargs/blob/master//docs/tricks.md#objects)
+* [Advanced Topics](https://github.com/yargs/yargs/blob/master//docs/advanced.md)
+  * [Composing Your App Using Commands](https://github.com/yargs/yargs/blob/master//docs/advanced.md#commands)
+  * [Building Configurable CLI Apps](https://github.com/yargs/yargs/blob/master//docs/advanced.md#configuration)
+  * [Customizing Yargs' Parser](https://github.com/yargs/yargs/blob/master//docs/advanced.md#customizing)
 
 # Reto 2: Commanding Databases with node-fetch (p10-t3-commanding-databases)
 
