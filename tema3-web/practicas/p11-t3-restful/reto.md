@@ -6,6 +6,7 @@ En la versión actual los bundles guardan de un libro su `id` y el `title`:
 ```
 
 ```js
+[
   ...
   {
     "_index": "b4",
