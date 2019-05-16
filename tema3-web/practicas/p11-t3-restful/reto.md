@@ -1,4 +1,6 @@
 
+Añada el campo autor en la información de un libro de una colección dentro de un bundle
+
 ```
 ./esclu -i b4 -t bundle get _search | jq '.hits.hits'
 ```
