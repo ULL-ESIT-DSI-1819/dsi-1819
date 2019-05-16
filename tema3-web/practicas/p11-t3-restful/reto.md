@@ -1,42 +1,13 @@
+# Reto: Developing RESTful Web Services (p11-t3-restful)
 
-Añada el campo autor en la información de un libro de una colección dentro de un bundle
-
+En la versión actual los bundles guardan de un libro su `id` y el `title`:
 ```
 ./esclu -i b4 -t bundle get _search | jq '.hits.hits'
 ```
 
 ```
 [
-  {
-    "_index": "b4",
-    "_type": "bundle",
-    "_id": "zbnKW2cB1uX03maR5vEG",
-    "_score": 1,
-    "_source": {
-      "name": "light reading",
-      "books": []
-    }
-  },
-  {
-    "_index": "b4",
-    "_type": "bundle",
-    "_id": "nHEYp2cB83jNDjs-8Y9m",
-    "_score": 1,
-    "_source": {
-      "name": "science fiction",
-      "books": []
-    }
-  },
-  {
-    "_index": "b4",
-    "_type": "bundle",
-    "_id": "CKPgeWcB2Cwi_q-mx5lC",
-    "_score": 1,
-    "_source": {
-      "name": "nutrition",
-      "books": []
-    }
-  },
+  ...
   {
     "_index": "b4",
     "_type": "bundle",
@@ -83,3 +54,4 @@ Añada el campo autor en la información de un libro de una colección dentro de
   }
 ]
 ```
+Modifique el programa para que se guarde también el campo `authors`
