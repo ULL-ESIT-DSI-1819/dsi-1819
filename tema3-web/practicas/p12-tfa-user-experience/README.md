@@ -5,7 +5,7 @@
 * [*Deleting  Bundles*](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/6dot-commanding-databases/d24e20598_html#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMzIzODZfaHRtbCZxdWVyeT0=)
 * Opcional: Añadir autenticación. 
     - Intente usar el módulo [passport](http://www.passportjs.org/) para la autenticación
-    - Sería interesante que intentara hacer su autenticación cusando una [estrategia passport OAuth](http://www.passportjs.org/packages/), autenticando por ejemplo con [Twitter](http://www.passportjs.org/packages/passport-twitter/) o [GitHub](http://www.passportjs.org/packages/passport-github/)
+    - Sería interesante que intentara hacer su autenticación usando una [estrategia passport OAuth](http://www.passportjs.org/packages/), autenticando por ejemplo con [Twitter](http://www.passportjs.org/packages/passport-twitter/) o [GitHub](http://www.passportjs.org/packages/passport-github/)
     - Si tiene problemas con [estrategia passport OAuth](http://www.passportjs.org/packages/) (problemas con el proveedor, etc.) puede experimentar como alternativa con la estrategia [passport-local](http://www.passportjs.org/packages/passport-local/)
     - Para hacer esta tarea puede serle muy útil leer el capítulo 9 [Fortifying Your Application](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344/sec_using_request_to_fetch_html?sessionid=#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMzQyMjdfaHRtbCZxdWVyeT0=)
 
