@@ -4,9 +4,9 @@
 * [*Extracting Text*](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/6dot-commanding-databases/d24e20598_html#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMzIzODZfaHRtbCZxdWVyeT0=)
 * [*Deleting  Bundles*](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/6dot-commanding-databases/d24e20598_html#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMzIzODZfaHRtbCZxdWVyeT0=)
 * Opcional: Añadir autenticación. 
-    - Intente usar [passport](http://www.passportjs.org/)
-    - Sería interesante que intentara hacer autenticación cusando una estrategia OAuth, autenticando con [Twitter](http://www.passportjs.org/packages/passport-twitter/) o [GitHub](http://www.passportjs.org/packages/passport-github/)
-    - Puede serle muy útil leer el capítulo 9 [Fortifying Your Application](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344/sec_using_request_to_fetch_html?sessionid=#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMzQyMjdfaHRtbCZxdWVyeT0=)
+    - Intente usar el módulo [passport](http://www.passportjs.org/) para la autenticación
+    - Sería interesante que intentara hacer su autenticación cusando una [estrategia passport OAuth](http://www.passportjs.org/packages/), autenticando por ejemplo con [Twitter](http://www.passportjs.org/packages/passport-twitter/) o [GitHub](http://www.passportjs.org/packages/passport-github/)
+    - Para hacer esta tarea puede serle muy útil leer el capítulo 9 [Fortifying Your Application](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344/sec_using_request_to_fetch_html?sessionid=#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMzQyMjdfaHRtbCZxdWVyeT0=)
 
 ## Recursos
 
