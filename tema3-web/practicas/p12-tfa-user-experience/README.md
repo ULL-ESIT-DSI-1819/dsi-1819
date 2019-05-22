@@ -3,7 +3,7 @@
 * Lea el  [Chapter 8. Creating a Beautiful  User Experience](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-iiidot-creating-an-application-from-the-ground-up/d24e21014_html#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZjaHBfdXhfaHRtbCZxdWVyeT0=) y resuelva los problemas en la secciónes 
 * [*Extracting Text*](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/6dot-commanding-databases/d24e20598_html#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMzIzODZfaHRtbCZxdWVyeT0=)
 * [*Deleting  Bundles*](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/6dot-commanding-databases/d24e20598_html#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMzIzODZfaHRtbCZxdWVyeT0=)
-* Opcional: Añadir autenticación. 
+* Reto Opcional: Añadir autenticación. 
     - Intente usar el módulo [passport](http://www.passportjs.org/) para la autenticación
     - Sería interesante que intentara hacer su autenticación usando una [estrategia passport OAuth](http://www.passportjs.org/packages/), autenticando por ejemplo con [Twitter](http://www.passportjs.org/packages/passport-twitter/) o [GitHub](http://www.passportjs.org/packages/passport-github/)
     - Si tiene problemas  a la hora de implantar autenticación con las [estrategias passport OAuth](http://www.passportjs.org/packages/) (problemas con el proveedor, etc.) 
