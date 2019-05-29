@@ -22,7 +22,8 @@ o si se encuentra con ánimos y ganas de aprender, puede experimentar como alter
           ```
 
           - Otra posibilidad es usar lvh.me que apunta a  127.0.0.1.  Y puedes testear subdominios usando xxx.lvh.me sin que tengas que tocar  DNS o `/etc/hosts`.
-            - Mira en: [Testing subdomains in Ruby on Rails, with and without lvh.me](http://fionavoss.blog/2018/10/25/subdomains-in-rails/) por Fionna Voss 2018
+            Mira en: 
+            - [Testing subdomains in Ruby on Rails, with and without lvh.me](http://fionavoss.blog/2018/10/25/subdomains-in-rails/) por Fionna Voss 2018
             - [How does lvh.me (localtest.me, vcap.me) works?](https://superuser.com/questions/1289159/how-does-lvh-me-localtest-me-vcap-me-works?noredirect=1&lq=1)
             - [Why does the registered domain name “localtest.me” resolve to 127.0.0.1?](https://superuser.com/questions/1280827/why-does-the-registered-domain-name-localtest-me-resolve-to-127-0-0-1)
           - [How to set up local subdomains for Node.js app](https://stackoverflow.com/questions/26564961/how-to-set-up-local-subdomains-for-node-js-app) Stackoverflow
