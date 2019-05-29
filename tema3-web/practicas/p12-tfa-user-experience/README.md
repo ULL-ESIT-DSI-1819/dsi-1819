@@ -12,7 +12,7 @@ o si se encuentra con ánimos y ganas de aprender, puede experimentar como alter
     - Para hacer esta tarea  le será muy útil estudiar también el capítulo 9 [Fortifying Your Application](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344/sec_using_request_to_fetch_html?sessionid=#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMzQyMjdfaHRtbCZxdWVyeT0=)
     - Algunos proveedores OAuth quieren que proveas el dominio de tu aplicación. Hay varias soluciones que pueden funcionar o no
         - Desplegar tu app en Heroku o similar
-        - Crear un falso dominio en  el fichero /etc/hosts apunto a localhost:
+        - Crear un falso dominio en  el fichero `/etc/hosts` apuntando a `localhost`:
 
           ```
           $ cat /etc/hosts
