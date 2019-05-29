@@ -12,7 +12,7 @@ o si se encuentra con ánimos y ganas de aprender, puede experimentar como alter
     - Para hacer esta tarea  le será muy útil estudiar también el capítulo 9 [Fortifying Your Application](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344/sec_using_request_to_fetch_html?sessionid=#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDUzNDQlMkZkMjRlMzQyMjdfaHRtbCZxdWVyeT0=)
     - Algunos proveedores OAuth quieren que proveas el dominio de tu aplicación. Hay varias soluciones que pueden funcionar o no
         - Desplegar tu app en Heroku o similar
-        - crear un falso dominio en  el fichero /etc/hosts apunto a localhost:
+        - Crear un falso dominio en  el fichero /etc/hosts apunto a localhost:
 
           ```
           $ cat /etc/hosts
@@ -22,7 +22,12 @@ o si se encuentra con ánimos y ganas de aprender, puede experimentar como alter
           ```
 
           - Otra posibilidad es usar lvh.me que apunta a  127.0.0.1.  Y puedes testear subdominios usando xxx.lvh.me sin que tengas que tocar  DNS o /etc/hosts.
-            Mira en: [Testing subdomains in Ruby on Rails, with and without lvh.me](http://fionavoss.blog/2018/10/25/subdomains-in-rails/) por Fionna Voss 2018
+            - Mira en: [Testing subdomains in Ruby on Rails, with and without lvh.me](http://fionavoss.blog/2018/10/25/subdomains-in-rails/) por Fionna Voss 2018
+            - [How does lvh.me (localtest.me, vcap.me) works?(https://superuser.com/questions/1289159/how-does-lvh-me-localtest-me-vcap-me-works?noredirect=1&lq=1)
+            - [Why does the registered domain name “localtest.me” resolve to 127.0.0.1?](https://superuser.com/questions/1280827/why-does-the-registered-domain-name-localtest-me-resolve-to-127-0-0-1)
+          - [How to set up local subdomains for Node.js app](https://stackoverflow.com/questions/26564961/how-to-set-up-local-subdomains-for-node-js-app) Stackoverflow
+
+
 
 ## Recursos
 
