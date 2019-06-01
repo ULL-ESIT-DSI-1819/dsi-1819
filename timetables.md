@@ -33,15 +33,12 @@ scrolling="yes">
 
 ## Q&A
 
-* Pregunta después de publicadas las notas de prácticas y antes de la convocatoria: He visto que las prácticas las tengo aptas y entonces me preguntaba si finalmente el TFA debo entregarlo o si las notas
-de prácticas ya están cerradas.
-
+* Pregunta después de publicadas las notas de prácticas y antes de la convocatoria: He visto que las prácticas las tengo aptas y entonces me preguntaba si finalmente el TFA debo entregarlo o si las notas de prácticas ya están cerradas.
  - Respuesta:
   1. La nota del TFA es independiente de la de prácticas y hay que superar el TFA para aprobar la asignatura.
   2. Las notas de practicas no están aún cerradas. Se pueden entregar y mejorar las prácticas para obtener una mejor calificación. La califica
 
 * Pregunta: Puesto que tengo el primer y tercer examen aprobados y en el segundo suspendí. Y no sabía si finalmente se hacía media de los 3 o
-
  - Respuesta:
   1. No se hace media.
   2. Es necesario aprobar todas las partes.
