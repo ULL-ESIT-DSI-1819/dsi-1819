@@ -23,6 +23,7 @@ scrolling="yes">
 
 ## Exámenes de convocatoria
 
+* [Reglamento de Evaluación y Calificación de la Universidad de La Laguna](https://riull.ull.es/xmlui/bitstream/handle/915/4096/reglamento_evaluacion_calificacion.pdf)
 * <a href="https://docs.google.com/document/d/1dv9Q6gEbs0a2YqlKlNUKG59SpQ3Bp1pH_UWqaTKUPyk/edit" target="_blank">Enlace al Calendario Oficial de exámenes de Tercer curso</a>
 
 *  Exámenes Desarrollo de Sistemas Informáticos (139263524)
@@ -31,7 +32,6 @@ scrolling="yes">
   - Julio: 27 de junio 9:30 Aula 2.6
   - Septiembre: 4 de septiembre 9:30 Aula 2.6
 
-* [Reglamento de Evaluación y Calificación de la Universidad de La Laguna](https://riull.ull.es/xmlui/bitstream/handle/915/4096/reglamento_evaluacion_calificacion.pdf)
 * Revisión de Exámenes: 
   - Convocatoria de Junio y Evaluación Contínua: Lunes 24/06/2019 de 13 a 14 horas Sala de reuniones 4ª planta de Física y Matemáticas
 
