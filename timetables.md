@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**ÍNDICE**  
+
+- [Exámenes de convocatoria](#ex%C3%A1menes-de-convocatoria)
+- [Revisión de Calificaciones](#revisi%C3%B3n-de-calificaciones)
+- [Cierre de actas](#cierre-de-actas)
+- [Q&A](#qa)
+- [Instrucciones para los exámenes de Convocatoria](#instrucciones-para-los-ex%C3%A1menes-de-convocatoria)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
 * <a href="https://drive.google.com/file/d/1YtPNm4vS73N21QHzstcYqEzPKJQHCKeD/view" target="_blank">Calendario Académico 2018/2019</a>
 * <a href="https://docs.google.com/document/d/1XHFUAiuECAEAPTZvdsn8aJTCAV3jRovC8Px24HgcfyQ/edit?usp=sharing" target="_blank">Horarios de 3º del grado de Ingeniería Informática para el curso 18/19</a>
 * [Horarios de tutorías del Departamento de Ingeniería Informática](https://docs.google.com/spreadsheets/d/1ZTGvLA70qCYEsBwcA8dCiUZby3ZOM9oHt8kmiNNKId0/edit#gid=0)
@@ -32,8 +45,13 @@ scrolling="yes">
   - Julio: 27 de junio 9:30 Aula 2.6
   - Septiembre: 4 de septiembre 9:30 Aula 2.6
 
-* Revisión de Exámenes: 
+## Revisión de Calificaciones
+
   - Convocatoria de Junio y Evaluación Contínua: Lunes 24/06/2019 de 13 a 14 horas Sala de reuniones 4ª planta de Física y Matemáticas
+
+## Cierre de actas 
+
+* [En 2019 25 de Junio, 22 de Julio, 26 de Septiembre](https://drive.google.com/file/d/1YtPNm4vS73N21QHzstcYqEzPKJQHCKeD/view)
 
 ## Q&A
 
@@ -48,7 +66,7 @@ scrolling="yes">
   2. Es necesario aprobar todas las partes.
   3. Se debe ir al examen a recuperar las partes que no se tienen aprobadas.
 
-### Instrucciones para los exámenes de Convocatoria
+## Instrucciones para los exámenes de Convocatoria
 
 1. El examen de convocatoria consiste en una prueba escrita
 2. Deberán traer un bolígrafo con carga suficiente. El papel será proporcionado por el profesor. No se permite el uso de dispositivos móviles ni electrónicos, libros, apuntes, etc.  durante el examen
