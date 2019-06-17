@@ -31,6 +31,10 @@ scrolling="yes">
   - Julio: 27 de junio 9:30 Aula 2.6
   - Septiembre: 4 de septiembre 9:30 Aula 2.6
 
+* [Reglamento de Evaluación y Calificación de la Universidad de La Laguna](https://riull.ull.es/xmlui/bitstream/handle/915/4096/reglamento_evaluacion_calificacion.pdf)
+* Revisión de Exámenes: 
+  - Convocatoria de Junio y Evaluación Contínua: Lunes 24/06/2019 de 13 a 14 horas Sala de reuniones 4ª planta de Física y Matemáticas
+
 ## Q&A
 
 * Pregunta después de publicadas las notas de prácticas y antes de la convocatoria: He visto que las prácticas las tengo aptas y entonces me preguntaba si finalmente el TFA debo entregarlo o si las notas de prácticas ya están cerradas.
