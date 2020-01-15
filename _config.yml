@@ -11,6 +11,9 @@ theme: jekyll-theme-midnight
 description: '3º. 2 cuatrimestre. Itinerario de Tecnologías de la Información. Grado en Ingeniería Informática. Curso 2019/2020'
 future: true
 show_downloads: false
+teacher: https://www.ull.es/apps/guias/guias/view_teacher_niu/588/(%3FPcrguezl.*)/
+campus_virtual: https://campusvirtual.ull.es/1920/course/view.php?id=201911055
+github_classroom: https://classroom.github.com/classrooms/53047716-ull-esit-dsi-1920
 exclude: 
   - tema1-introduccion/practicas/p2-t1-c3-file-system/sol-nodejs-filesystem-ch2/ 
   - tema2-async/practicas/p6-t2-microservices/eval/
