@@ -20,17 +20,24 @@
 <body>
     <div id="header">
         <nav>
-            <li class="fork"><a href="{{ site.github.repository_url }}">Repo</a></li>
+            <li><a href="{{site.baseurl}}/search" title="search">&#x1F50D;</a></li>
+            <li><a href="{{ site.github.repository_url }}">Repo</a></li>
             <li><a href="{{site.baseurl}}/index.html">DSI</a></li>
             <li><a href="{{site.guia_docente}}" target="_blank">Guía</a></li>
-            <li><a href="{{site.baseurl}}/resources.html">Rec</a></li>
-            <li><a href="{{site.baseurl}}/timetables.html">Hor &amp; Exam</a></li>
-            <li><a href="{{site.baseurl}}/references.html">Refs</a></li>
+
+            <li><a href="{{site.baseurl}}/resources.html" title="resources">&#x2699</a></li>
+            <li><a href="{{site.baseurl}}/timetables.html" title="horarios">&#x1f5d3</a></li>
+            <li><a href="{{site.baseurl}}/references.html" title="bibliografia">&#x1f4da</a></li>
+            
             <li><a href="{{site.baseurl}}/tema0-presentacion/index.html">T0</a></li>
+            <!--
+
             <li><a href="{{site.baseurl}}/tema1-introduccion/index.html">T1</a></li>
             <li><a href="{{site.baseurl}}/tema2-async/index.html">T2</a></li>
             <li><a href="{{site.baseurl}}/tema3-web/index.html">T3</a></li>
             <li><a href="{{site.baseurl}}/tema3-web/practicas/p12-tfa-user-experience/">TFA</a></li>
+            -->
+ 
             {% if site.show_downloads %}
             <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
             <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
@@ -56,18 +63,19 @@
 
             {{ content }}
 
+            <!-- { % include disqus.html % } -->
+                            
+            <h2>Your Comments</h2>
+            <div class="utterances utterances-frame">
+                {% include utterances.html %}
+            </div>
+
+
         </section>
     </div>
 
     
-     <!-- { % include disqus.html % } -->
-                    
-    <h2>Your Comments</h2>
-    <div class="utterances utterances-frame">
-        {% include utterances.html %}
-    </div>
-
-
+  
     <!-- Mathjax Support  -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
