@@ -17,8 +17,8 @@ title: Search
   </ul>
 </form>
 
-<script type="text/javascript" src="/assets/src/fetch.js"></script>
-<script type="text/javascript" src="/assets/src/search.js"></script>
+<script type="text/javascript" src="{{site.url}}/assets/src/fetch.js"></script>
+<script type="text/javascript" src="{{site.url}}/assets/src/search.js"></script>
 
 
 <script type="text/javascript">
