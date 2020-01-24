@@ -26,8 +26,10 @@ organization:
 temas:
   - title: 'Tema 0: Presentación'
     url: tema0-presentacion/index.html
+    hover: 'Presentación'
   - title: 'Tema 1: Introducción a los Entornos de Trabajo, Herramientas, Pruebas, Integración, Calidad, Diseño y Patrones'
     url: tema1-introduccion/index.html
+    hover: 'Intro-a-los-entornos-de-trabajo'
 practicas:
   - title: 01pb-gh-campus-expert
     myurl: /tema0-presentacion/pb-gh-campus-expert/
