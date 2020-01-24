@@ -1,4 +1,18 @@
+## Temas
 
+{% for tema in site.temas %}
+* [{{tema.title}}]({{ tema.url }})
+{%- endfor %}
+
+## Clases 
+
+{% include clases-impartidas.md %}
+
+## Prácticas
+
+{% include practicas-publicadas.md  %}
+
+<!--
 
 ## [Tema 0: Presentación](tema0-presentacion/)
 
@@ -33,3 +47,4 @@
 ## [TFA: Creating a Beautiful User Experience](tema3-web/practicas/p12-tfa-user-experience)
 
 ### [Descripción del TFA (p12-tfa-user-experience)](tema3-web/practicas/p12-tfa-user-experience)
+-->
