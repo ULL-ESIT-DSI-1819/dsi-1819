@@ -2,7 +2,7 @@
 
 ## Resources for the Student
 
-* [Repo de Bibliografía en ULL-MII-SYTWS-1920](https://github.com/ULL-MII-SYTWS-1920/books-shared)
+* [Recursos de Bibliografía]({{site.books_shared}})
 
 ## JS
 
