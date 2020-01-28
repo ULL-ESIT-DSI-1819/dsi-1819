@@ -76,7 +76,6 @@ By: Parth Ghiya</a>. Acceda por medio del <a href="https://www.ull.es/servicios/
 
 {% include references-react.md %}
 
-
 ## JAM Stack
 
 * [O'Reilly book: Modern Web Development on the JAMstack - Netlify](https://www.netlify.com/pdf/oreilly-modern-web-development-on-the-jamstack.pdf)
