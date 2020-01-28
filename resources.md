@@ -8,19 +8,25 @@
 * [Tareas]({{site.tareas}})
 * [Foros]({{site.foros}})
 
-### Campus Virtuales de Otras Asignaturas del Profesor
-
-* [Org ULL-ESIT-PL-1819](https://github.com/ULL-ESIT-PL-1819)
-* [Org ULL-MII-CA-1819](https://github.com/ULL-MII-CA-1819)
-* [Org ULL-ESIT-DSI-1819](https://github.com/ULL-ESIT-DSI-1819)
-* [Org ULL-ESIT-PL-1718](https://github.com/ULL-ESIT-PL-1718)
-* [Org ULL-ESIT-MII-CA-1718](https://github.com/ULL-ESIT-MII-CA-1718)
-* [Org ULL-ESIT-DSI-1617](https://github.com/ULL-ESIT-DSI-1617)
 
 ## GitHub
 
 * [Apuntes de DSI]({{site.url}})
 * [Organización {{site.organization.name}}]({{site.organization.url}})
+
+### Organizaciones GH de otras Asignaturas
+
+* [Org ULL-ESIT-PL-1819](https://github.com/ULL-ESIT-PL-1819)
+* [Org ULL-ESIT-PL-1718](https://github.com/ULL-ESIT-PL-1718)
+
+* [Org ULL-MII-CA-1819](https://github.com/ULL-MII-CA-1819)
+* [Org ULL-ESIT-MII-CA-1718](https://github.com/ULL-ESIT-MII-CA-1718)
+
+* [Org ULL-ESIT-DSI-1819](https://github.com/ULL-ESIT-DSI-1819)
+* [Org ULL-ESIT-DSI-1617](https://github.com/ULL-ESIT-DSI-1617)
+
+
+
 
 ## Google+
 
