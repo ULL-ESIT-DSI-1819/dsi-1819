@@ -20,6 +20,12 @@ tareas: https://campusvirtual.ull.es/1920/mod/assign/index.php?id=201911055
 calificador: https://campusvirtual.ull.es/1920/grade/report/grader/index.php?id=201911055
 github_classroom: https://classroom.github.com/classrooms/53047716-ull-esit-dsi-1920
 guia_docente: https://www.ull.es/apps/guias/guias/view_subject_guide/139263524/
+calendario_academico: https://www.ull.es/estudios-docencia/calendario-academico/
+calendario_grado: https://riull.ull.es/xmlui/bitstream/handle/915/14312/Calendario%20de%20Grado%20continuaci%C3%B3n%20actualizado.pdf
+horarios_examenes_ii: https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/#tercero
+horarios_tercero_2c_TI: https://docs.google.com/document/d/1XHFUAiuECAEAPTZvdsn8aJTCAV3jRovC8Px24HgcfyQ/edit
+tutorias_departamento: https://docs.google.com/spreadsheets/d/1ZTGvLA70qCYEsBwcA8dCiUZby3ZOM9oHt8kmiNNKId0/edit#gid=0
+google_calendar: https://calendar.google.com/calendar/b/2/embed?showPrint=0&amp;mode=AGENDA&amp;height=400&amp;wkst=2&amp;hl=es&amp;bgcolor=%23cc66cc&amp;src=ull.edu.es_2vro0m6bohfet5n9emce1btblc%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Atlantic%2FCanary
 organization:
   url: https://github.com/ULL-ESIT-DSI-1920/
   name: ULL-ESIT-DSI-1920

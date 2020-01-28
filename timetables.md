@@ -1,28 +1,30 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**ÍNDICE**  
+# Calendarios, Horarios y Exámenes
 
-- [Exámenes de convocatoria](#ex%C3%A1menes-de-convocatoria)
-- [Revisión de Calificaciones](#revisi%C3%B3n-de-calificaciones)
-- [Cierre de actas](#cierre-de-actas)
-- [Q&A](#qa)
-- [Normativa](#normativa)
-  - [Instrucciones para los exámenes de Convocatoria](#instrucciones-para-los-ex%C3%A1menes-de-convocatoria)
+## Calendario Académico
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-
+* <a href="{{site.calendario_academico}}" target="_blank">Calendario Académico 2019/2020</a>
+* <a href="{{site.calendario_grado}}" target="_blank">Calendario del Grado 2019/2020</a>
+  
 * <a href="https://drive.google.com/file/d/1YtPNm4vS73N21QHzstcYqEzPKJQHCKeD/view" target="_blank">Calendario Académico 2018/2019</a>
-* <a href="https://docs.google.com/document/d/1XHFUAiuECAEAPTZvdsn8aJTCAV3jRovC8Px24HgcfyQ/edit?usp=sharing" target="_blank">Horarios de 3º del grado de Ingeniería Informática para el curso 18/19</a>
-* [Horarios de tutorías del Departamento de Ingeniería Informática](https://docs.google.com/spreadsheets/d/1ZTGvLA70qCYEsBwcA8dCiUZby3ZOM9oHt8kmiNNKId0/edit#gid=0)
 
+## Horarios
+
+* <a href="{{site.horarios_examenes_ii}}" target="_blank">Horarios y Calendarios de Exámenes del grado de Ingeniería Informática</a>
+* <a href="{{site.horarios_tercero_2c_TI}}" target="_blank">Horarios Tercer curso - Segundo cuatrimestre
+Tecnologías de la Información</a>
+
+### Horarios de Tutorías
+
+* [Horarios de tutorías del Departamento de Ingeniería Informática]({{site.tutorias_departamento}})
+
+### Calendario Google
 
 <br/>
 <hr>
 <br/>
 <p>
 <iframe 
-src="https://calendar.google.com/calendar/b/2/embed?showPrint=0&amp;mode=AGENDA&amp;height=400&amp;wkst=2&amp;hl=es&amp;bgcolor=%23cc66cc&amp;src=ull.edu.es_2vro0m6bohfet5n9emce1btblc%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Atlantic%2FCanary" 
+src="{{site.google_calendar}}" 
 style="border-width:0" 
 width="800" 
 height="400" 
@@ -39,21 +41,12 @@ scrolling="yes">
 
 ## Exámenes de convocatoria
 
-* <a href="https://docs.google.com/document/d/1dv9Q6gEbs0a2YqlKlNUKG59SpQ3Bp1pH_UWqaTKUPyk/edit" target="_blank">Enlace al Calendario Oficial de exámenes de Tercer curso</a>
-
-*  Exámenes Desarrollo de Sistemas Informáticos (139263524)
-  - Junio Primero: 3 de junio 9:00 Aula 2.6
-  - Junio segundo: 10 de junio 9:00 Aula 2.6
-  - Julio: 27 de junio 9:30 Aula 2.6
-  - Septiembre: 4 de septiembre 9:30 Aula 2.6
-
-## Revisión de Calificaciones
-
-  - Convocatoria de Junio y Evaluación Contínua: Lunes 24/06/2019 de 13 a 14 horas Sala de reuniones 4ª planta de Física y Matemáticas
+* <a href="https://docs.google.com/document/d/1m6Ke0imk6PVILCIyqKWmzkMqvoWKpN5rhS2omGEuXYc/edit" target="_blank">Calendario de exámenes. Tercer curso - Tecnologías de la Información</a>
+* <a href="{{site.horarios_examenes_ii}}" target="_blank">Horarios y Calendarios de Exámenes del grado de Ingeniería Informática</a>
 
 ## Cierre de actas 
 
-* [En 2019 18 de Junio, 15 de Julio, 19 de Septiembre](https://drive.google.com/file/d/1YtPNm4vS73N21QHzstcYqEzPKJQHCKeD/view)
+* [Véase el Calendario del Grado]({{site.calendario_grado}})
 
 ## Q&A
 
@@ -68,9 +61,11 @@ scrolling="yes">
   2. Es necesario aprobar todas las partes.
   3. Se debe ir al examen a recuperar las partes que no se tienen aprobadas.
 
-## Normativa
+## Normativa de Evaluación
 
 * [Reglamento de Evaluación y Calificación de la Universidad de La Laguna](https://riull.ull.es/xmlui/bitstream/handle/915/4096/reglamento_evaluacion_calificacion.pdf)
+* [Normativa de Compensación](https://riull.ull.es/xmlui/bitstream/handle/915/8580/acuerdo12.pdf?sequence=1&isAllowed=y)
+
 
 ### Instrucciones para los exámenes de Convocatoria
 
