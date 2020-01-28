@@ -1,19 +1,35 @@
 # Bibliografía y Referencias
 
+## Resources for the Student
+
+* [Repo de Bibliografía en ULL-MII-SYTWS-1920](https://github.com/ULL-MII-SYTWS-1920/books-shared)
+
 ## JS
 
+* [The Modern JavaScript Tutorial. https://javascript.info/](https://javascript.info/)
 * [Eloquent JS 3rd Edition](https://eloquentjavascript.net/)
 * [Eloquent JS 2nd Edition](http://eloquentjavascript.net/2nd_edition/)
+* [Advanced JavaScript. Zachary Shute. 2019](https://puntoq-ull-es.accedys2.bbtk.ull.es/primo-explore/fulldisplay?docid=ullsfx4100000007593934&context=L&vid=ull&lang=es_ES&search_scope=ull_sfxebooks&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,javascript&sortby=date&offset=0) PuntoQ ULL
 
 ## Node.js
 
-* [Node.js 8 the Right Way](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344). Jim Wilson. 2018 (Debes estar autenticado via PuntoQ BULL)
+* [Node.js 8 the Right Way]({{site.bull_permanente}}/15vbjs7/ullsfx4340000000247287). Jim Wilson. 2018 (Debes estar autenticado via PuntoQ BULL)
+  * Pueden encontrar las soluciones a las prácticas del autor del libro en este repo [ULL-MII-SYTWS-1920/book-solution-nodejs-the-right-way](https://github.com/ULL-MII-SYTWS-1920/book-solution-nodejs-the-right-way)
 * [Node.js 8 the Right Way](https://books.google.es/books?id=oA9QDwAAQBAJ&lpg=PT96&ots=-mLQPlvsSj&dq=should%20ldjclient%20emit%20a%20close%20event&hl=es&pg=PP1#v=onepage&q=should%20ldjclient%20emit%20a%20close%20event&f=false) Google Books
 * [Node.js 8 the Right Way](https://github.com/iMarcoGovea/books/blob/master/nodejs/Node.js%20the%20Right%20Way.pdf) GitHub. versión de 2013.
 
 * <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/programming/javascript/9781617292576" target="_blank"> Node.js in Action, Second Edition by: Bradley Meck Alex Young and Mike Cantelon</a>. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
 
 * <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781785888960" target="_blank"> Mastering Node.js - Second Edition by: Sandro Pasquali; Kevin Faaborg</a>. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
+
+* [Trasparencias curso de JS de MiriadaX](https://github.com/crguezl/miriada-upm-dsnh5jsnode/blob/master/traspas/transp_modulo2.pdf) GitBook by [Basarat Ali Syed](https://github.com/basarat)
+
+## TypeScript
+
+* [Programming TypeScript](https://puntoq.ull.es/permalink/f/15vbjs7/ullsfx4100000008045440). Boris Cherny.  2019. BULL
+* [TypeScript Deep Dive](https://legacy.gitbook.com/book/basarat/typescript/details).  GitBook (Open Source). [Basarat Ali Syed](https://github.com/basarat).
+* [Learn React with TypeScript 3](https://puntoq.ull.es/permalink/f/15vbjs7/ullsfx4100000007189184) Carl Rippon 2018. BULL
+* [Hands-On Functional Programming with TypeScript](https://puntoq.ull.es/permalink/f/15vbjs7/ullsfx4100000007593897). Remo H. Jansen 2019. BULL
 
 ## RabbitMQ
 
@@ -45,6 +61,29 @@ By: Parth Ghiya</a>. Acceda por medio del <a href="https://www.ull.es/servicios/
 ## Web Workers
 
 * <a href="http://proquest.safaribooksonline.com/book/programming/javascript/9781449322120/firstchapter" target="_blank">Book Web Workers: Safari O'Reilly. Usa Acceso ULL</a>
+
+## GraphQL
+
+* [Beginning GraphQL. Xavier Decuyper y Brian Kimokoti. Paqt](https://learning.oreilly.com/videos/beginning-graphql/9781789533934) PuntoQ
+* [React Cookbook by Carlos Santana Roldan](https://learning.oreilly.com/library/view/react-cookbook/9781783980727/) PuntoQ
+* [Visual Design of GraphQL Data. A Practical Introduction with Legacy Data and Neo4.j Thomas Frisendal](https://link-springer-com.accedys2.bbtk.ull.es/book/10.1007%2F978-1-4842-3904-9) PuntoQ
+
+## Webpack
+
+{% include references-webpack.md %}
+
+## React
+
+{% include references-react.md %}
+
+
+## JAM Stack
+
+* [O'Reilly book: Modern Web Development on the JAMstack - Netlify](https://www.netlify.com/pdf/oreilly-modern-web-development-on-the-jamstack.pdf)
+  
+## Journals and Magazines
+
+* [https://www.smashingmagazine.com/](https://www.smashingmagazine.com/)
 
 ## Git, Github
 
@@ -93,3 +132,7 @@ By: Parth Ghiya</a>. Acceda por medio del <a href="https://www.ull.es/servicios/
 * <a href="https://campusvirtual.ull.es/1617/mod/url/view.php?id=156597" target="_blank">Apuntes del antiguo curso de PL de la Ingeniería Informática (Open CourseWare ULL) (C, Perl, Yacc, Eyapp)</a>
 * <a href="https://campusvirtual.ull.es/ocw/course/view.php?id=43" target="_blank">Lenguajes y Herramientas Informáticas (Open CourseWare ULL) (C, Perl)</a>
 
+## Development and Management of Information Systems
+
+* [Developing Information Systems : Practical guidance for IT professionals](https://puntoq-ull-es.accedys2.bbtk.ull.es/primo-explore/fulldisplay?docid=ullsfx2550000001351302&context=L&vid=ull&lang=es_ES&search_scope=ull_sfxebooks&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,Developing%20Information%20Systems&offset=0) by James Cadle, Tahir Ahmed, Julian Cox, Lynda Girvan, Alan Paul, Debra Paul, and Pete Thompson
+* [A review of quality frameworks in information systems](https://arxiv.org/pdf/1706.03030.pdf) Thanh Thoa Pham Thi, Markus Helfert
