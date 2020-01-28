@@ -1,5 +1,4 @@
-##### Recursos
-
+# Recursos de la Asignatura
 
 ## Campus Virtual
 
@@ -9,6 +8,25 @@
 * [Tareas]({{site.tareas}})
 * [Foros]({{site.foros}})
 
+### Campus Virtuales de Otras Asignaturas del Profesor
+
+* [Org ULL-ESIT-PL-1819](https://github.com/ULL-ESIT-PL-1819)
+* [Org ULL-MII-CA-1819](https://github.com/ULL-MII-CA-1819)
+* [Org ULL-ESIT-DSI-1819](https://github.com/ULL-ESIT-DSI-1819)
+* [Org ULL-ESIT-PL-1718](https://github.com/ULL-ESIT-PL-1718)
+* [Org ULL-ESIT-MII-CA-1718](https://github.com/ULL-ESIT-MII-CA-1718)
+* [Org ULL-ESIT-DSI-1617](https://github.com/ULL-ESIT-DSI-1617)
+
+## GitHub
+
+* [Apuntes de DSI]({{site.url}})
+* [Organización {{site.organization.name}}]({{site.organization.url}})
+
+## Google+
+
+* [Comunidad Google+ DSI](https://plus.google.com/u/2/communities/101210698918846038099)
+
+# Recursos Generales
 
 ## BULL
 
@@ -16,26 +34,39 @@
 * [Video tutoriales de ayuda sobre PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/videotutoriales-de-puntoq/)
 * [Antiplagio]( https://www.ull.es/servicios/biblioteca/antiplagio/)
 
-
 ## GitHub
-
-* [Notas de DSI (github gitbook)](https://ull-esit-dsi-1819.github.io/_book/)
-* [Organización {{site.organization.name}}]({{site.organization.url}})
 
 ### Asking GitHub for Educational Discounts
 
 * [Solicitudes a GitHub](https://education.github.com/discount_requests/new)
 * [When you receive then email notifying you that you've been approved for GitHub Education faculty benefits, you may return to](https://education.github.com/benefits) to upgrade your academic GitHub organizations
 
-## iaas.ull.es
+### GitHub Classroom
+
+* [GitHub Classroom](https://classroom.github.com/classrooms/)
+
+### Connecting GitHub Classroom with Moodle
+
+GitHub Classroom integrates with learning management systems (LMS) such as Brightspace, Canvas, Moodle, and others. GitHub Classroom supports:
+
+- Roster provisioning
+- Assignment creation (Planned)
+- Submission syncing (Planned)
+
+* [Use GitHub Classroom with Canvas, Google Classroom, or your own tools](https://github.blog/2019-08-13-use-github-classroom-with-your-own-tools/)
+* [Integrating GHC with a learning management system (LMS)](https://classroom.github.com/help/connect-to-lms)
+* [Configuring GitHub Classroom in Moodle](https://classroom.github.com/help/setup-moodle)
+* [Importing a course roster from your Learning Management System](https://classroom.github.com/help/import-roster-from-lms)
+
+## STIC
+
+### iaas.ull.es
 
 * [Instrucciones para el uso de iaas.ull.es](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/recursos/iaas.html)
   - [Gestor online de pools](https://iaas.ull.es/ovirtadmin/admin/)
   - [IaaS - Uso de la aplicación de gestión de pools](https://docs.google.com/document/d/13vP4bd5LhnfNJvV6ncz20ZNTXfeg8ehWbw_ECkn4MAY/edit#)
   - [Video del profesor: iaas.ull.es](https://youtu.be/qKHgbV0lYbA)
   - [https://iaas.ull.es/mismaquinas](https://iaas.ull.es/mismaquinas) 
-
-## STIC
 
 ### Incidencias
 
@@ -66,22 +97,7 @@
   * [CodeLab TFG de Samuel](https://codelab-tfg1718.herokuapp.com/)
 * [Instrucciones para las entregas de Prácticas y Trabajos](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/instrucciones/)
 
-### Connecting GitHub Classroom with Moodle
 
-GitHub Classroom integrates with learning management systems (LMS) such as Brightspace, Canvas, Moodle, and others. GitHub Classroom supports:
-
-- Roster provisioning
-- Assignment creation (Planned)
-- Submission syncing (Planned)
-
-* [Use GitHub Classroom with Canvas, Google Classroom, or your own tools](https://github.blog/2019-08-13-use-github-classroom-with-your-own-tools/)
-* [Integrating GHC with a learning management system (LMS)](https://classroom.github.com/help/connect-to-lms)
-* [Configuring GitHub Classroom in Moodle](https://classroom.github.com/help/setup-moodle)
-* [Importing a course roster from your Learning Management System](https://classroom.github.com/help/import-roster-from-lms)
-
-## Google+
-
-* [Comunidad Google+ DSI1819](https://plus.google.com/u/2/communities/101210698918846038099)
 
 ## Sede ULL/ULL Online
 
