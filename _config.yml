@@ -14,6 +14,8 @@ base_url: ''
 url: https://ull-esit-dsi-1819.github.io/dsi-1819/
 future: true
 show_downloads: false
+comments: true
+disqus: https://desarrollo-de-sistemas-informaticos.disqus.com/embed.js
 repo: ULL-ESIT-DSI-1819/dsi-1819
 logo: DSIlogo.png
 teacher: https://www.ull.es/apps/guias/guias/view_teacher_niu/588/(%3FPcrguezl.*)/
