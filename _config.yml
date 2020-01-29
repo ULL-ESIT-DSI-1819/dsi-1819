@@ -9,13 +9,14 @@ theme: jekyll-theme-midnight
 # theme: jekyll-theme-modernist
 # theme: jekyll-theme-leap-day
 description: '3º. 2 cuatrimestre. Itinerario de Tecnologías de la Información. Grado en Ingeniería Informática. Curso 2019/2020'
-acronym: DSI-1920
+acronym: DSI
 base_url: ''
 url: https://ull-esit-dsi-1819.github.io/dsi-1819/
 future: true
 show_downloads: false
-comments: true
-disqus: https://desarrollo-de-sistemas-informaticos.disqus.com/embed.js
+disqus: 
+  url: https://desarrollo-de-sistemas-informaticos.disqus.com/embed.js
+  comments: true
 repo: ULL-ESIT-DSI-1819/dsi-1819
 logo: DSIlogo.png
 teacher: https://www.ull.es/apps/guias/guias/view_teacher_niu/588/(%3FPcrguezl.*)/
