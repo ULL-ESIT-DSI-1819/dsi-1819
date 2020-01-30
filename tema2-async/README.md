@@ -1,6 +1,10 @@
 # Tema 2: Entornos de Trabajo y Patrones para la Computación Asíncrona y Distribuida
 
-## Capítulo 1: Sockets
+## El Bucle de Eventos
+
+* [The JavaScript Event Loop](/tema1-introduccion/event-loop/)
+
+## Sockets
 
 ### Sockets TCP y UDP
 
@@ -14,7 +18,7 @@
 
 * [Descripción de la práctica p4-t2-networking](practicas/p4-t2-networking)
 
-## Capítulo 2: Message Queues
+## Message Queues
 
 ### 0MQ
   * [Building Distributed Systems with Node.js and ØMQ](https://github.com/ULL-MII-CA-1819/node-zmq-talk) Jim Wilson Talk
@@ -33,7 +37,7 @@
   * [Repo ULL-MII-CA-1819/rabbit-mq-learning](https://github.com/ULL-MII-CA-1819/rabbit-mq-learning) with my experience with RabbitMQ
 
 
-## Capítulo 3: Programación Asíncrona en ECMA 6
+## Programación Asíncrona en ECMA 6
 
 * [Philip Roberts: ¿Que diablos es el "event loop" (bucle de eventos) de todos modos? | JSConf EU](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 * [loupe](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D) a tool n the cloud to see the event loop working
@@ -61,7 +65,7 @@
 * [Descripción de la práctica Asynchronous Programming with Javascript EdX Course: Modules 1 (Asynchronous Fundamentals) and 2 (Promises) p7-t2-async-js-edx](practicas/p7-t2-async-js-edx)
 
 
-## Capítulo 4: RPC
+## RPC
 
 In gRPC a client application can directly call methods on a server application on a different machine as if it was a local object, making it easier for you to create distributed applications and services. As in many RPC systems, gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types. 
 
