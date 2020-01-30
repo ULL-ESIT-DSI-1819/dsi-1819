@@ -1,5 +1,3 @@
-
-
 # Descripción de la Práctica p2-t1-vscode
 
 ## Objetivos
