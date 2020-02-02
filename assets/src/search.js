@@ -24,7 +24,7 @@ class JekyllSearch {
   async displayResults() {
     const results = await this.findResults()
     const html = results.map(item => {
-      console.log(item)
+      console.log(item);
       return `
         <li class="result">
             <article class="result__article  article">
