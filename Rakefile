@@ -1,9 +1,9 @@
-desc "Publicar en GitHub los apuntes de DSI"
+desc "Publicar en dsi1819 los apuntes de DSI"
 task :default do
-  sh "git ci -am 'curso 2019-2020' && git push dsi-1819 master"
+  sh "git ci -am 'curso 2019-2020' && git push dsi1819 master"
 end
 
-desc "Publicar en GitHub los apuntes de DSI"
+desc "Publicar en 1920 los apuntes de DSI"
 task :pub1920 do
   sh "git ci -am 'curso 2019-2020' && git push origin master"
 end
