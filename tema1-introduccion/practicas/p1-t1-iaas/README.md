@@ -3,6 +3,8 @@ layout: default
 title: p1-t1-iaas
 formulario: https://campusvirtual.ull.es/1920/mod/assign/view.php?id=14697
 permalink: /tema1-introduccion/practicas/p1-t1-iaas/index.html
+next:
+  url: /tema1-introduccion/practicas/p2-t1-vscode/
 ---
 
 # Descripción de la Práctica p1-t1-iaas
