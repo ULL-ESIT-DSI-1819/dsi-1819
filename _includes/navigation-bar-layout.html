@@ -14,7 +14,13 @@
     <li><a href="{{site.baseurl}}/{{tema.url}}" title={{tema.hover}}>T{{forloop.index0}}</a></li>
     {% endfor %}
 
-   
+    {% if page.previous %}
+    <li><a href="{{site.baseurl}}/{{page.previous.url}}" title="Previous lesson">&#x2190;</a></li>
+    {% endif %}
+    {% if page.next %}
+    <li><a href="{{site.baseurl}}/{{page.next.url}}" title="Next lesson">&#x2192;</a></li>
+    {% endif %}
+    
     {% if site.show_downloads %}
     <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
     <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
