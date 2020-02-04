@@ -47,15 +47,21 @@ temas:
     url: tema1-introduccion/index.html
     hover: 'Intro-a-los-entornos-de-trabajo'
 practicas:
-  - title: 01pb-gh-campus-expert
+  - title: 00cuestionarioghalu
+    myurl: https://campusvirtual.ull.es/1920/mod/assign/view.php?id=14697
+    name: Tarea Formulario Usuario de Github
+  - title: 01comunidadgpluspl
+    myurl: https://campusvirtual.ull.es/1920/mod/assign/view.php?id=188638
+    name: Tarea Comunidad G+ de DSI
+  - title: 02pb-gh-campus-expert
     myurl: /tema0-presentacion/pb-gh-campus-expert/
-    name: pb-gh-campus-expert
-  - title: 02p1-t1-iaas
+    name: Práctica pb-gh-campus-expert
+  - title: 03p1-t1-iaas
     myurl: /tema1-introduccion/practicas/p1-t1-iaas/
-    name: p1-t1-iaas
-  - title: 03p2-t1-vscode
+    name: Práctica p1-t1-iaas
+  - title: 04p2-t1-vscode
     myurl: /tema1-introduccion/practicas/p2-t1-vscode/
-    name: p2-t1-vscode
+    name: Práctica p2-t1-vscode
 
 exclude: 
   - tema1-introduccion/practicas/p2-t1-c3-file-system/sol-nodejs-filesystem-ch2/ 
