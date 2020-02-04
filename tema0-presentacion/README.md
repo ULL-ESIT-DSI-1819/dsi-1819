@@ -5,7 +5,11 @@
 ### Profesorado
 
 - El profesor  JESUS MANUEL JORGE SANTISO causa baja. 
-- El profesor [Vicente Blanco Pérez](https://www.ull.es/apps/guias/guias/view_teacher_niu/530/(%3FPvblanco.*)/)causa alta en la asignatura
+- El profesor [Vicente Blanco Pérez](https://www.ull.es/apps/guias/guias/view_teacher_niu/530/(%3FPvblanco.*)/) causa alta en la asignatura 
+
+<!--
+  - [Reserva de Tutorías](http://goo.gl/CyVIUw)
+-->
 
 ## [El Grado](../degree.md)
 
