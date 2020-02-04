@@ -15,7 +15,11 @@
         <section>
             
             {% include title-bar-layout.html %}
-
+        
+            <h2 >Table of Contents</h2>
+           
+            {% include toc.html html=content id="dsitoc" %}
+        
             {{ content }}
 
             {% include utterances.html %}
