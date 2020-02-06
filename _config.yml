@@ -46,6 +46,9 @@ temas:
   - title: 'Tema 1: Introducción a los Entornos de Trabajo, Herramientas, Pruebas, Integración, Calidad, Diseño y Patrones'
     url: tema1-introduccion/index.html
     hover: 'Intro-a-los-entornos-de-trabajo'
+  - title: 'Tema 2: Entornos de Trabajo y Patrones para la Computación Asíncrona y Distribuida'
+    url: tema2-async/index.html
+    hover: 'async-and-distributed'
 practicas:
   - title: 00cuestionarioghalu
     myurl: https://campusvirtual.ull.es/1920/mod/assign/view.php?id=14697

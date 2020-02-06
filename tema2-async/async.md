@@ -3,7 +3,7 @@
 
 ## Event Loop
 
-* [Introducción al Bucle de Eventos, Las Race Conditions, Las Promesas y los Web Workers](../tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/)
+* [Introducción al Bucle de Eventos, Las Race Conditions, Las Promesas y los Web Workers](event-loop/)
 * [Callbacks: https://javascript.info/callbacks](https://javascript.info/callbacks)
 * [Concurrency model and the event loop: Mozilla Developers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
 * [Philip Roberts: ¿Que diablos es el "event loop" (bucle de eventos) de todos modos? (JSConf EU)](https://www.youtube.com/watch?v=8aGhZQkoFbQ)

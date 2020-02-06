@@ -1,4 +1,4 @@
-# Computación Asíncrona y Distribuida
+# Tema 2: Entornos de Trabajo y Patrones para la Computación Asíncrona y Distribuida
 
 ## [Programación Asíncrona en ECMA 6](async)
 
