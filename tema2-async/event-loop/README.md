@@ -241,7 +241,7 @@ We can evade problems by splitting the big task into pieces. Do the first piece,
 
 
 ```
-[[~/.../tema2-async/event-loop(master)]$ pwd -P
+[~/.../tema2-async/event-loop(master)]$ pwd -P
 /Users/casiano/campus-virtual/1920/dsi1920/ull-esit-dsi-1920.github.io/tema2-async/event-loop
 [~/.../tema2-async/event-loop(master)]$ cat splitting-cpu-hungry-task.html
 ```
@@ -283,7 +283,9 @@ count(chunk, stop);
 
 ## Web Workers
 
-### /local/src/uai/uai2015/simple-web-worker
+```
+/local/src/uai/uai2015/simple-web-worker
+```
 
 * [Repo de ejemplo simple-web-worker](https://github.com/SYTW/simple-web-worker)
 * [Repo de ejemplo fibonacci-worker](https://github.com/ULL-MII-SYTWS-1920/fibonacci-worker)
@@ -291,11 +293,12 @@ count(chunk, stop);
 
 ## Race Condition
 
-### /local/src/uai/uai2015/race-condition/index.html
+```
+/local/src/uai/uai2015/race-condition/index.html
+```
 
 * [Repo de Ejemplo](https://github.com/ULL-MII-SYTWS-1920/js-race)
 * [Race Condition in JavaScript](https://youtu.be/wNwBzgDm0BI) YouTube Video
-
 
 ## Promises
 
