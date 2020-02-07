@@ -96,5 +96,8 @@ File change watcher-fortifying-code.js
 ### El libro Node.js Beyond the Basics
 
 * [Node.js Beyond the Basics](https://jscomplete.com/learn/node-beyond-basics)
+
+### Blog: Node.js Child Processes: Everything you need to know How to use spawn(), exec(), execFile(), and fork()
+
 * [Node.js Child Processes: Everything you need to know How to use spawn(), exec(), execFile(), and fork()](https://medium.freecodecamp.org/node-js-child-processes-everything-you-need-to-know-e69498fe970a)
 
