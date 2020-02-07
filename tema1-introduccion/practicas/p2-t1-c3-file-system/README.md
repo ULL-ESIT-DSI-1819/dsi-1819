@@ -9,11 +9,16 @@
   * How would you take the process to spawn from `process.argv`?
   * How would you pass an arbitrary number of additional parameters from `process.argv` to the spawned process?
     *  `node watcher-spawn-cmd.js target.txt ls -l -h`
-* Puede usar la librería  [commander.js](https://www.npmjs.com/package/commander) para procesar los argumentos. Este es un ejemplo de como hacerlo:
-  
-  ```js
+
+
+Puede usar la librería  [commander.js](https://www.npmjs.com/package/commander) para procesar los argumentos. Este es un ejemplo de como hacerlo:
+ 
+ ``` 
   [~/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ cat watcher-commander.js 
-    'use strict';
+ ```
+
+ ```js
+     'use strict';
     const fs = require("fs");
     const program = require('commander');
     const { version, description } = require('./package.json');
