@@ -1,22 +1,83 @@
 # The JS Event Loop
 
-![how-the-event-loop-works.png](how-the-event-loop-works.png)
+## Unas Preguntas
 
-![event-loop.png](event-loop.png)
+1. ¿Cual es la salida?
+
+  ```js
+  for(var i=0;i<=3; i++) {
+      setTimeout(()=> console.log(i), 0)
+  }
+  ```
+
+2.   ¿Cual es la salida?
+   
+  ```js
+  const s = new Date().getSeconds();
+
+  setTimeout(function() {
+    console.log("Ran after " + (new Date().getSeconds() - s) + " seconds");
+  }, 500);
+
+  while(true) {
+    if(new Date().getSeconds() - s >= 2) {
+      console.log("Good, looped for 2 seconds");
+      break;
+    }
+  }
+  ```
+
+## Unas Figuras
+
+{% include image.html url="./how-the-event-loop-works.png" description='<i>All JavaScript environments use an event loop</i>' %}
+
+As long as there’s something left to do, JSs event loop will keep spinning. Whenever an event occurs, JS invokes any *callbacks* (event handlers) that are listening for that event.
+
+<!-- ![how-the-event-loop-works.png](how-the-event-loop-works.png) -->
+
+{% include image.html url="event-loop.png" description="<i>There’s an endless loop, when JavaScript engine waits for tasks, executes them and then sleeps waiting for more tasks</i>" %}
+
+<!-- ![event-loop.png](event-loop.png) -->
 
 * Your JavaScript code runs single threaded. There is just one thing happening at a time.
     * Pay attention to how you write your code and avoid anything that could block the thread, like synchronous network calls or long loops.
     * In most browsers there is an event loop for every browser tab, to avoid a web page with heavy processing to block your entire browser.
     * Web Workers run in their own event loop as well
 
-* [Event loop: microtasks and macrotasks](https://javascript.info/microtask-queue) en el libro https://javascript.info
+## The Event Loop en el libro [The Modern JavaScript Tutorial](https://javascript.info)
+
+*   [Event Loop](https://javascript.info/event-loop#event-loop)
+*   [Use-case 1: splitting CPU-hungry tasks](https://javascript.info/event-loop#use-case-1-splitting-cpu-hungry-tasks)
+*   [Use case 2: progress indication](https://javascript.info/event-loop#use-case-2-progress-indication)
+*   [Use case 3: doing something after the event](https://javascript.info/event-loop#use-case-3-doing-something-after-the-event)
+*   [Macrotasks and Microtasks](https://javascript.info/event-loop#macrotasks-and-microtasks)
+*   [Summary](https://javascript.info/event-loop#summary)
+
+## The section *Concurrency model and the event loop* at https://developer.mozilla.org/
+
+*   [Runtime concepts](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop#Runtime_concepts)
+*   [Event loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop#Event_loop)
+*   [Never blocking](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop#Never_blocking)
+*   [Specifications](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop#Specifications)
 
 ## Códigos Ilustrando el Bucle de Eventos
 
+### La Pila
 
-### tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/callstack.js 
+Este ejemplo es tomado del vídeo:
 
-* Tutorial [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop) at https://developer.mozilla.org
+* [Philip Roberts: ¿Que diablos es el "event loop" (bucle de eventos) de todos modos? (JSConf EU)](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
+se le puede proporcionar a `loupe`:
+
+* [loupe](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D) a tool in the cloud to see the event loop working
+
+Está en este directorio en mi laptop:
+
+* `campus-virtual/1920/sytws1920/ull-mii-sytws-1920.github.io/tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/callstack.js`
+
+Este es el código:
+
 
 ```js
 function multiply(x,y) {
