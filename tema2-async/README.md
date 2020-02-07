@@ -2,11 +2,14 @@
 
 ## Event Loop
 
-* [Introducción al Bucle de Eventos, Las Race Conditions, Las Promesas y los Web Workers](event-loop/)
+* [Introducción al Bucle de Eventos, Las Race Conditions y los Web Workers](event-loop/)
 
 ## Javascript.info: The Modern JavaScript Tutorial. Chapter Promises, async/await
 
-* [Introduction: callbacks](https://javascript.info/callbacks)
+* [javascript.info: Introduction: callbacks](https://javascript.info/callbacks)
+  *   [Callback in callback](https://javascript.info/callbacks#callback-in-callback)
+  *   [Handling errors](https://javascript.info/callbacks#handling-errors)
+  *   [Pyramid of Doom](https://javascript.info/callbacks#pyramid-of-doom)
 * [Promises: Basics: https://javascript.info/promise-basics](https://javascript.info/promise-basics)
 * [Promise Chaining](https://javascript.info/promise-chaining)
 * [Error handling with promises](https://javascript.info/promise-error-handling)
@@ -14,6 +17,8 @@
 * [Promisification](https://javascript.info/promisify)
 * [Microtasks](https://javascript.info/microtask-queue)
 * [Async/await](https://javascript.info/async-await)
+
+* [Very Simple Examples of Promises](promise-examples) (uai2015)
 
 ## Generators and Iterators
 
