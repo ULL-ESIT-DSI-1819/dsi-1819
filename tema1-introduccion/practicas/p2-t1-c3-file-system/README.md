@@ -9,8 +9,63 @@
   * How would you take the process to spawn from `process.argv`?
   * How would you pass an arbitrary number of additional parameters from `process.argv` to the spawned process?
     *  `node watcher-spawn-cmd.js target.txt ls -l -h`
+* Puede usar la librería  [commander.js](https://www.npmjs.com/package/commander) para procesar los argumentos. Este es un ejemplo de como hacerlo:
+  
+  ```js
+  [~/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ cat watcher-commander.js 
+    'use strict';
+    const fs = require("fs");
+    const program = require('commander');
+    const { version, description } = require('./package.json');
+
+    program
+        .version(version)
+        .description(description)
+        .usage('<filename>')
+
+    program.parse(process.argv);
+
+    const fileDescription = program.args.shift();
+
+    if (!fileDescription) program.help();
+
+    fs.watch(
+    fileDescription, 
+    (eventType, fN) => console.log(`File ${fN} changed! EVENT TYPE: ${eventType}` )
+    );
+
+console.log(`Now watching ${fileDescription} for changes ...`);
+```
+
+Veamos un ejemplo de ejecución cuando no se pasan argumentos:
+
+```
+[~/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node watcher-commander.js 
+Usage: watcher-commander <filename>
+
+watch a file or directory for changes:
+
+Options:
+  -V, --version  output the version number
+  -h, --help     output usage information
+```
+
+Con la opción `-V`obtenemos la versión:
+
+```
+[~/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node watcher-commander.js -V
+1.0.0
+```
+
+Si le pasamos como argumento el directorio actual:
+
+```
+[~/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node watcher-commander.js .
+Now watching . for changes ...
+```
+
 * Haga su desarrollo usando Visual studio Code. [Use git y github desde visual studio code](https://code.visualstudio.com/docs/editor/versioncontrol) tanto como pueda
-* Cree un [tablero GitHub del tipo Kanban Automatizado](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards). Convierta en incidencias los requisitos y proceda a moverlos entre los paneles conforme progresa. 
+* Cree un [tablero GitHub del tipo Kanban Automatizado](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards). Convierta en incidencias los requisitos y proceda a moverlos entre los paneles conforme progresa.
 * En el repo que entrega deberán figurar los ejemplos del libro y los ejercicios resueltos.
 
 En el `README.md` escriba un tutorial sobre lo que ha aprendido. Muestre imágenes o vídeos de su desarrollo con Visual Studio Code.
