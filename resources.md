@@ -56,7 +56,8 @@
 
 ### iaas.ull.es
 
-* [Instrucciones para el uso de iaas.ull.es](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/recursos/iaas.html)
+* [Instrucciones para el uso de iaas.ull.es](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/recursos/iaas.html) (gitbooks, por el profesor)
+  * [Manuales iaas](https://goo.gl/noagxg) Actualizados Febrero 2020
   - [Gestor online de pools](https://iaas.ull.es/ovirtadmin/admin/)
   - [IaaS - Uso de la aplicación de gestión de pools](https://docs.google.com/document/d/13vP4bd5LhnfNJvV6ncz20ZNTXfeg8ehWbw_ECkn4MAY/edit#)
   - [Video del profesor: iaas.ull.es](https://youtu.be/qKHgbV0lYbA)
