@@ -35,8 +35,8 @@ Puede usar la librería  [commander.js](https://www.npmjs.com/package/commander)
     if (!fileDescription) program.help();
 
     fs.watch(
-    fileDescription, 
-    (eventType, fN) => console.log(`File ${fN} changed! EVENT TYPE: ${eventType}` )
+        fileDescription, 
+        (eventType, fN) => console.log(`File ${fN} changed! EVENT TYPE: ${eventType}` )
     );
 
 console.log(`Now watching ${fileDescription} for changes ...`);
