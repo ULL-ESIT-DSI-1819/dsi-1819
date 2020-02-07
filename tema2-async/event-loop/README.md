@@ -1,8 +1,54 @@
 # The JS Event Loop
 
+
 ## Unas Preguntas
 
-1. ¿Cual es la salida?
+* ¿Cual es la salida de las llamadas a `console.trace`?
+
+```js
+function multiply(x,y) {
+  // console.trace imprime una traza de la pila de llamadas
+  console.trace("-----------At multiply-----------");
+  return x * y;
+}
+
+function squared(n) {
+  console.trace("-----------At squared-----------");
+  return multiply(n,n)
+}
+
+function printSquare(n) {
+   return squared(n)
+}
+
+let numberSquared = printSquare(5);
+console.log(numberSquared);
+```
+
+
+* ¿En que orden ocurren las salidas?
+  
+  ```js
+  (function() {
+
+    console.log('this is the start');
+
+    setTimeout(function cb() {
+      console.log('Callback 1: this is a msg from call back');
+    }); // has a default time value of 0
+
+    console.log('this is just a message');
+
+    setTimeout(function cb1() {
+      console.log('Callback 2: this is a msg from call back');
+    }, 0);
+
+    console.log('this is the end');
+
+  })();
+  ```
+
+* ¿Cual es la salida?
 
   ```js
   for(var i=0;i<=3; i++) {
@@ -10,7 +56,7 @@
   }
   ```
 
-2.   ¿Cual es la salida?
+* ¿Cual es la salida?
    
   ```js
   const s = new Date().getSeconds();
@@ -60,9 +106,9 @@ As long as there’s something left to do, JSs event loop will keep spinning. Wh
 *   [Never blocking](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop#Never_blocking)
 *   [Specifications](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop#Specifications)
 
-## Códigos Ilustrando el Bucle de Eventos
+## Repasando las Preguntas a la luz del Bucle de Eventos
 
-### La Pila
+### Ejemplo: La Pila
 
 Este ejemplo es tomado del vídeo:
 
@@ -77,7 +123,6 @@ Está en este directorio en mi laptop:
 * `campus-virtual/1920/sytws1920/ull-mii-sytws-1920.github.io/tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/callstack.js`
 
 Este es el código:
-
 
 ```js
 function multiply(x,y) {
@@ -99,27 +144,18 @@ let numberSquared = printSquare(5);
 console.log(numberSquared);
 ```
 
-### tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/settimeout-does-not-run-inmediately.js 
-
-* Tutorial [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop) at https://developer.mozilla.org
+[Output from execution](callstack-js-execution)
 
 
-```js
-const s = new Date().getSeconds();
+### Orden de Ejecución
 
-setTimeout(function() {
-  console.log("Ran after " + (new Date().getSeconds() - s) + " seconds");
-}, 500);
+Directorio en mi máquina:
 
-while(true) {
-  if(new Date().getSeconds() - s >= 2) {
-    console.log("Good, looped for 2 seconds");
-    break;
-  }
-}
+```
+tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/order.js 
 ```
 
-### tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/order.js 
+Sacado de:
 
 * Tutorial [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop) at https://developer.mozilla.org
 
@@ -144,16 +180,70 @@ while(true) {
 })();
 ```
 
-## Splitting CPU Hungry Tasks
+### Ejemplo: JS *is single threaded*
 
-### File [p2-t1-c3-file-system/event-loop/splitting-cpu-hungry-task.html](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/blob/master/tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/splitting-cpu-hungry-task.html)
-
-* Ejecución: <a href="splitting-cpu-hungry-task.html" target="_blank">splitting-cpu-hungry-task.html</a>
+En mi máquina:
 
 ```
-[~/.../p2-t1-c3-file-system/event-loop(master)]$ pwd -P
-/Users/casiano/campus-virtual/1920/sytws1920/apuntes/tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop
-[~/.../p2-t1-c3-file-system/event-loop(master)]$ cat splitting-cpu-hungry-task.html 
+tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/settimeout-does-not-run-inmediately.js 
+```
+
+Tomado del tutorial:
+
+* Tutorial [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop) at https://developer.mozilla.org
+
+
+```js
+const s = new Date().getSeconds();
+
+setTimeout(function() {
+  console.log("Ran after " + (new Date().getSeconds() - s) + " seconds");
+}, 500);
+
+while(true) {
+  if(new Date().getSeconds() - s >= 2) {
+    console.log("Good, looped for 2 seconds");
+    break;
+  }
+}
+```
+
+## Splitting CPU Hungry Tasks
+
+See [https://javascript.info/event-loop#use-case-1-splitting-cpu-hungry-tasks](https://javascript.info/event-loop#use-case-1-splitting-cpu-hungry-tasks)
+
+To demonstrate the approach, for the sake of simplicity, let’s take a function that counts from 1 to a big number.
+
+If you [run the code below with a very large number](https://plnkr.co/edit/?p=preview), the engine will *hang* for some time.
+
+When running it in-browser,  try to click other buttons on the page – you’ll see that no other events get handled until the counting finishes.
+
+```js
+let i = 0;
+
+let start = Date.now();
+
+function count() {
+
+  // do a heavy job
+  for (let j = 0; j < 1e9; j++) {
+    i++;
+  }
+
+  alert("Done in " + (Date.now() - start) + 'ms');
+}
+
+count();
+```
+
+
+We can evade problems by splitting the big task into pieces. Do the first piece, then schedule setTimeout (with zero-delay) to do the next piece, and so on.
+
+
+```
+[[~/.../tema2-async/event-loop(master)]$ pwd -P
+/Users/casiano/campus-virtual/1920/dsi1920/ull-esit-dsi-1920.github.io/tema2-async/event-loop
+[~/.../tema2-async/event-loop(master)]$ cat splitting-cpu-hungry-task.html
 ```
 
 ```js
