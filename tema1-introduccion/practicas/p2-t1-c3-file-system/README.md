@@ -99,5 +99,5 @@ File change watcher-fortifying-code.js
 
 ### Blog: Node.js Child Processes: Everything you need to know How to use spawn(), exec(), execFile(), and fork()
 
-* [Node.js Child Processes: Everything you need to know How to use spawn(), exec(), execFile(), and fork()](https://medium.freecodecamp.org/node-js-child-processes-everything-you-need-to-know-e69498fe970a)
+* [Node.js Child Processes: Everything you need to know How to use spawn(), exec(), execFile(), and fork()](https://medium.freecodecamp.org/node-js-child-processes-everything-you-need-to-know-e69498fe970a) by Samer Buna
 
