@@ -64,8 +64,8 @@ practicas:
     name: Práctica p2-t1-vscode
 practicas_suprimidas:
     - title: 02pb-gh-campus-expert
-    myurl: /tema0-presentacion/pb-gh-campus-expert/
-    name: Práctica pb-gh-campus-expert
+      myurl: /tema0-presentacion/pb-gh-campus-expert/
+      name: Práctica pb-gh-campus-expert
 exclude: 
   - tema1-introduccion/practicas/p2-t1-c3-file-system/sol-nodejs-filesystem-ch2/ 
   - tema2-async/practicas/p6-t2-microservices/eval/
