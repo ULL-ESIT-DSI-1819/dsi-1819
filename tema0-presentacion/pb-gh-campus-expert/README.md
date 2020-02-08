@@ -1,4 +1,4 @@
-# Práctica Bono: GitHub Campus Expert (pb-gh-campus-expert)
+# Práctica Transversal: GitHub Campus Expert (pb-gh-campus-expert)
 
 Esta práctica tiene por objetivo mejorar las competencias transversales. 
 La realización es opcional. No cuenta en la calificación final.
@@ -10,5 +10,3 @@ Estas son las tareas a realizar:
 3. Opcional: [Solicite una GitHub Internship](https://internships.github.com/). Si está cerrada subscríbase para recibir las actualizaciones. No es necesario que acepte si es elegido
 
 Use el repo asignado para documentar (usando las GitHub Pages) que ha realizado el curso, solicitado el *student developer pack* y la *GitHub Internship*. En la tarea, suba el enlace al repo.
-
-

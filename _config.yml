@@ -56,16 +56,16 @@ practicas:
   - title: 01comunidadgpluspl
     myurl: https://campusvirtual.ull.es/1920/mod/assign/view.php?id=188638
     name: Tarea Comunidad G+ de DSI
-  - title: 02p1-t1-iaas
+  - title: 02pb-gh-campus-expert
+    myurl: /tema0-presentacion/pb-gh-campus-expert/
+    name: Práctica opcional pb-gh-campus-expert
+  - title: 03p1-t1-iaas
     myurl: /tema1-introduccion/practicas/p1-t1-iaas/
     name: Práctica p1-t1-iaas
-  - title: 03p2-t1-vscode
+  - title: 04p2-t1-vscode
     myurl: /tema1-introduccion/practicas/p2-t1-vscode/
     name: Práctica p2-t1-vscode
-practicas_suprimidas:
-    - title: 02pb-gh-campus-expert
-      myurl: /tema0-presentacion/pb-gh-campus-expert/
-      name: Práctica pb-gh-campus-expert
+
 exclude: 
   - tema1-introduccion/practicas/p2-t1-c3-file-system/sol-nodejs-filesystem-ch2/ 
   - tema2-async/practicas/p6-t2-microservices/eval/
