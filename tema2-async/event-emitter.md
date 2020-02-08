@@ -1,6 +1,6 @@
 # Node.js EventEmitters
 
-EventEmitter is a very important class in Node.js. It provides a channel for events to be dispatched and listeners to be notified. Many objects you’ll encounter in Node.js inherit from EventEmitter, like the Streams class.
+**EventEmitter** is a very important class in Node.js. It provides a **channel** for events to be **dispatched** and **listeners** to be notified. Many objects you’ll encounter in Node.js inherit from EventEmitter, like the **Streams** class.
 
 ### The Observer Pattern
 
