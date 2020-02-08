@@ -4,7 +4,7 @@
 
 > The **observer pattern** is a software design pattern in which an object, called the **subject**, maintains a list of its dependents, called **observers**, and notifies them automatically of any state changes, usually by calling one of their methods.
 
-![](/assets/images/observer-design-pattern.png)
+![]({{site.baseurl}}/assets/images/observer-design-pattern.png)
 
 See also 
 
@@ -14,7 +14,7 @@ See also
 
 * Algunos métodos de los objetos de la clase [EventEmitter](https://nodejs.org/api/events.html#events_class_eventemitter):
 
-![](/assets/images/event-emitter-methods.png)
+![]({{site.baseurl}}/assets/images/event-emitter-methods.png)
 
 #### on
 
