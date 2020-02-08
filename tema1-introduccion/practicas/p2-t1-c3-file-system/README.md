@@ -1,8 +1,13 @@
 # Descripción de la práctica p2-t1-c3-filesystem
 
+## Capítulo 2 Wrangling the File System de *Node.JS The Right Way*
+
 * Autentíquese en [BULL PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/puntoq/)
 * Una vez autenticado obtendrá acceso al libro [Node.js 8 the Right Way](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344). Jim Wilson. 2018 (Debes estar autenticado via PuntoQ)
-* Lea el Capítulo 2 "[Wrangling the File System](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-idot-getting-up-to-speed-on-nodedotjs-8/chp_filesystem_html)" de *Node.JS The Right Way*. 
+* Lea el Capítulo 2 de *Node.JS The Right Way*. 
+
+## Ejercicios 
+
 * Resuelva los problemas en la secciones *Fortifying the code* y *Expanding Functionality* del capítulo *Wrangling the File System*
   * In the file-watching examples, what happens if the target file doesn’t exist? 
   * What happens if a file being watched gets deleted?
@@ -10,11 +15,18 @@
   * How would you pass an arbitrary number of additional parameters from `process.argv` to the spawned process?
     *  `node watcher-spawn-cmd.js target.txt ls -l -h`
   * Use la librería  [commander.js](https://www.npmjs.com/package/commander)  
-* Haga su desarrollo usando Visual studio Code. [Use git y github desde visual studio code](https://code.visualstudio.com/docs/editor/versioncontrol) tanto como pueda
+
+## Visual Studio Code y git
+
+* Haga su desarrollo usando Visual Studio Code. [Use git y github desde visual studio code](https://code.visualstudio.com/docs/editor/versioncontrol) tanto como pueda
+
+## Tablero Kanban
+
 * Cree un [tablero GitHub del tipo Kanban Automatizado](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards). Convierta en incidencias los requisitos y proceda a moverlos entre los paneles conforme progresa.
 * En el repo que entrega deberán figurar los ejemplos del libro y los ejercicios resueltos.
   
 
+## Commander.js: Procesado de argumentos en línea de comandos
 
 Puede usar la librería  [commander.js](https://www.npmjs.com/package/commander) para procesar los argumentos. Este es un ejemplo de como hacerlo:
  
@@ -100,7 +112,11 @@ No file 'target.txt' found
 Now watching target.txt for changes ...
 ```
 
+### Ejercicio
+
 * Mejore este ejemplo añadiendo una opción `-r --recursive` que indica si `watch` debe hacer una  vigilancia recursiva.
+
+## Informe
 
 En el `README.md` escriba un tutorial sobre lo que ha aprendido. Muestre imágenes o vídeos de su desarrollo con Visual Studio Code.
 
