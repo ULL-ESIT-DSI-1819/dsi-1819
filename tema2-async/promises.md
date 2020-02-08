@@ -1,6 +1,6 @@
 # Promises 
 
-## Javascript.info: The Modern JavaScript Tutorial. Chapter Promises, async/await
+## Chapter Promises, async/await of the book The Modern JavaScript Tutorial. 
 
 * [javascript.info: Introduction: callbacks](https://javascript.info/callbacks)
   *   [Callback in callback](https://javascript.info/callbacks#callback-in-callback)
