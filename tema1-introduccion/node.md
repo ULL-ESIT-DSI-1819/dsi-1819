@@ -29,21 +29,20 @@
 - [Read section *The HTTP module* from Eloquent Javascript 2nd edition](http://eloquentjavascript.net/2nd_edition/20_node.html#h_3O5dGIJE9F)
 - [Read section *A File Server* from Eloquent Javascript 2nd edition](http://eloquentjavascript.net/2nd_edition/20_node.html#h_LvXChBt2KP)
 
-#### JavaScript Event Loop
+## JavaScript Event Loop
 
 - Tutorial [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
 
-#### Streams
+## Streams
 
-- [A Brief History of Node Streams](https://medium.com/the-node-js-collection/a-brief-history-of-node-streams-pt-1-3401db451f21)
-- [A Brief History of Node Streams. Part 2](https://medium.com/the-node-js-collection/a-brief-history-of-node-streams-pt-2-bcb6b1fd7468)
+* [Node Streams](streams)
 
-### Prácticas
+## Prácticas
 
 * [Descripción de la práctica p2-t1-c3-filesystem](practicas/p2-t1-c3-file-system/)
 * [Descripción de la práctica p3-t1-c3-http](practicas/p3-t1-c3-http/)
 
-### Get Started With Node: An Introduction To APIs, HTTP And ES6+ JavaScript
+## Get Started With Node: An Introduction To APIs, HTTP And ES6+ JavaScript
 
 * [Get Started With Node: An Introduction To APIs, HTTP And ES6+ JavaScript
 ](https://www.smashingmagazine.com/2019/02/node-api-http-es6-javascript/) Smashing Magazine
