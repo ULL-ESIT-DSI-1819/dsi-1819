@@ -2,8 +2,6 @@
 
 ## [Uso del iaas.ull.es. Entornos de Trabajo](iaas)
 
-### Prácticas
-
 ## [Editores. Entornos de Trabajo](editors)
 
 ## [Node.JS](node)
