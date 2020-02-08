@@ -4,22 +4,11 @@
 
 * [Introducción al Bucle de Eventos, Las Race Conditions y los Web Workers](event-loop/)
 
-## Promises
+## [Promises](promises)
 
-* [Promises in JS](promises)
+## [Generators and Iterators](iterators-and-generators)
 
-## Generators and Iterators
-
-* [Generators](https://javascript.info/generators)
-* [Async iterators and generators](https://javascript.info/async-iterators-generators)
-* Javascript.info: The Modern JavaScript Tutorial. Chapter [Generators, advanced iteration](https://javascript.info/generators-iterators)
-
-## Handling Events
-
-* [Eloquent JS. Chapter 14: Handling Events](http://eloquentjavascript.net/14_event.html)
-  * [Repo ULL-ESIT-MII-CA-1718/ejs-chapter14-handling-events con ejemplos y ejercicios](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter14-handling-events)
-* [SitePoint Article: How to Create Custom Events in JavaScript](https://www.sitepoint.com/javascript-custom-events/)
-
+## [Handling Events](handling-events)
 
 ## [Node.js EventEmitters](event-emitter)
 
