@@ -1,6 +1,6 @@
 # Tema 2: Entornos de Trabajo y Patrones para la Computación Asíncrona y Distribuida
 
-## [Event Loop](event-loop/)
+## [Event Loop, Race Conditions y Web Workers](event-loop/)
 
 ## [Promises](promises)
 
