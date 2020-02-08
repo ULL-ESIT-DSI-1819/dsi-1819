@@ -9,10 +9,11 @@
   * How would you take the process to spawn from `process.argv`?
   * How would you pass an arbitrary number of additional parameters from `process.argv` to the spawned process?
     *  `node watcher-spawn-cmd.js target.txt ls -l -h`
+  * Use la librería  [commander.js](https://www.npmjs.com/package/commander)  
 * Haga su desarrollo usando Visual studio Code. [Use git y github desde visual studio code](https://code.visualstudio.com/docs/editor/versioncontrol) tanto como pueda
 * Cree un [tablero GitHub del tipo Kanban Automatizado](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards). Convierta en incidencias los requisitos y proceda a moverlos entre los paneles conforme progresa.
 * En el repo que entrega deberán figurar los ejemplos del libro y los ejercicios resueltos.
-
+  
 
 
 Puede usar la librería  [commander.js](https://www.npmjs.com/package/commander) para procesar los argumentos. Este es un ejemplo de como hacerlo:
@@ -98,6 +99,8 @@ No file 'target.txt' found
 [~/.../sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node watcher-fortifying-code.js -f target.txt
 Now watching target.txt for changes ...
 ```
+
+* Mejore este ejemplo añadiendo una opción `-r --recursive` que indica si `watch` debe hacer una  vigilancia recursiva.
 
 En el `README.md` escriba un tutorial sobre lo que ha aprendido. Muestre imágenes o vídeos de su desarrollo con Visual Studio Code.
 
