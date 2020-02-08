@@ -6,7 +6,7 @@
 
 ## Promises
 
-* (Promises in JS)(promises)
+* [Promises in JS](promises)
 
 ## Generators and Iterators
 
