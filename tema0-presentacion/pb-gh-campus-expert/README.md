@@ -1,7 +1,7 @@
 # Práctica Bono: GitHub Campus Expert (pb-gh-campus-expert)
 
 Esta práctica tiene por objetivo mejorar las competencias transversales. 
-La realización es opcional. No cuenta en la califcación final.
+La realización es opcional. No cuenta en la calificación final.
 
 Estas son las tareas a realizar:
 
