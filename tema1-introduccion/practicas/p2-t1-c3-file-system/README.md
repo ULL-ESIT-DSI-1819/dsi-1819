@@ -18,59 +18,85 @@
 Puede usar la librería  [commander.js](https://www.npmjs.com/package/commander) para procesar los argumentos. Este es un ejemplo de como hacerlo:
  
  ``` 
-  [~/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ cat watcher-commander.js 
+[~/.../sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ cat watcher-fortifying-code.js 
  ```
 
  ```js
-     'use strict';
-    const fs = require("fs");
-    const program = require('commander');
-    const { version, description } = require('./package.json');
+'use strict';
+const fs = require("fs");
+const program = require('commander');
+const { version, description } = require('./package.json');
 
-    program
-        .version(version)
-        .description(description)
-        .usage('<filename>')
+program
+    .version(version)
+    .description(description)
+    .usage('[options]')
+    .option('-f, --file <fileToWatch>', 'set the file or directory to watch', '.')
 
-    program.parse(process.argv);
+program.parse(process.argv);
 
-    const fileDescription = program.args.shift();
+const fileToWatch = program.file;
 
-    if (!fileDescription) program.help();
-
-    fs.watch(
-        fileDescription, 
-        (eventType, fN) => console.log(`File ${fN} changed! EVENT TYPE: ${eventType}` )
-    );
-
-console.log(`Now watching ${fileDescription} for changes ...`);
+try {
+  fs.watch(fileToWatch, { recursive: true }, (eventType, fileName) => {
+    console.log(`File ${fileName} changed! Event Type: ${eventType}`);
+    if (eventType === 'rename') {
+      console.error(`No longer watching ${fileToWatch}!`);
+      process.exit(1);
+    }
+  });
+  console.log(`Now watching ${fileToWatch} for changes ...`);
+} catch(e) {
+   if (e.code === "ENOENT") console.error(`No file '${fileToWatch}' found`);
+   else console.error(e)
+}
 ```
 
 Veamos un ejemplo de ejecución cuando no se pasan argumentos:
 
 ```
-[~/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node watcher-commander.js 
-Usage: watcher-commander <filename>
+[~/.../sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node watcher-fortifying-code.js 
+Now watching . for changes ...
+^C
+```
 
-watch a file or directory for changes:
+Podemos usar la opción `--help`:
+
+```
+$ node watcher-fortifying-code.js --help
+Usage: watcher-fortifying-code [options]
+
+watch a file or directory for changes
 
 Options:
-  -V, --version  output the version number
-  -h, --help     output usage information
+  -V, --version             output the version number
+  -f, --file <fileToWatch>  set the file or directory to watch (default: ".")
+  -h, --help                output usage information
 ```
 
-Con la opción `-V`obtenemos la versión:
+La opción `-V`:
 
 ```
-[~/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node watcher-commander.js -V
+$ node watcher-fortifying-code.js -V
 1.0.0
 ```
 
-Si le pasamos como argumento el directorio actual:
+El programa se nutre para la versión de la que está en el fichero `package.json`:
 
 ```
-[~/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node watcher-commander.js .
-Now watching . for changes ...
+$ jq .version,.description  package.json 
+"1.0.0"
+"watch a file or directory for changes"
+```
+
+Si le pasamos la opción `-f`:
+
+```
+$ node watcher-fortifying-code.js -f target.txt
+No file 'target.txt' found
+[~/.../sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ touch target.txt
+[~/.../sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node watcher-fortifying-code.js -f target.txt
+Now watching target.txt for changes ...
 ```
 
 En el `README.md` escriba un tutorial sobre lo que ha aprendido. Muestre imágenes o vídeos de su desarrollo con Visual Studio Code.
