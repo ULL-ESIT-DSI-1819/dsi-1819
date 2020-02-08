@@ -21,4 +21,6 @@
 
 ## [Referencias](../references.md)
 
-## [Práctica Bono: GitHub Campus Expert (pb-gh-campus-expert)](pb-gh-campus-expert)
+## [Práctica Transversal: GitHub Campus Expert (pb-gh-campus-expert)](pb-gh-campus-expert) 
+
+Esta práctica es opcional. No cuenta en la nota.
