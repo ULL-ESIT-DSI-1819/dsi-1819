@@ -32,8 +32,8 @@ next:
    - Instale [nvm](https://github.com/creationix/nvm)
   - Instale nodeJS usando nvm
   - [jshint](http://jshint.com/install/) y [jshint on vim](https://coderwall.com/p/zfhquw/jshint-in-vim)
-    - Instale Express.js
-      - [Express Web Framework (Node.js/JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs) (Mozilla)
+  - Instale Express.js
+     - [Express Web Framework (Node.js/JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs) (Mozilla)
   - Ideas opcionales:
     - Instale [hub](https://github.com/github/hub)
     - [ghi](https://github.com/stephencelis/ghi)
