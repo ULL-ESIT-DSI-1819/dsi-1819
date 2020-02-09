@@ -6,5 +6,5 @@ Si tiene dudas consulte la sección *Route Parameters* de la guía de
 [Express para Routing](http://expressjs.com/en/guide/routing.html#route-parameters)
 y/o mire los ejemplos de rutas en el servidor del directorio `routes/` del repo `express-start`
 
-Entregue la solución en el repo asociado a la asignación p1-t1-iaas-reto
+Entregue la solución en el repo asociado a la asignación **p1-t1-iaas-reto** habilitada al efecto
 
