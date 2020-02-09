@@ -1,4 +1,4 @@
-# Tema 1: Introducción a los Entornos de Trabajo, Herramientas, Pruebas, Integración, Calidad, Diseño y Patrones 
+# {{site.temas[1].title}}
 
 ## [Entornos de Trabajo: El servicio iaas.ull.es](iaas)
 
