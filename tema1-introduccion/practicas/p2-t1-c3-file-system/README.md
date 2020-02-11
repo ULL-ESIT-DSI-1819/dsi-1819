@@ -34,7 +34,7 @@ const fileToWatch = program.file;
 try {
   fs.watch(fileToWatch, { recursive: true }, (eventType, fileName) => {
     console.log(`File ${fileName} changed! Event Type: ${eventType}`);
-    if (eventType === 'rename') {
+    if (eventType === 'rename' && fileToWatch === fileName) {
       console.error(`No longer watching ${fileToWatch}!`);
       process.exit(1);
     }
