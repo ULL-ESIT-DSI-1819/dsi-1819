@@ -1,4 +1,4 @@
-# Reto para la Práctica p1-t1-iaas: p1-t1-iaas-reto
+# Reto 2 para la Práctica p1-t1-iaas: p1-t1-iaas-reto
 
 Añada al servidor `hello.js` una ruta de manera que cuando se visite con el navegador con la ruta `/download/fileName` produzca la descarga del fichero con nombre  `fileName` en el cliente.
 
