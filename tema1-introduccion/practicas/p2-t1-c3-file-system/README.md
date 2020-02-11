@@ -4,7 +4,7 @@
 
 * Autentíquese en [BULL PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/puntoq/)
 * Una vez autenticado obtendrá acceso al libro [Node.js 8 the Right Way]({{site.biblio.wilson}}). Jim Wilson. 2018 (Debes estar autenticado via PuntoQ)
-* Lea el Capítulo 2 de *Node.JS The Right Way*. 
+* Lea el Capítulo 2 de *Node.JS The Right Way*.
 
 En este capítulo se desarrollan algunos programas sencillos que se encargan de vigilar un directorio o fichero por cambios y leen sus argumentos de la línea de comandos. Estos simples ejemplos les ofrecen una visión de como funciona el bucle de eventos de Node.js.
 
