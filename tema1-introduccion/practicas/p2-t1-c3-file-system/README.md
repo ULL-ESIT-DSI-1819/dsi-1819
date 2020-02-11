@@ -16,6 +16,7 @@ con la diferencia de que usamos la librería  [commander.js](https://www.npmjs.c
  ```
 
  ```js
+#!/usr/bin/env node
 'use strict';
 const fs = require("fs");
 const program = require('commander');
