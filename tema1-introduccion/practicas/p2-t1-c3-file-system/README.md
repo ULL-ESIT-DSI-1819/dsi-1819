@@ -8,7 +8,7 @@
 
 En este capítulo se desarrollan algunos programas sencillos que se encargan de vigilar un directorio o fichero por cambios y leen sus argumentos de la línea de comandos. Estos simples ejemplos les ofrecen una visión de como funciona el bucle de eventos de Node.js.
 
-Este es un ejemplo similar a los ejemplos que encontrará en el capítulo 
+Este es un ejemplo similar a los ejemplos que encontrará en el capítulo
 con la diferencia de que usamos la librería  [commander.js](https://www.npmjs.com/package/commander) para procesar los argumentos:
  
  ``` 
