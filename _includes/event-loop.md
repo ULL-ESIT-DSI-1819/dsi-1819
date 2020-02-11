@@ -1,6 +1,7 @@
 ## Unas Preguntas
 
-* ¿Cual es la salida de las llamadas a `console.trace`?
+* ¿Cual es la salida de las llamadas a `console.trace`? 
+  (`console.trace` muestra la [stack trace](https://developer.mozilla.org/en-US/docs/Web/API/console#Stack_traces) en la consola)
 
 ```js
 function multiply(x,y) {
@@ -44,6 +45,7 @@ console.log(numberSquared);
 
   })();
   ```
+  - El método `setTimeout(funcion, retraso)` establece un temporizador que ejecuta `funcion` después de que transcurre un tiempo `retraso` en milisegundos. Si se omite este parámetro se usa el valor 0. El valor retornado identifica el temporizador creado con la llamada a `setTimeout()`; este valor puede pasarse a `clearTimeout()` para cancelar el temporizador.
 
 * ¿Cual es la salida?
 
@@ -116,7 +118,7 @@ se le puede proporcionar a `loupe`:
 
 Está en este directorio en mi laptop:
 
-* `campus-virtual/1920/sytws1920/ull-mii-sytws-1920.github.io/tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/callstack.js`
+* `~/campus-virtual/1920/sytws1920/ull-mii-sytws-1920.github.io/tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/callstack.js`
 
 Este es el código:
 

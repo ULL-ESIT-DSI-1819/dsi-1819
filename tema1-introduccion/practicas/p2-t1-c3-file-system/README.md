@@ -3,32 +3,13 @@
 ## Capítulo 2 Wrangling the File System de *Node.JS The Right Way*
 
 * Autentíquese en [BULL PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/puntoq/)
-* Una vez autenticado obtendrá acceso al libro [Node.js 8 the Right Way](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344). Jim Wilson. 2018 (Debes estar autenticado via PuntoQ)
+* Una vez autenticado obtendrá acceso al libro [Node.js 8 the Right Way]({{site.biblio.wilson}}). Jim Wilson. 2018 (Debes estar autenticado via PuntoQ)
 * Lea el Capítulo 2 de *Node.JS The Right Way*. 
 
-## Ejercicios 
+En este capítulo se desarrollan algunos programas sencillos que se encargan de vigilar un directorio o fichero por cambios y leen sus argumentos de la línea de comandos. Estos simples ejemplos les ofrecen una visión de como funciona el bucle de eventos de Node.js.
 
-* Resuelva los problemas en la secciones *Fortifying the code* y *Expanding Functionality* del capítulo *Wrangling the File System*
-  * In the file-watching examples, what happens if the target file doesn’t exist? 
-  * What happens if a file being watched gets deleted?
-  * How would you take the process to spawn from `process.argv`?
-  * How would you pass an arbitrary number of additional parameters from `process.argv` to the spawned process?
-    *  `node watcher-spawn-cmd.js target.txt ls -l -h`
-  * Use la librería  [commander.js](https://www.npmjs.com/package/commander)  
-
-## Visual Studio Code y git
-
-* Haga su desarrollo usando Visual Studio Code. [Use git y github desde visual studio code](https://code.visualstudio.com/docs/editor/versioncontrol) tanto como pueda
-
-## Tablero Kanban
-
-* Cree un [tablero GitHub del tipo Kanban Automatizado](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards). Convierta en incidencias los requisitos y proceda a moverlos entre los paneles conforme progresa.
-* En el repo que entrega deberán figurar los ejemplos del libro y los ejercicios resueltos.
-  
-
-## Commander.js: Procesado de argumentos en línea de comandos
-
-Puede usar la librería  [commander.js](https://www.npmjs.com/package/commander) para procesar los argumentos. Este es un ejemplo de como hacerlo:
+Este es un ejemplo similar a los ejemplos que encontrará en el capítulo 
+con la diferencia de que usamos la librería  [commander.js](https://www.npmjs.com/package/commander) para procesar los argumentos:
  
  ``` 
 [~/.../sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ cat watcher-fortifying-code.js 
@@ -115,6 +96,26 @@ Now watching target.txt for changes ...
 ### Ejercicio
 
 * Mejore este ejemplo añadiendo una opción `-r --recursive` que indica si `watch` debe hacer una  vigilancia recursiva.
+
+## Ejercicios 
+
+* Resuelva los problemas en la secciones *Fortifying the code* y *Expanding Functionality* del capítulo *Wrangling the File System*
+  * In the file-watching examples, what happens if the target file doesn’t exist? 
+  * What happens if a file being watched gets deleted?
+  * How would you take the process to spawn from `process.argv`?
+  * How would you pass an arbitrary number of additional parameters from `process.argv` to the spawned process?
+    *  `node watcher-spawn-cmd.js target.txt ls -l -h`
+  * Use la librería  [commander.js](https://www.npmjs.com/package/commander)  
+
+## Visual Studio Code y git
+
+* Haga su desarrollo usando Visual Studio Code. [Use git y github desde visual studio code](https://code.visualstudio.com/docs/editor/versioncontrol) tanto como pueda
+
+## Tablero Kanban
+
+* Cree un [tablero GitHub del tipo Kanban Automatizado](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards). Convierta en incidencias los requisitos y proceda a moverlos entre los paneles conforme progresa.
+* En el repo que entrega deberán figurar los ejemplos del libro y los ejercicios resueltos.
+  
 
 ## Informe
 
