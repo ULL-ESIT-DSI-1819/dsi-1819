@@ -1,3 +1,11 @@
+---
+layout: default
+title: p2-t1-c3-filesystem
+permalink: /tema1-introduccion/practicas/p2-t1-c3-file-system/index.html
+previous:
+  url: /tema1-introduccion/practicas/p2-t1-vscode/
+---
+
 # Descripción de la práctica p2-t1-c3-filesystem
 
 ## Capítulo 2 Wrangling the File System de *Node.JS The Right Way*

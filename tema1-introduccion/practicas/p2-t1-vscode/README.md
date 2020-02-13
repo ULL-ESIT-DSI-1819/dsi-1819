@@ -1,9 +1,11 @@
 ---
 layout: default
-title: p2-t1-vscode/
+title: p2-t1-vscode
 permalink: /tema1-introduccion/practicas/p2-t1-vscode/
 previous:
   url: /tema1-introduccion/practicas/p1-t1-iaas/
+next:
+  url: /tema1-introduccion/practicas/p2-t1-c3-filesystem/
 ---
 
 # Descripción de la Práctica p2-t1-vscode

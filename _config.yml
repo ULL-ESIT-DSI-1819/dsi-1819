@@ -65,6 +65,9 @@ practicas:
   - title: 04p2-t1-vscode
     myurl: /tema1-introduccion/practicas/p2-t1-vscode/
     name: Práctica p2-t1-vscode
+  - title: 05p2-t1-c3-filesystem
+    myurl: /tema1-introduccion/practicas/p2-t1-c3-filesystem/
+    name: Práctica p2-t1-c3-filesystem
 biblio:
   wilson: https://puntoq.ull.es/permalink/f/15vbjs7/ullsfx4340000000247287
 exclude: 
