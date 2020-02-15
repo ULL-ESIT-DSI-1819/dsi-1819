@@ -24,5 +24,5 @@ $ node repeatable-option-commander.js -c a -c b -c c
 ```
 
 1. Lea la sección [The Async Module]({{site.baseurl}}/tema2-async/async-js) de los apuntes y encuentre una solución usando `Async`
-2. En una segunda parte,considere la posibilidad la posibilidad de excepciones debidas a que alguno de los ficheros no exista
-3. Intente encontrar una solución sin hacer uso de `Async` ¿Cómo lo haría?
+2. Considere la posibilidad la posibilidad de excepciones debidas a que alguno de los ficheros no exista
+3. Intente encontrar también  una solución sin hacer uso de `Async` ¿Cómo lo haría?
