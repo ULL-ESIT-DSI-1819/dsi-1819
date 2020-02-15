@@ -2,6 +2,8 @@
 
 ## [Event Loop, Race Conditions y Web Workers](event-loop/)
 
+## [The Async module](async-js.md)
+
 ## [Promises](promises)
 
 ## [Generators and Iterators](iterators-and-generators)
