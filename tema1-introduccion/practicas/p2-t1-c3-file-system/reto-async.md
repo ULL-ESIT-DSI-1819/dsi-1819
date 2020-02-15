@@ -1,6 +1,6 @@
 # Reto Async para Chapter 2. Wrangling the File System
 
-Escriba un programa Node.js que lea  un conjunto de ficheros pasados en vía de comandos y produzca como salida la concatenación de los mismos:
+Escriba un programa Node.js que lea  un conjunto de ficheros pasados en vía de comandos y produzca como salida la concatenación de los mismos en el orden especificado:
 
 ```
 $ concat -f one.txt -f two.txt -f three.txt -o salida.txt
@@ -23,4 +23,6 @@ $ node repeatable-option-commander.js -c a -c b -c c
 [ 'a', 'b', 'c' ]
 ```
 
-Para hacer este reto la sección [The Async Module]({{site.baseurl}}/tema2-async/async-js    )
+Para hacer este reto la sección [The Async Module]({{site.baseurl}}/tema2-async/async-js)
+
+En una segunda parte,considere la posibilidad la posibilidad de excepciones debidas a que alguno de los ficheros no exista
