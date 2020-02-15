@@ -8,7 +8,7 @@ npm install async
 
 it can also be used directly in the browser.
 
-### Map
+## Map
 
 ```js
 async.map(['file1','file2','file3'], fs.stat,  function(err, results)  {
@@ -92,7 +92,7 @@ async.parallel(
 
 **Hint:** Use [`reflect`](https://caolan.github.io/async/v3/docs.html#reflect) to continue the execution of other tasks when a task fails.
 
-#### It is also possible to use an object instead of an array
+### It is also possible to use an object instead of an array
 
 Each property will be run as a function and the results will be passed to the final `callback` as an object instead of an array.
 
@@ -148,7 +148,7 @@ import series from 'async/series';
 2. If any functions in the series pass an error to its callback, no more functions are run, and `callback` is immediately called with the value of the error. 
 3. Otherwise, `callback` receives an array of results when `tasks` have completed.
 
-#### It is also possible to use an object instead of an array
+### It is also possible to use an object instead of an array
 
 ```js
 async.series({
