@@ -23,6 +23,6 @@ $ node repeatable-option-commander.js -c a -c b -c c
 [ 'a', 'b', 'c' ]
 ```
 
-Para hacer este reto la sección [The Async Module]({{site.baseurl}}/tema2-async/async-js)
+Para hacer este reto le conviene leer la sección [The Async Module]({{site.baseurl}}/tema2-async/async-js)
 
 En una segunda parte,considere la posibilidad la posibilidad de excepciones debidas a que alguno de los ficheros no exista
