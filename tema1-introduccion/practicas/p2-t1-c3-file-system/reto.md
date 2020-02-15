@@ -53,7 +53,7 @@ NOTA (para el profesor):
 # Reto 2 para Chapter 2. Wrangling the File System
 
 Escriba  un programa en Node.js
-que ejecute en remoto usando `ssh` el programa Node.js cuyo nombre es pasado como argumento en línea de comandos.
+que ejecute en remoto (usando `ssh`) el programa Node.js cuyo nombre es pasado como argumento en línea de comandos.
 
 ```
 [~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ node dsi-node.js program.js
@@ -62,7 +62,7 @@ child stdout:
 child process exited with code 0 and signal null
 ```
 
-El fichero `program.js` se supone que está en la máquina local. Deberá transferirlo a la máquina remota (use `scp`) para su posterior ejecución. El comando `scp` permite transferir ficheros entre máquinas usando ssh:
+El fichero `program.js` se supone que está en la máquina local. Deberá transferirlo a la máquina remota (podría usar `scp`) para su posterior ejecución. El comando `scp` permite transferir ficheros entre máquinas usando ssh:
 
 ```
 [~/local/src/CA/sol-nodejs-the-right-way/filesystem-chapter-2(master)]$ scp watcher.js dsi:/tmp/w.js
