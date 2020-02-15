@@ -2,7 +2,7 @@
 
 ## [Event Loop, Race Conditions y Web Workers](event-loop/)
 
-## [The Async module](async-js.md)
+## [The Async module](async-js)
 
 ## [Promises](promises)
 
