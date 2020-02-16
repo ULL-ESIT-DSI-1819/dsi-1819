@@ -82,11 +82,17 @@ As long as there’s something left to do, JSs event loop will keep spinning. Wh
 
 {% include image.html url="/dsi-1819/assets/images/event-loop.png" description="<i>There’s an endless loop, when JavaScript engine waits for tasks, executes them and then sleeps waiting for more tasks</i>" %}
 
+When JS uns in the browser:
 
+*   Rendering never happens while the engine executes a task. Doesn’t matter if the task takes a long time. Changes to DOM are painted only after the task is complete.
+*   If a task takes too long, the browser can’t do other tasks, process user events, so after a time it raises an alert like **Page Unresponsive** suggesting to kill the task with the whole page. That happens when there are a lot of complex calculations or a programming error leading to infinite loop.
+
+
+   
 * Your JavaScript code runs single threaded. There is just one thing happening at a time.
     * Pay attention to how you write your code and avoid anything that could block the thread, like synchronous network calls or long loops.
     * In most browsers there is an event loop for every browser tab, to avoid a web page with heavy processing to block your entire browser.
-    * Web Workers run in their own event loop as well 
+    * **Web Workers** run in their own event loop as well 
 
 Quote from [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop#Runtime_concepts):
 
@@ -313,6 +319,7 @@ count(chunk, stop);
 ```
 
 * [Repo de ejemplo simple-web-worker](https://github.com/SYTW/simple-web-worker)
+  * `/Users/casiano/local/src/uai/uai2015/simple-web-worker`
 * [Repo de ejemplo fibonacci-worker](https://github.com/ULL-MII-SYTWS-1920/fibonacci-worker)
   * `/Users/casiano/campus-virtual/1920/sytws1920/apuntes/tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/fibonacci-worker`
 * [MDN Tutorial: Using Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
