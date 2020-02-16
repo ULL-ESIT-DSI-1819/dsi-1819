@@ -86,7 +86,17 @@ As long as there’s something left to do, JSs event loop will keep spinning. Wh
 * Your JavaScript code runs single threaded. There is just one thing happening at a time.
     * Pay attention to how you write your code and avoid anything that could block the thread, like synchronous network calls or long loops.
     * In most browsers there is an event loop for every browser tab, to avoid a web page with heavy processing to block your entire browser.
-    * Web Workers run in their own event loop as well
+    * Web Workers run in their own event loop as well 
+
+Quote from [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop#Runtime_concepts):
+
+> Each message is processed completely before any other message is processed \[...\]
+> A downside of this model is that if a message takes too long to complete, the web application is unable to process user interactions like click or scroll. The browser mitigates this with the "**a script is taking too long to run**" dialog. A good practice to follow is to make message processing short and if possible cut down one message into several messages.
+
+MDN utiliza la terminología *cola de mensajes* para la *cola de callbacks*:
+
+> A JavaScript runtime uses a message queue, which is a list of messages to be processed. 
+> Each message has an associated function which gets called in order to handle the message.
 
 ## The Event Loop en el libro [The Modern JavaScript Tutorial](https://javascript.info)
 

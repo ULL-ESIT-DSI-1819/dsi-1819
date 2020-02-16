@@ -6,5 +6,6 @@
 ## Bogdan Manate Workshop
 
 * [Presentación]({{site.baseurl}}/assets/images/intro-to-typescript.pdf)
+* [Examples used in the Workshop](https://github.com/bogdanmanate/ts-workshop)
 * [BOGDANmanate/mvp-ts](https://github.com/BOGDANmanate/mvp-ts) Bogdan Workshop repo with Conway's Game of Life
   * [Solution](https://github.com/bogdanmanate/mvp-ts/tree/stable)
