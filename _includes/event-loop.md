@@ -200,6 +200,21 @@ Tomado del tutorial:
 
 * Tutorial [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop) at https://developer.mozilla.org
 
+Primero, un ejemplo, para entender el funcionamiento de `Date`y `getSeconds`:
+
+```js
+[~/.../p2-t1-c3-file-system/event-loop(master)]$ node
+Welcome to Node.js v12.10.0.
+Type ".help" for more information.
+> d = new Date()
+2020-02-16T10:07:51.682Z
+> s = d.getSeconds()
+51
+> e = new Date()
+2020-02-16T10:07:57.992Z
+> e.getSeconds()-d.getSeconds()
+6
+```
 
 ```js
 const s = new Date().getSeconds();
