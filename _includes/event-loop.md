@@ -239,7 +239,7 @@ See [https://javascript.info/event-loop#use-case-1-splitting-cpu-hungry-tasks](h
 
 To demonstrate the approach, for the sake of simplicity, let’s take a function that counts from 1 to a big number.
 
-If you [run the code below with a very large number](https://plnkr.co/edit/?p=preview), the engine will *hang* for some time.
+If you [run the code below with a very large number](https://plnkr.co/edit/pq6j9xQ0GYKSQXSs?p=options), the engine will *hang* for some time.
 
 When running it in-browser,  try to click other buttons on the page – you’ll see that no other events get handled until the counting finishes.
 
@@ -271,7 +271,7 @@ We can evade problems by splitting the big task into pieces. Do the first piece,
 [~/.../tema2-async/event-loop(master)]$ cat splitting-cpu-hungry-task.html
 ```
 
-```js
+```html
 <!DOCTYPE html>
 
 <div id="progress"></div>
@@ -314,6 +314,7 @@ count(chunk, stop);
 
 * [Repo de ejemplo simple-web-worker](https://github.com/SYTW/simple-web-worker)
 * [Repo de ejemplo fibonacci-worker](https://github.com/ULL-MII-SYTWS-1920/fibonacci-worker)
+  * `/Users/casiano/campus-virtual/1920/sytws1920/apuntes/tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/fibonacci-worker`
 * [MDN Tutorial: Using Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
 
 ## Race Condition
