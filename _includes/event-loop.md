@@ -216,6 +216,8 @@ Type ".help" for more information.
 6
 ```
 
+¿Cual es la salida?
+
 ```js
 const s = new Date().getSeconds();
 
