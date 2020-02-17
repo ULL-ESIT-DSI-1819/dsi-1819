@@ -1,16 +1,16 @@
 # Descripción de la práctica p3-t1-c3-http
 
-1. Siguiendo el capítulo 20 *Node.JS*  de la segunda edición del libro Eloquent JavaScript (EJS) 
-escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican a continuación
-    - [Eloquent JS: Chapter 20 HTTP](http://eloquentjavascript.net/2nd_edition/20_node.html)
-3. Realice el ejercicio *Creating Directories* 
+1. Siguiendo  el capítulo 20 *Node.JS*  bien de la segunda edición del libro Eloquent JavaScript (calbacks)  o de la tercera (promises) escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican a continuación
+    - [Eloquent JS: Chapter 20 HTTP](http://eloquentjavascript.net/2nd_edition/20_node.html)  2nd Edition 
+    - [Eloquent JS: Chapter 20 HTTP](https://eloquentjavascript.net/) 3d Edition
+1. Realice el ejercicio *Creating Directories* 
   - Though the `DELETE` method is wired up to delete directories (using `fs.rmdir`), 
   the file server currently does not provide any way to create a directory.  Add 
   support for a method `MKCOL`, which should create a directory by calling `fs.mkdir` 
 4. Instale [insomia](https://insomnia.rest/) o [postman](https://www.getpostman.com/) para usarlo como cliente de prueba.
 5. Genere documentación para su código usando algunas de las herramientas que aparecen en la sección recursos
 5. Escriba un gulpfile con tareas usando `curl` para probar el comportamiento del servidor con los diferentes requests. Aquí tiene un ejemplo (incompleto) en gulp 3.9:
-
+   
   ```js
   var gulp = require("gulp");
   var shell = require("gulp-shell");
@@ -31,7 +31,6 @@ escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican
 
   ```
 6. Entregue los enlaces al repositorio en GitHub 
-
 
 ## Recursos
 
