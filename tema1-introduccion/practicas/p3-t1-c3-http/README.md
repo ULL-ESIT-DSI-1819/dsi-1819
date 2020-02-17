@@ -27,9 +27,8 @@
 
   gulp.task("get", shell.task("curl -v http://localhost:8000/file.txt"));
   gulp.task("put", shell.task("curl -v -X PUT -d 'Bye world!' http://localhost:8000/file.txt"));
-
-
   ```
+
 6. Entregue los enlaces al repositorio en GitHub 
 
 ## Recursos
