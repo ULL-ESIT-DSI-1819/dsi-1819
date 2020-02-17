@@ -88,7 +88,7 @@ total 8
 /Users/casiano/local/src/javascript/eloquent-javascript/chapter20-node-js/chapter20-node-js-crguezl/exercises/content-negotiation-again
 ```
 
-
+<!--
 # Reto 2: Fixing a leak
 
 For easy remote access to some files, I might get into the habit
@@ -143,3 +143,5 @@ inside the path, are odd but will be treated as a single slash by
 the file system.
 
 Here is a [Solution](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter20-node-js)
+
+-->
