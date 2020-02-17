@@ -6,6 +6,8 @@
 * [Introducción al Bucle de Eventos, Las Race Conditions, Las Promesas y los Web Workers](event-loop/)
 
 
+## Promises. Asycn/Await
+
 ### Javascript.info: The Modern JavaScript Tutorial. Chapter Promises, async/await
 
 * [Introduction: callbacks](https://javascript.info/callbacks)
@@ -39,7 +41,6 @@
 * [Eloquent JS. Chapter 14: Handling Events](http://eloquentjavascript.net/14_event.html)
   * [Repo ULL-ESIT-MII-CA-1718/ejs-chapter14-handling-events con ejemplos y ejercicios](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter14-handling-events)
 * [SitePoint Article: How to Create Custom Events in JavaScript](https://www.sitepoint.com/javascript-custom-events/)
-
 
 
 ## Ejercicios
