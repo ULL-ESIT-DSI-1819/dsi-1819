@@ -39,16 +39,16 @@
 * [Eloquent JS 2nd Edition: Chapter 20 HTTP](http://eloquentjavascript.net/2nd_edition/20_node.html)
 * [Vídeo del profesor con sugerencias para la solución de la práctica](https://youtu.be/gxrBEfjgRdM) Usando promesas y await async (Corresponde a la versión 3 de EloquentJS)
   * [![https://img.youtube.com/vi/gxrBEfjgRdM/sddefault.jpg](https://img.youtube.com/vi/gxrBEfjgRdM/sddefault.jpg)](https://youtu.be/gxrBEfjgRdM)
-* [Apuntes de Promises](https://ull-esit-dsi-1819.github.io/dsi-1819/tema2-async/promises)
 * [See this repo with (modified) solutions of Juan Irache to EJS exercises](https://github.com/ULL-MII-SYTWS-1920/eloquent-javascript-exercises)
   - [Solutions 20_3_a_public_space](https://github.com/ULL-MII-SYTWS-1920/eloquent-javascript-exercises/tree/master/20_3_public_space)
 * [Node.js docs: Anatomy of an HTTP Transaction](https://nodejs.org/es/docs/guides/anatomy-of-an-http-transaction/)
 * [How to Develop Web Application using pure Node.js (HTTP GET and POST, HTTP Server)](https://youtu.be/nuw48-u3Yrg) Vídeo en Youtube. 2015
 
-### fs.promises
+### Promises
 
 En la edición 3 de EloquentJS este capítulo usa promesas en vez de callbacks. Por si le echas un vistazo a esa versión:
 
+* [Apuntes de Promises](https://ull-esit-dsi-1819.github.io/dsi-1819/tema2-async/promises)
 * [The fs.promises API provides an alternative set of asynchronous file system methods that return Promise objects rather than using callbacks](https://nodejs.org/dist/latest-v10.x/docs/api/fs.html#fs_fs_promises_api)
 
 ### Documentación de Código  
