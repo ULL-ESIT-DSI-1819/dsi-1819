@@ -8,24 +8,23 @@ let fs = require('fs'),
     inputs = ['in1', 'in2'],
     output = 'out';
 
-function fuse(inputs, output, callback) {
-    async.map(inputs, (path, callback) => {
-        fs.readFile(path, callback);
-    }, (err, contents) => {
-        if(err) {
-            callback(err);
-        } else {
-            fs.writeFile(output, contents.reduce((a, b) => {
-                return a + b;
-            }), callback);
-        }
-    });
-}
 
-fuse(inputs, output, (error) => {
+let outcall =  (error) => {
     if(error) {
         console.log('Error: ' + error);
     } else {
         console.log('OK');
+    }
+};
+
+
+async.map(inputs, fs.readFile, 
+   (err, contents) => {
+    if (err) {
+        outcall(err);
+    } else {
+        fs.writeFile(output, contents.reduce((a, b) => {
+            return a + b;
+        }), outcall);
     }
 });
