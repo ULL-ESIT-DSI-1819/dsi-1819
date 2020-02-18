@@ -106,6 +106,8 @@ Now watching target.txt for changes ...
 
 * Mejore este ejemplo añadiendo una opción `-r --recursive` que indica si `watch` debe hacer una  vigilancia recursiva.
 
+La opcion recursive no esta implementada para sistemas Linux. En este caso es conveniente utilizar un wrapper como [node-watch](https://www.npmjs.com/package/node-watch).
+
 ## Ejercicios 
 
 * Resuelva los problemas en la secciones *Fortifying the code* y *Expanding Functionality* del capítulo *Wrangling the File System*
