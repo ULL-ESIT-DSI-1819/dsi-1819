@@ -325,6 +325,13 @@ count(chunk, stop);
   * Can you create a web worker inside a web worker? Answer: **yes!**
 * [MDN Tutorial: Using Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
 
+* [Book Web Workers: Safari O'Reilly. Usa Acceso ULL](http://proquest.safaribooksonline.com/book/programming/javascript/9781449322120/firstchapter)
+
+* [JS Day Canarias. Multithreading in JS](https://github.com/ULL-MII-SYTWS-1920/jsday-canarias-2019-examples-multithreading) Chinenye
+
+* [parallel-js-examples repo](https://github.com/ULL-MII-SYTWS-1920/parallel-js-examples) Parallel.js is a lib for parallel programming
+
+
 ## Race Condition
 
 ```
