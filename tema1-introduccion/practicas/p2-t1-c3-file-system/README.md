@@ -106,7 +106,9 @@ Now watching target.txt for changes ...
 
 * Mejore este ejemplo añadiendo una opción `-r --recursive` que indica si `watch` debe hacer una  vigilancia recursiva.
 
-La opcion recursive no esta implementada para sistemas Linux. En este caso es conveniente utilizar un wrapper como [node-watch](https://www.npmjs.com/package/node-watch).
+The `fs.watch` API is not 100% consistent across platforms, and is unavailable in some situations.
+The `recursive` option is only supported on macOS and Windows.
+Para sistemas Linux es conveniente utilizar un wrapper como [node-watch](https://www.npmjs.com/package/node-watch).
 
 ## Ejercicios 
 
