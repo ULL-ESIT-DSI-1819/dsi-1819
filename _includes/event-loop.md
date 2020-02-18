@@ -322,6 +322,7 @@ count(chunk, stop);
   * `/Users/casiano/local/src/uai/uai2015/simple-web-worker`
 * [Repo de ejemplo fibonacci-worker](https://github.com/ULL-MII-SYTWS-1920/fibonacci-worker)
   * `/Users/casiano/campus-virtual/1920/sytws1920/apuntes/tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/fibonacci-worker`
+  * Can you create a web worker inside a web worker? Answer: **yes!**
 * [MDN Tutorial: Using Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
 
 ## Race Condition
