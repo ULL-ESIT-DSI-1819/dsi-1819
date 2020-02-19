@@ -25,4 +25,9 @@ $ node repeatable-option-commander.js -c a -c b -c c
 
 1. Lea la sección [The Async Module]({{site.baseurl}}/tema2-async/async-js) de los apuntes y encuentre una solución usando `Async`
 2. Considere la posibilidad la posibilidad de excepciones debidas a que alguno de los ficheros no exista
-3. Intente encontrar también  una solución sin hacer uso de `Async` ¿Cómo lo haría?
+3. Encuentre  una solución sin hacer uso de `Async` ¿Cómo lo haría?
+4. Haciendo abstracción de la solución encontrada en el paso anterior escriba una función `asyncMap` que funcione como el `map` del módulo `Async`:
+
+  ```js
+  asyncMap(inputs, (item, cb) => fs.readFile(item, cb), (err, contents) => { ... });
+  ```
