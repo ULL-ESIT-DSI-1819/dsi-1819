@@ -21,7 +21,9 @@ async.map(['file1','file2','file3'], fs.stat,  function(err, results)  {
 **`map(coll, (item, cb) => iteratee(item,cb), (err, results) => maincallback(err, results))`**
 
 ```js
-    import map from 'async/map';
+    import map from 'async/map'; 
+    // En Node.js
+    const { map } = require('async')
 ```
 
 1. Produces a new collection of values by mapping each value in `coll` through the `iteratee` function. 
