@@ -18,7 +18,13 @@ async.map(['file1','file2','file3'], fs.stat,  function(err, results)  {
 
 * [Documentation of Map](https://caolan.github.io/async/v3/docs.html#map)
 
-**`map(coll, (item, cb) => iteratee(item,cb), (err, results) => maincallback(err, results))`**
+```js
+map(
+     coll, 
+     (item, cb) => iteratee(item,cb), 
+     (err, results) => maincallback(err, results)
+   )
+```
 
 ```js
     import map from 'async/map'; 
