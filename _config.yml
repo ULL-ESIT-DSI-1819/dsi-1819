@@ -49,6 +49,9 @@ temas:
   - title: 'Tema 2: Entornos de Trabajo y Patrones para la Computación Asíncrona y Distribuida'
     url: tema2-async/index.html
     hover: 'async-and-distributed'
+  - title: 'Tema 3: Entornos de Trabajo y Patrones para la Web'
+    url: tema3-web/index.html
+    hover: 'web'
 practicas:
   - title: 00cuestionarioghalu
     myurl: https://campusvirtual.ull.es/1920/mod/assign/view.php?id=14697
