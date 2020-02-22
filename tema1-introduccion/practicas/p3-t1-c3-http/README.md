@@ -1,3 +1,11 @@
+---
+layout: default
+title: p3-t1-c3-http
+permalink: /tema1-introduccion/practicas/p3-t1-c3-http/index.html
+previous:
+  url: /tema1-introduccion/practicas/p2-t1-c3-file-system/
+---
+
 # Descripción de la práctica p3-t1-c3-http
 
 1. Siguiendo  el capítulo 20 *Node.JS*  bien de la segunda edición del libro Eloquent JavaScript (calbacks)  o de la tercera (promises) escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican a continuación

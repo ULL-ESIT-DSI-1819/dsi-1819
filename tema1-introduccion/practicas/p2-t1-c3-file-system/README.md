@@ -4,6 +4,7 @@ title: p2-t1-c3-filesystem
 permalink: /tema1-introduccion/practicas/p2-t1-c3-file-system/index.html
 previous:
   url: /tema1-introduccion/practicas/p2-t1-vscode/
+  next: /tema1-introduccion/practicas/p3-t1-c3-http
 ---
 
 # Descripción de la práctica p2-t1-c3-filesystem
