@@ -65,12 +65,18 @@ practicas:
   - title: 03p1-t1-iaas
     myurl: /tema1-introduccion/practicas/p1-t1-iaas/
     name: Práctica p1-t1-iaas
+    reto:
+      url: /tema1-introduccion/practicas/p1-t1-iaas/reto-miercoles
+      title: Parameters and Downloads
   - title: 04p2-t1-vscode
     myurl: /tema1-introduccion/practicas/p2-t1-vscode/
     name: Práctica p2-t1-vscode
   - title: 05p2-t1-c3-filesystem
     myurl: /tema1-introduccion/practicas/p2-t1-c3-file-system/
     name: Práctica p2-t1-c3-filesystem
+    reto:
+      url: /tema1-introduccion/practicas/p2-t1-c3-file-system/
+      title: Async Map
   - title: 06p3-t1-c3-http
     myurl: /tema1-introduccion/practicas/p3-t1-c3-http/
     name: Práctica p3-t1-c3-http
