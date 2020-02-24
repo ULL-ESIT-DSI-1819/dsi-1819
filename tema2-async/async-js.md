@@ -286,7 +286,7 @@ async.series([
 Completed in 618ms
 ```
 
-## queue
+## Queue
 
 See [Async.js: queue](http://caolan.github.io/async/v3/docs.html#queue)
 
