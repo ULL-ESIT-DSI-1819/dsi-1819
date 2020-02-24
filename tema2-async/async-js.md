@@ -11,7 +11,7 @@ it can also be used directly in the browser.
 ## Map
 
 ```js
-async.map(['file1','file2','file3'], fs.stat,  function(err, results)  {
+async.map(['file1','file2','file3'], (file, cb) => fs.stat(file, cb),  function(err, results)  {
       // results is now an array of stats for each file
 }); 
 ```
@@ -37,6 +37,56 @@ map(
 3. Each of these callbacks `cb` take 2 arguments: an `error`, and the result of  `iteratee(item)`. 
 4. If `iteratee` passes an error to its callback `cb`, the `maincallback` (for the `map` function) is immediately called with the error.
 5. Note, that since this function applies the `iteratee` to each item in parallel, there is no guarantee that the `iteratee` functions will complete in order. However, **the `results` array will be in the same order as the original `coll`**.
+
+
+### Ejemplo: Concatenación de ficheros
+
+El objetivo es escribir un programa que usando `fs.readFile` lea  un conjunto de ficheros pasados en vía de comandos y produzca como salida la concatenación de los mismos en el orden especificado, sin usar lecturas síncronas. 
+La escritura debe ocurrir después que hayan terminado todas las lecturas.
+
+He aquí una solución:
+
+```
+[~/.../ssh2-hello(master)]$ cat simp-reto-async-reading-multiple-files.js
+```
+
+```js
+'use strict';
+
+const fs = require('fs'),
+    { map } = require('async'),
+    inputs = ['in1', 'in2'],
+    output = 'out';
+
+map(inputs, fs.readFile,
+   (err, contents) => {
+      if (err) console.log('Error: ' + error);
+      else {
+        const data = contents.reduce((a, b) => a + b);
+        fs.writeFile(output, data, () => console.log(`Output in file '${output}'`)
+        );
+      }
+   }
+);
+```
+
+Ejecución:
+
+```
+[~/.../ssh2-hello(master)]$ node simp-reto-async-reading-multiple-files.js
+Output in file 'out'
+[~/.../ssh2-hello(master)]$ cat in1
+in1
+hi!
+[~/.../ssh2-hello(master)]$ cat in2
+in2
+[~/.../ssh2-hello(master)]$ cat out
+in1
+hi!
+in2
+```
+
+#### ¿Como lograría resolver este problema si no dispusiera de `async.js`?
 
 ## Filter
 
@@ -125,6 +175,31 @@ async.parallel({
 });
 ```
 
+### Example:
+
+```
+[~/.../Asyncjs]$ cat parallelTimers.js
+```
+
+```js
+const async = require ('async');
+const start = new Date;
+async.parallel([
+  function(callback) { setTimeout(callback, 100); },
+  function(callback) { setTimeout(callback, 300); },
+  function(callback) { setTimeout(callback, 200); }
+], function(err, results) {
+  console.log('Completed in ' + (new Date - start) + 'ms');
+});
+```
+
+Execution:
+
+```
+[~/.../async-js-book/Asyncjs]$ node parallelTimers.js
+Completed in 305ms
+```
+
 ## Series
 
 ```js
@@ -184,3 +259,89 @@ This can be a more readable way of handling results from `async.series`.
 > The mechanics and order of enumerating the properties is not specified.
 
 So if you rely on the order in which your series of functions are executed, and want this to work on all platforms, consider using an array.
+
+### Example
+
+```
+[~/.../async-js-book/Asyncjs]$ cat seriesTimers.js
+```
+
+```js
+const async = require ('async');
+
+const start = new Date;
+
+async.series([
+  function(callback) { setTimeout(callback, 100); },
+  function(callback) { setTimeout(callback, 300); },
+  function(callback) { setTimeout(callback, 200); }
+], function(err, results) {
+  // show time elapsed since start
+  console.log('Completed in ' + (new Date - start) + 'ms');
+});
+```
+
+```
+[~/.../async-js-book/Asyncjs]$ node seriesTimers.js
+Completed in 618ms
+```
+
+## queue
+
+See [Async.js: queue](http://caolan.github.io/async/v3/docs.html#queue)
+
+Creates a `queue` object with the specified `concurrency`. Tasks added to the `queue` are processed in parallel (up to the `concurrency` limit). If all `worker`s are in progress, the task is queued until one becomes available. Once a `worker` completes a `task`, that `task`'s callback is called.
+
+```
+[~/.../async-js-book/Asyncjs]$ cat queue-example.js
+```
+
+```js
+const async = require("async");
+const ir = (min, max) =>  Math.round((Math.random() * (max - min) + min))
+const d = new Date();
+const makeCb = (str) => (err => console.log('finished processing '+str+' '+(new Date() - d)));
+
+const worker = (task, callback) => {
+    setTimeout(
+      () => {
+        console.log('hello ' + task.name);
+        callback();
+      },ir(0,1000) // Wait a random time
+    )
+};
+
+// create a queue object with concurrency 2
+const q = async.queue(worker, 2);
+
+/*
+ q.drain: a function that sets a callback that is called when the last item
+          from the queue has returned from the worker.
+  If the callback is omitted, q.drain() returns a promise for the next occurrence.
+*/
+q.drain(function() {
+    console.log('worker finished and queue is empty');
+});
+
+// assign an error callback
+q.error(function(err, task) {
+    console.error('task experienced an error '+err);
+});
+```
+
+```
+[~/.../async-js-book/Asyncjs]$ node queue-example.js
+hello ear
+finished processing ear 709
+hello bar
+finished processing bar 961
+hello foo
+finished processing foo 976
+hello baz
+finished processing item 1186
+hello bay
+finished processing item 1316
+hello bax
+finished processing item 1323
+worker finished and queue is empty
+```
