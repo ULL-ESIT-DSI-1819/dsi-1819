@@ -11,6 +11,7 @@ previous:
 1. Siguiendo  el capítulo 20 *Node.JS*  bien de la segunda edición del libro Eloquent JavaScript (calbacks)  o de la tercera (promises) escriba sus propios apuntes con ejemplos y realice los ejercicios que se indican a continuación
     - [Eloquent JS: Chapter 20 HTTP](http://eloquentjavascript.net/2nd_edition/20_node.html)  2nd Edition
     - [Eloquent JS: Chapter 20 HTTP](https://eloquentjavascript.net/) 3d Edition
+  
   Puesto que aún no nos hemos puesto con las promesas, me parece que les será mas sencillo leerse la segunda edición. 
   Sólo tienen que estudiar una de las dos versiones.
 2. Realice el ejercicio *Creating Directories* 
