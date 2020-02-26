@@ -46,7 +46,7 @@ previous:
 ### Sobre como hacer esta práctica
 
 * [Eloquent JS 2nd Edition: Chapter 20 HTTP](http://eloquentjavascript.net/2nd_edition/20_node.html)
-* [Vídeo del profesor con sugerencias para la solución de la práctica](https://youtu.be/gxrBEfjgRdM) Usando promesas y await async (Corresponde a la versión 3 de EloquentJS)
+* [Vídeo del profesor con sugerencias para la solución de la práctica](https://youtu.be/gxrBEfjgRdM) Usando promesas y await async (Corresponde a la versión 3 de EloquentJS). Si decide hacer esta práctica usando la segunda versión no es tan útil.
   * [![https://img.youtube.com/vi/gxrBEfjgRdM/sddefault.jpg](https://img.youtube.com/vi/gxrBEfjgRdM/sddefault.jpg)](https://youtu.be/gxrBEfjgRdM)
 * [See this repo with (modified) solutions of Juan Irache to EJS exercises](https://github.com/ULL-MII-SYTWS-1920/eloquent-javascript-exercises)
   - [Solutions 20_3_a_public_space](https://github.com/ULL-MII-SYTWS-1920/eloquent-javascript-exercises/tree/master/20_3_public_space)
