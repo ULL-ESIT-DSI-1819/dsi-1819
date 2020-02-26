@@ -12,8 +12,7 @@ previous:
     - [Eloquent JS: Chapter 20 HTTP](http://eloquentjavascript.net/2nd_edition/20_node.html)  2nd Edition
     - [Eloquent JS: Chapter 20 HTTP](https://eloquentjavascript.net/) 3d Edition
   
-  Puesto que aún no nos hemos puesto con las promesas, me parece que les será mas sencillo leerse la segunda edición. 
-  Sólo tienen que estudiar una de las dos versiones.
+   Puesto que aún no nos hemos puesto con las promesas, me parece que les será mas sencillo leerse la segunda edición. Sólo tienen que estudiar una de las dos versiones.
 2. Realice el ejercicio *Creating Directories* 
   - Though the `DELETE` method is wired up to delete directories (using `fs.rmdir`), 
   the file server currently does not provide any way to create a directory.  Add 
