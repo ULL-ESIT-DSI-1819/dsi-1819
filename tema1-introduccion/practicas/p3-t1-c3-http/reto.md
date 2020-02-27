@@ -80,7 +80,9 @@ Puede encontrar mas detalles sobre este ejercicio en el tutorial del profesor en
 1. Escriba una función `loadScripts` 
 
     ```js
-    loadScripts(['script-1.js', 'script-2.js', 'script-3.js'], (err, results) => out.innerHTML = results.map(s => s.src).join("<br/>"))
+    loadScripts(
+      ['script-1.js', 'script-2.js', 'script-3.js'], 
+      (err, results) => out.innerHTML = results.map(s => s.src).join("<br/>"))
     ```
 
     que carga los scripts especificados en el array en secuencia y llama a la callback pasada como último argumento bien con un error si lo hubo o con el array de resultados (los scripts).
@@ -102,7 +104,7 @@ Puede encontrar mas detalles sobre este ejercicio en el tutorial del profesor en
 
 Si hace las pruebas de funcionamiento con scripts de similar tamaño la probabilidad de que su algoritmo produzca una salida que respeta el orden especificado es alta, incluso si su algoritmo es erróneo.
 
-Puede simular que los scripts son de distinto tamaño retrasando la iniciación de las cargas con un `setTimeout` que espere por un número aleatorio de milisegundos:
+Puede simular que los scripts son de distinto tamaño **retrasando la iniciación de las cargas** con un `setTimeout` que espere por un número aleatorio de milisegundos:
 
 ```
   [~/.../load-script-seq(private)]$ pwd
