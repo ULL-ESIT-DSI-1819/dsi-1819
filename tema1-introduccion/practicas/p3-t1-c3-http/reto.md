@@ -74,7 +74,8 @@ Que puede ser usada así:
 </html>
 ```
 
-Puede encontrar mas detalles en el tutorial [https://github.com/ULL-ESIT-PL/async-js-series-webpack](https://github.com/ULL-ESIT-PL/async-js-series-webpack).
+Puede ver este código en funcionamiento visitando [https://ull-esit-pl.github.io/async-js-series-webpack/load-script.html](https://ull-esit-pl.github.io/async-js-series-webpack/load-script.html). Si lo hace, recuerde abrir las herramientas de desarrollador para ver los mensajes en la cónsola.
+Puede encontrar mas detalles sobre este ejercicio en el tutorial del profesor en [https://github.com/ULL-ESIT-PL/async-js-series-webpack](https://github.com/ULL-ESIT-PL/async-js-series-webpack).
 
 1. Escriba una función `loadScripts` 
 
