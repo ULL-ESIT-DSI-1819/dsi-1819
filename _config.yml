@@ -80,6 +80,9 @@ practicas:
   - title: 06p3-t1-c3-http
     myurl: /tema1-introduccion/practicas/p3-t1-c3-http/
     name: Práctica p3-t1-c3-http
+  - title: 07p3-t2-handling-events
+    myurl: /tema2-async/practicas/p3-t2-handling-events/
+    name: Práctica p3-t2-handling-events
 biblio:
   wilson: https://puntoq.ull.es/permalink/f/15vbjs7/ullsfx4340000000247287
 exclude: 

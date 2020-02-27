@@ -4,6 +4,8 @@ title: p3-t1-c3-http
 permalink: /tema1-introduccion/practicas/p3-t1-c3-http/index.html
 previous:
   url: /tema1-introduccion/practicas/p2-t1-c3-file-system/
+next:
+  url: /tema2-async/practicas/p3-t2-handling-events/
 ---
 
 # Descripción de la práctica p3-t1-c3-http
