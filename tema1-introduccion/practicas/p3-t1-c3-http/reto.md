@@ -82,7 +82,8 @@ Puede encontrar mas detalles sobre este ejercicio en el tutorial del profesor en
     ```js
     loadScripts(
       ['script-1.js', 'script-2.js', 'script-3.js'], 
-      (err, results) => out.innerHTML = results.map(s => s.src).join("<br/>"))
+      (err, results) => out.innerHTML = results.map(s => s.src).join("<br/>")
+    )
     ```
 
     que carga los scripts especificados en el array en secuencia y llama a la callback pasada como último argumento bien con un error si lo hubo o con el array de resultados (los scripts).
