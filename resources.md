@@ -94,8 +94,6 @@
   * [CodeLab TFG de Samuel](https://codelab-tfg1718.herokuapp.com/)
 * [Instrucciones para las entregas de Prácticas y Trabajos](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/instrucciones/)
 
-
-
 ## Sede ULL/ULL Online
 
 * [Sede ULL](https://sede.ull.es/)
@@ -103,5 +101,7 @@
     - [Mis trámites](https://sede.ull.es/ecivilis-site/records/myRecords)
     - [Portafirmas de la ULL](https://sede.ull.es/ecivilis-signature-inbox-application/inbox.html)
     - [Certificado de Docencia Impartida](https://sede.ull.es/ecivilis-site/catalog/showProcedure/550?fbclid=IwAR27HUuu8SbYKpsnoR3RCPzHzCvaMpDqW1ZxB4jeljRLz1SreHgxv1aJqZc)
-* [Portal ull.es](portal.ull.es)
-* * [POD](https://www.ull.es/apps/pod/)
+
+* [POD ULL App](https://www.ull.es/apps/pod/)
+  
+* [Portal ull.es](portal.ull.es) Portal del Empleado y del Estudiante
