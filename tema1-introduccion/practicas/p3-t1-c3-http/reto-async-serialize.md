@@ -100,6 +100,7 @@ Puede encontrar mas detalles sobre este ejercicio en el tutorial del profesor en
         (err, results) => p.innerHTML = results.map(s => s.src).join("<br/>")
     );
     ```
+3. Deje su solución al reto `#number` en un fichero `reto-#number.html`
 
 ## Observaciones 
 
