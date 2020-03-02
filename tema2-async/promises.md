@@ -7,10 +7,20 @@
   *   [Handling errors](https://javascript.info/callbacks#handling-errors)
   *   [Pyramid of Doom](https://javascript.info/callbacks#pyramid-of-doom)
 * [Promises: Basics: https://javascript.info/promise-basics](https://javascript.info/promise-basics)
+  * [load-script con promesas](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises/load-script)
+  * Chuck Norris jokes example (UAI 2015):
+    * [index.html](https://github.com/ULL-MII-SYTWS-1920/promise-example/blob/master/index.html)
+    * [script.js](https://github.com/ULL-MII-SYTWS-1920/promise-example/blob/master/script.js)
 * [Promise Chaining](https://javascript.info/promise-chaining)
+  * A call to `promise.then` returns a promise, so that we can call the next `.then` on it.
+  * A handler, used in `.then(handler)` may create and return a promise. In that case further handlers wait until it settles, and then get its result.
+  * [Promises Chaining fetch example]({{site.baseurl}}/tema1-introduccion-a-javascript/promises-chaining-fetch-example)
+  * [Ejercicio: How can we do something after the avatar has finished showing and gets removed?](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises/promise-chaining)
 * [Error handling with promises](https://javascript.info/promise-error-handling)
+  * [Exercises: Exceptions and Promises](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises/exception-inside-promise)
 * [Promise API](https://javascript.info/promise-api)
 * [Promisification](https://javascript.info/promisify)
+  * [Ejercicio](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises/promisify)
 * [Microtasks](https://javascript.info/microtask-queue)
 * [Async/await](https://javascript.info/async-await)
 
@@ -19,6 +29,8 @@
 ## Ejercicios
 
 * [Ejercicios de Promesas](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises)
+  * [load-script con promesas](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises/load-script)
+  * [Promise.all](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises/promise-all)
 
 ## Prácticas
 
