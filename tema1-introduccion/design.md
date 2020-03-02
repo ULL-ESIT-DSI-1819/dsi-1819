@@ -55,9 +55,19 @@ Pueden encontrar las [trasparencias](http://elijahmanor.com/talks/js-smells/#/) 
 * *"software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"*;
 that is, such an entity can allow its behaviour to be extended without modifying its source code.
 
-## Strategy Design Pattern
+## Design patterns
 
-La solución para eliminar el *Switch Smell* es usar el `strategy design pattern`. Vea como hacerlo en este vídeo.
+A design pattern is a general, reusable solution to a commonly occurring problem.
+
+It is not a finished design that can be transformed directly into source or machine code. It is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.
+
+Design patterns may be viewed as a structured approach to computer programming intermediate between the levels of
+* a programming paradigm and
+* a concrete algorithm.
+
+### Strategy Pattern
+
+La solución para eliminar el *Switch Smell* es usar el `strategy design pattern`. 
 
 The basic idea  of the `strategy design pattern` is to **delegate tasks to encapsulated algorithms which are interchangable at runtime**.
 
@@ -68,7 +78,7 @@ In the Strategy pattern we have an object (the *context*) that is trying to get 
 
 Otro ejemplo, también de Elijah Manor se encuentra en el artículo [Switching to the Strategy Pattern in JavaScript](http://elijahmanor.com/switching-to-the-strategy-pattern-in-javascript/).
 
-## Ejemplo
+### Ejemplo
 
 * [ULL-ESIT-GRADOII-DSI/temperature-oop-noswitch](https://github.com/ULL-ESIT-GRADOII-DSI/temperature-oop-noswitch/tree/sepfiles)
 
