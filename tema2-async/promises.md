@@ -22,6 +22,8 @@
 * [Promisification](https://javascript.info/promisify)
   * [Ejercicio](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises/promisify)
 * [Microtasks](https://javascript.info/microtask-queue)
+  * Example of [Order: Promises vs Callbacks]({{site.baseurl}}/tema2-async/promise-examples#orden-promises-versus-callbacks)
+  * Example of [Unhandled Rejection]({{site.baseurl}}/tema2-async/promise-examples#unhandled-promise-rejection)
 * [Async/await](https://javascript.info/async-await)
 
 * [Very Simple Examples of Promises](promise-examples) (uai2015)
