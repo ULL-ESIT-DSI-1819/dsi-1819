@@ -14,7 +14,7 @@ Se dispone de una función `loadScript` que permite la carga de un script:
       }
 ```
 
-Que puede ser usada así:
+Que puede ser usada para cargar varios scripts. Supongamos que el segundo script usa funciones definidas en el primero. Tenemos que asegurarnos que el segundo script sólo se carga una vez terminada la carga del primero. En este ejemplo de uso cargamos tres scripts [script-1.js](https://github.com/ULL-ESIT-PL/async-js-series-webpack/blob/master/script-1.js), [script-2.js](https://github.com/ULL-ESIT-PL/async-js-series-webpack/blob/master/script-2.js) y [script-3.js](https://github.com/ULL-ESIT-PL/async-js-series-webpack/blob/master/script-3.js):
 
 ```html
 <!DOCTYPE html>
