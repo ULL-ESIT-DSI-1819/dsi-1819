@@ -10,6 +10,94 @@ Requesting or making a change to a resource comes down to issuing an HTTP reques
 
 For example, the HTTP GET method retrieves a resource, and HTTP PUT sends a resource to be saved.
 
+### Idempotent REST APIs
+
+* A Web service is defined as *"a software system designed to support interoperable machine-to-machine interaction over a network"*. 
+Web services are frequently just Web APIs that can be accessed over a network, such as the Internet, and executed on a remote system hosting the requested services.
+* Representational state transfer (REST) is a software architectural style that defines a set of constraints to be used for creating Web services.
+
+* [Idempotent REST APIs](https://restfulapi.net/idempotent-rest-apis)
+
+> When you design REST APIs, you must realize that API consumers can make mistakes. They can write client code in such a way that there can be duplicate requests as well. These duplicate requests may be unintentional as well as intentional some time (e.g. due to timeout or network issues). You have to design fault-tolerant APIs in such a way that duplicate requests do not leave the system unstable.
+
+See also [What are idempotent and/or safe methods?](http://restcookbook.com/HTTP%20Methods/idempotency/) del libro [restcookbook.com/](http://restcookbook.com/)
+
+**Safe methods** are methods that can be cached, prefetched without any repercussions to the resource.
+
+**HTTP POST**
+
+Generally – not necessarily – `POST` APIs are used to **create** a new resource on server. So when you invoke the same POST request `N` times, you will have `N` new resources on the server. So, _`POST` is not idempotent_.
+
+**HTTP PUT**
+
+Generally – not necessarily – `PUT` APIs are used to **update** the resource state. If you invoke a `PUT` API `N` times, the very first request will update the resource; then rest `N-1` requests will just overwrite the same resource state again and again – effectively not changing anything. Hence, _`PUT` is idempotent_.
+
+Recuerda la definición de idempotente: 
+
+> when making **multiple identical requests** has the same effect as making a single request
+
+Si el request es idéntico el fichero no cambiará en los subsiguientes requests
+
+**HTTP DELETE**
+
+When you invoke `N` similar `DELETE` requests, first request will delete the resource and response will be `200` (OK) or `204` (`No Content`). Other `N-1` requests will return `404` (`Not Found`). 
+
+Clearly, the response is different from first request, **but there is no change of state for any resource** on server side because original resource is already deleted. So, _`DELETE` is idempotent_.
+
+Please keep in mind if some systems may have `DELETE` APIs like this:
+
+**DELETE /item/last**
+
+In the above case, calling operation N times will delete N resources – hence `DELETE` is not idempotent in this case. In this case, a good suggestion might be to change above API to `POST` – because `POST` is not idempotent.
+
+**POST /item/last**
+
+Now, this is closer to HTTP spec – hence more REST compliant.
+
+**Resumen de los Distintos Métodos**
+
+<table>
+    <tr><th>HTTP Method</th><th>Idempotent</th><th>Safe</th></tr>
+    <tr><td>OPTIONS    </td><td>yes       </td><td>yes</td></tr>
+    <tr><td>GET        </td><td>yes       </td><td>yes</td></tr>
+    <tr><td>HEAD       </td><td>yes       </td><td>yes</td></tr>
+    <tr><td>PUT        </td><td>yes       </td><td>no </td></tr>
+    <tr><td>POST       </td><td>no        </td><td>no </td></tr>
+    <tr><td>DELETE     </td><td>yes       </td><td>no </td></tr>
+    <tr><td>PATCH      </td><td>no        </td><td>no </td></tr>
+</table>
+
+* See [So when is PATCH not idempotent, then?](https://stackoverflow.com/questions/28459418/rest-api-put-vs-patch-with-real-life-examples/39338329#39338329)
+
+#### Idempotencia: La práctica p3-t1-c3-http como ejemplo de REST API
+
+```
+[~/.../chapter20-nodejs/juanIrache-20_3_public_space(master)]$ pwd -P
+/Users/casiano/local/src/javascript/eloquent-javascript-3/juanIrache-solutions/20_3_public_space
+```
+
+Quote from the [EJS book hints for this exercise](https://eloquentjavascript.net/20_node.html#i_h8iNiA8ezX):
+
+> You can use the function that implements the `DELETE` method as a blueprint for the `MKCOL` method. When no file is found, try to create a directory with `mkdir`. When a directory exists at that path, you can return a `204` response **so that directory creation requests are <u>idempotent</u>**. If a nondirectory file exists here, return an error code. Code `400` (`bad request`) would be appropriate.
+
+```js
+const {mkdir, stat} = require("fs").promises;
+
+methods.MKCOL = async function(request) {
+  let path = urlPath(request.url);
+  let stats;
+  try {
+    stats = await stat(path);
+  } catch (error) {
+    if (error.code != "ENOENT") throw error;
+    await mkdir(path);
+    return {status: 204}; // NO CONTENT
+  }
+  if (stats.isDirectory()) return {status: 204};
+  else return {status: 400, body: "Not a directory"};
+};
+```
+
 ## Bibliografía Básica
 
 * [Safari. Chapter 6. Commanding Databases](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-iidot-working-with-data/chp_databases_html)
