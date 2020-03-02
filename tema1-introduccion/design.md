@@ -79,7 +79,7 @@ In the Strategy pattern we have an object (the *context*) that is trying to get 
 Otro ejemplo, también de Elijah Manor se encuentra en el artículo [Switching to the Strategy Pattern in JavaScript](http://elijahmanor.com/switching-to-the-strategy-pattern-in-javascript/).
 
 
-### Ejemplo:HTTP file server fron EJS
+### Ejemplo: HTTP file server fron EJS
 
 ```js
 const { createServer } = require('http');
