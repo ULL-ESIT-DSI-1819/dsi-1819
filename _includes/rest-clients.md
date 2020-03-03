@@ -7,13 +7,13 @@ Rest API can be tested with tools like:
 
 **Example Using Insomnia**
 
-![request with inmsomnia](/assets/images/insomnia.png)
+![request with inmsomnia]({{site.baseurl}}/assets/images/insomnia.png)
 
 * [https://insomnia.rest/](https://insomnia.rest/)
 
 **Example Using Postman**
 
-![request with Postman](/assets/images/postman.png)
+![request with Postman]({{site.baseurl}}/assets/images/postman.png)
 
 * [https://www.getpostman.com/](https://www.getpostman.com/)
 * [API Building and Testing Made Easier with Postman](https://www.sitepoint.com/api-building-and-testing-made-easier-with-postman/)

@@ -185,6 +185,11 @@ $ curl -X PUT -d "hello world!" localhost:8000/tutu.txt
 /Users/casiano/local/src/javascript/eloquent-javascript-3/juanIrache-solutions/20_3_public_space/tutu.txt
 ```
 
+### Clientes para APIS REST
+
+{% include rest-clients.md %}
+
+
 ## Otras Prácticas sobre REST
 
 * [Descripción de la práctica p10-t3-commanding-databases](practicas/p10-t3-commanding-databases)
@@ -232,10 +237,6 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
 ### [RESTful API From Scratch Using Node, Express and MongoDB](https://youtu.be/eB9Fq9I5ocs) (YouTube video. Sencillo)
 
 ### [REST API con Express, Mongodb y Async/Await](https://www.youtube.com/watch?v=0XgRqjAAsaU&list=PLL0TiOXBeDajy0GJ47Ce9dU_iYxddpR4o) 6 vídeos por Fatz
-
-### Clientes para APIS REST
-
-{% include rest-clients.md %}
 
 ### Pagination in the REST API
 
