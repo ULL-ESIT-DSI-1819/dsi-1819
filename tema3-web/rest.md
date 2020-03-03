@@ -1,6 +1,13 @@
+# Web Service
+
+* A Web service is defined as *"a software system designed to support interoperable machine-to-machine interaction over a network"*. 
+
+Web services are frequently just Web APIs that can be accessed over a network, such as the Internet, and executed on a remote system hosting the requested services.
+
 #  REST
 
 REST is an acronym that stands for Representational State Transfer.
+Representational state transfer (REST) is a software architectural style that defines a set of constraints to be used for creating Web services.
 
 * [REST en http://crguezl.github.io/apuntes-ruby/](http://crguezl.github.io/apuntes-ruby/node566.html)
 
@@ -11,10 +18,6 @@ Requesting or making a change to a resource comes down to issuing an HTTP reques
 For example, the HTTP GET method retrieves a resource, and HTTP PUT sends a resource to be saved.
 
 ## Idempotent REST APIs
-
-* A Web service is defined as *"a software system designed to support interoperable machine-to-machine interaction over a network"*. 
-Web services are frequently just Web APIs that can be accessed over a network, such as the Internet, and executed on a remote system hosting the requested services.
-* Representational state transfer (REST) is a software architectural style that defines a set of constraints to be used for creating Web services.
 
 * [Idempotent REST APIs](https://restfulapi.net/idempotent-rest-apis)
 
