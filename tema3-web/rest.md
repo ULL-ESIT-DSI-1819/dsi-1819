@@ -189,6 +189,9 @@ $ curl -X PUT -d "hello world!" localhost:8000/tutu.txt
 
 {% include rest-clients.md %}
 
+## Pagination in the REST API
+
+* [Pagination in the REST API](https://developer.atlassian.com/server/confluence/pagination-in-the-rest-api/)
 
 ## Otras Prácticas sobre REST
 
@@ -238,9 +241,6 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
 
 ### [REST API con Express, Mongodb y Async/Await](https://www.youtube.com/watch?v=0XgRqjAAsaU&list=PLL0TiOXBeDajy0GJ47Ce9dU_iYxddpR4o) 6 vídeos por Fatz
 
-### Pagination in the REST API
-
-* [Pagination in the REST API](https://developer.atlassian.com/server/confluence/pagination-in-the-rest-api/)
 
 ### Google APIs
 
