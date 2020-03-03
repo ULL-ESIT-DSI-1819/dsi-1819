@@ -24,6 +24,10 @@ For example, the HTTP GET method retrieves a resource, and HTTP PUT sends a reso
 
 ## Idempotent REST APIs
 
+In the context of REST APIs, *when making multiple identical requests has the same effect as making a single request* – then that REST API is called **idempotent**.
+
+> An idempotent HTTP method is an HTTP method that can be called many times without different outcomes. It would not matter if the method is called only once, or ten times over. The result should be the same. It essentially means that the result of a successfully performed request is independent of the number of times it is executed.
+
 * [Idempotent REST APIs](https://restfulapi.net/idempotent-rest-apis)
 
 > When you design REST APIs, you must realize that API consumers can make mistakes. They can write client code in such a way that there can be duplicate requests as well. These duplicate requests may be unintentional as well as intentional some time (e.g. due to timeout or network issues). You have to design fault-tolerant APIs in such a way that duplicate requests do not leave the system unstable.
