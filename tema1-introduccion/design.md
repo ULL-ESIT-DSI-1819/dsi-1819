@@ -82,6 +82,7 @@ Otro ejemplo, también de Elijah Manor se encuentra en el artículo [Switching t
 ### Ejemplo: HTTP file server fron EJS
 
 * Repo ULL-MII-SYTWS-1920/eloquent-javascript-exercises [solution 20_3_public_space/server.js](https://github.com/ULL-MII-SYTWS-1920/eloquent-javascript-exercises/blob/master/20_3_public_space/server.js)
+  
 ```
 [~/.../chapter20-nodejs/juanIrache-20_3_public_space(master)]$ pwd -P
 /Users/casiano/local/src/javascript/eloquent-javascript-3/juanIrache-solutions/20_3_public_space
