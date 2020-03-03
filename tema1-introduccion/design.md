@@ -184,38 +184,6 @@ methods.PUT = async function(request) {
   return { status: 200, body: path };
 };
 
-/*
-
-methods.MKCOL = function(path, respond) {
-  fs.stat(path, function(error, stats) {
-    if (error && error.code == "ENOENT")
-      fs.mkdir(path, respondErrorOrNothing(respond));
-    else if (error)
-      respond(500, error.toString());
-    else if (stats.isDirectory())
-      respond(204);
-    else
-      respond(400, "File exists");
-  });
-};
-
-const { mkdir } = require('fs').promises;
-const { existsSync } = require('fs');
-
-methods.MKCOL = async function(request) {
-  let path = urlPath(request.url);
-  if (existsSync(path)) return { status: 409, body: `${path} already exists.` };
-
-  try {
-    await mkdir(path);
-    return { status: 204 };
-  } catch (error) {
-    throw error;
-  }
-};
-
-*/
-
 methods.MKCOL = async function(request) {
   let path = urlPath(request.url);
   let stats;
