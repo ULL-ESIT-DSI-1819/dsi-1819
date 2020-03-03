@@ -98,6 +98,95 @@ methods.MKCOL = async function(request) {
 };
 ```
 
+#### La práctica p3-t1-c3-http y el STATUS 204 
+
+* [204](https://httpstatuses.com/204)
+
+**204**: 
+
+* The server has successfully fulfilled the request and **that there is no additional content to send in the response payload body**.
+
+* A 204 response is terminated by the first empty line after the header fields **because it cannot contain a message body**.
+
+* A 204 response is cacheable by default
+
+Un experimento: si añadimos un `body` a una respuesta `204` en el código de la práctica:
+
+
+```
+[~/.../chapter20-nodejs/juanIrache-20_3_public_space(master)]$ git diff -U12 server.js
+```
+```diff
+diff --git a/20_3_public_space/server.js b/20_3_public_space/server.js
+index 79d3f5d..3fa658a 100644
+--- a/20_3_public_space/server.js
++++ b/20_3_public_space/server.js
+@@ -83,25 +83,25 @@ const { createWriteStream } = require('fs');
+ function pipeStream(from, to) {
+   return new Promise((resolve, reject) => {
+     from.on('error', reject);
+     to.on('error', reject);
+     to.on('finish', resolve);
+     from.pipe(to);
+   });
+ }
+ 
+ methods.PUT = async function(request) {
+   let path = urlPath(request.url);
+   await pipeStream(request, createWriteStream(path));
+-  return { status: 204 };
++  return { status: 204, body: path };
+ };
+```
+
+... Y hacemos un request con  `PUT`, observamos que el status `204` hace que no llegue ningún cuerpo al cliente:
+
+<table>
+  <tr><th>Server</th><th>Client</th></tr>
+  <tr>
+    <td><xmp>
+    $ nodemon server.js 
+    [nodemon] 1.11.0
+    [nodemon] to restart at any time, enter `rs`
+    [nodemon] watching: *.*
+    [nodemon] starting `node server.js`
+    method= PUT url=/tutu.txt
+    </xmp></td>
+    <td><xmp>
+    $ curl -X PUT -d "hello world!" localhost:8000/tutu.txt
+    $ 
+    </xmp></td>
+  </tr>
+  <tr>
+  <td>The server returns a 204</td>
+  <td>No body received</td>
+  </tr>
+</table>
+
+If now we change the code to return a status `200`:
+```
+[~/.../chapter20-nodejs/juanIrache-20_3_public_space(master)]$ git diff server.js
+```
+
+```diff
+diff --git a/20_3_public_space/server.js b/20_3_public_space/server.js
+index 79d3f5d..66fa8b9 100644
+--- a/20_3_public_space/server.js
++++ b/20_3_public_space/server.js
+@@ -92,7 +92,7 @@ function pipeStream(from, to) {
+ methods.PUT = async function(request) {
+   let path = urlPath(request.url);
+   await pipeStream(request, createWriteStream(path));
+-  return { status: 204 };
++  return { status: 200, body: path };
+ };
+```
+And execute the same request, we get the body (the `path` to the modified file):
+```
+$ curl -X PUT -d "hello world!" localhost:8000/tutu.txt
+/Users/casiano/local/src/javascript/eloquent-javascript-3/juanIrache-solutions/20_3_public_space/tutu.txt
+```
+
 ## Bibliografía Básica
 
 * [Safari. Chapter 6. Commanding Databases](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-iidot-working-with-data/chp_databases_html)
@@ -108,9 +197,9 @@ methods.MKCOL = async function(request) {
 * [REST with Hypermedia - Hot or Not?](https://reflectoring.io/rest-hypermedia/) blog by Tom Hombergs
   - [mikekelly/hal-browser](https://github.com/mikekelly/hal-browser)
   
-## [REST API concepts and examples](https://youtu.be/7YcW25PHnAA) (Youtube video)
+### [REST API concepts and examples](https://youtu.be/7YcW25PHnAA) (Youtube video)
 
-## [API for beginners](https://youtu.be/oBW_VNg4qD0) (Youtube video) por Le Wagon
+### [API for beginners](https://youtu.be/oBW_VNg4qD0) (Youtube video) por Le Wagon
 
 - [programmableweb.com/](https://www.programmableweb.com/)
 - [How to Send an SMS With Node.js Using Twilio](https://www.twilio.com/blog/2016/09/how-to-send-an-sms-with-node-js-using-twilio.html)
@@ -123,43 +212,43 @@ methods.MKCOL = async function(request) {
 - [RequestBin](https://requestb.in/) gives you a URL that will collect requests made to it and let you inspect them in a human-friendly way.
 Use RequestBin to see what your HTTP client is sending or to inspect and debug webhook requests.
 
-## [Tutorial: Crear API RESTful utilizando Node.js + Express.js + MongoDB](https://www.programacion.com.py/web/javascript/tutorial-api-rest-usando-node-js-express-mongodb)
+### [Tutorial: Crear API RESTful utilizando Node.js + Express.js + MongoDB](https://www.programacion.com.py/web/javascript/tutorial-api-rest-usando-node-js-express-mongodb)
 
-## Christopher Buecheler tutorial
+### Christopher Buecheler tutorial
 
 * [The Dead-Simple Step-By-Step Guide for Front-End Developers to Getting Up and Running With Node.JS, Express, and MongoDB](https://closebrace.com/tutorials/2017-03-02/the-dead-simple-step-by-step-guide-for-front-end-developers-to-getting-up-and-running-with-nodejs-express-and-mongodb) by Christopher Buecheler
     - [Repo ULL-ESIT-MII-CA-1718/node-tutorial-for-frontend-devs](https://github.com/ULL-ESIT-MII-CA-1718/node-tutorial-for-frontend-devs)
 * [Creating a Simple RESTful Web App with Node.js, Express, and MongoDB](https://closebrace.com/tutorials/2017-03-02/creating-a-simple-restful-web-app-with-nodejs-express-and-mongodb)
 
-## [RESTful Web services: The basics](https://www.ibm.com/developerworks/webservices/library/ws-restful/) by Alex Rodríguez
+### [RESTful Web services: The basics](https://www.ibm.com/developerworks/webservices/library/ws-restful/) by Alex Rodríguez
 
-## [Build a RESTful API Using Node and Express 4](https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4)
+### [Build a RESTful API Using Node and Express 4](https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4)
 
 - [GitHub repo ULL-ESIT-MII-CA-1718/node-api](https://github.com/ULL-ESIT-MII-CA-1718/node-api)
 
-## [RESTful API From Scratch Using Node, Express and MongoDB](https://youtu.be/eB9Fq9I5ocs) (YouTube video. Sencillo)
+### [RESTful API From Scratch Using Node, Express and MongoDB](https://youtu.be/eB9Fq9I5ocs) (YouTube video. Sencillo)
 
-## [REST API con Express, Mongodb y Async/Await](https://www.youtube.com/watch?v=0XgRqjAAsaU&list=PLL0TiOXBeDajy0GJ47Ce9dU_iYxddpR4o) 6 vídeos por Fatz
+### [REST API con Express, Mongodb y Async/Await](https://www.youtube.com/watch?v=0XgRqjAAsaU&list=PLL0TiOXBeDajy0GJ47Ce9dU_iYxddpR4o) 6 vídeos por Fatz
 
-## Clientes para APIS REST
+### Clientes para APIS REST
 
 {% include rest-clients.md %}
 
-## Pagination in the REST API
+### Pagination in the REST API
 
 * [Pagination in the REST API](https://developer.atlassian.com/server/confluence/pagination-in-the-rest-api/)
 
-## Google APIs
+### Google APIs
 
-### [googlemaps/google-maps-services-js](https://github.com/googlemaps/google-maps-services-js) GitHub
+#### [googlemaps/google-maps-services-js](https://github.com/googlemaps/google-maps-services-js) GitHub
 
-### [Google Calendar API](https://developers.google.com/google-apps/calendar/)
+#### [Google Calendar API](https://developers.google.com/google-apps/calendar/)
    1.  [Repo de ejemplo de uso en NodeJS de la API de Calendar](https://github.com/ULL-ESIT-MII-CA-1718/nodejs-google-calendar-example)
    2. Tutorial [Building a Google Calendar Booking App with MongoDB, ExpressJS, AngularJS, and Node.js ](https://github.com/ULL-ESIT-MII-CA-1718/googlecalendarapidemo)
    3. [Google APIs Client Library for JavaScript](https://github.com/google/google-api-javascript-client)
    4. [Google API Client Libraries JavaScript. Tutorial](https://developers.google.com/api-client-library/javascript/start/start-js)
 
-## Prácticas
+## Prácticas sobre REST
 
 * [Descripción de la práctica p10-t3-commanding-databases](practicas/p10-t3-commanding-databases)
 * [Práctica: developing RESTful Web Services (p11-t3-restful)](practicas/p11-t3-restful)
