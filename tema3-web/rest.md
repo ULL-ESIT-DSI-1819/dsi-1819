@@ -100,9 +100,7 @@ methods.MKCOL = async function(request) {
 
 ## La práctica p3-t1-c3-http y el STATUS 204 
 
-* [204](https://httpstatuses.com/204)
-
-**204**: 
+**[204](https://httpstatuses.com/204)**: 
 
 * The server has successfully fulfilled the request and **that there is no additional content to send in the response payload body**.
 
