@@ -10,7 +10,7 @@ Requesting or making a change to a resource comes down to issuing an HTTP reques
 
 For example, the HTTP GET method retrieves a resource, and HTTP PUT sends a resource to be saved.
 
-### Idempotent REST APIs
+## Idempotent REST APIs
 
 * A Web service is defined as *"a software system designed to support interoperable machine-to-machine interaction over a network"*. 
 Web services are frequently just Web APIs that can be accessed over a network, such as the Internet, and executed on a remote system hosting the requested services.
@@ -69,7 +69,7 @@ Now, this is closer to HTTP spec – hence more REST compliant.
 
 * See [So when is PATCH not idempotent, then?](https://stackoverflow.com/questions/28459418/rest-api-put-vs-patch-with-real-life-examples/39338329#39338329)
 
-#### Idempotencia: La práctica p3-t1-c3-http como ejemplo de REST API
+## La práctica p3-t1-c3-http como ejemplo de REST API
 
 ```
 [~/.../chapter20-nodejs/juanIrache-20_3_public_space(master)]$ pwd -P
@@ -98,7 +98,7 @@ methods.MKCOL = async function(request) {
 };
 ```
 
-#### La práctica p3-t1-c3-http y el STATUS 204 
+## La práctica p3-t1-c3-http y el STATUS 204 
 
 * [204](https://httpstatuses.com/204)
 
@@ -187,6 +187,11 @@ $ curl -X PUT -d "hello world!" localhost:8000/tutu.txt
 /Users/casiano/local/src/javascript/eloquent-javascript-3/juanIrache-solutions/20_3_public_space/tutu.txt
 ```
 
+## Otras Prácticas sobre REST
+
+* [Descripción de la práctica p10-t3-commanding-databases](practicas/p10-t3-commanding-databases)
+* [Práctica: developing RESTful Web Services (p11-t3-restful)](practicas/p11-t3-restful)
+
 ## Bibliografía Básica
 
 * [Safari. Chapter 6. Commanding Databases](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-iidot-working-with-data/chp_databases_html)
@@ -248,7 +253,3 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
    3. [Google APIs Client Library for JavaScript](https://github.com/google/google-api-javascript-client)
    4. [Google API Client Libraries JavaScript. Tutorial](https://developers.google.com/api-client-library/javascript/start/start-js)
 
-## Prácticas sobre REST
-
-* [Descripción de la práctica p10-t3-commanding-databases](practicas/p10-t3-commanding-databases)
-* [Práctica: developing RESTful Web Services (p11-t3-restful)](practicas/p11-t3-restful)
