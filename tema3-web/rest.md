@@ -4,6 +4,11 @@
 
 Web services are frequently just Web APIs that can be accessed over a network, such as the Internet, and executed on a remote system hosting the requested services.
 
+Example:
+
+* [https://developer.github.com/v3/](https://developer.github.com/v3/)
+* [https://api.github.com/users/crguezl/orgs](https://api.github.com/users/crguezl/orgs)
+
 #  REST
 
 REST is an acronym that stands for Representational State Transfer.
