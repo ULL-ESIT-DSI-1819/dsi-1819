@@ -26,7 +26,7 @@
 
 ### Error Handling
 
-*[Error handling with promises](https://javascript.info/promise-error-handling)
+* [Error handling with promises](https://javascript.info/promise-error-handling)
   * [Exercises: Exceptions and Promises](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises/exception-inside-promise)
 * [Promise API](https://javascript.info/promise-api)
 * [Promisification](https://javascript.info/promisify)
