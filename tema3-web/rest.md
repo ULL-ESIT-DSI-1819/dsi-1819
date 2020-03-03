@@ -185,7 +185,7 @@ $ curl -X PUT -d "hello world!" localhost:8000/tutu.txt
 /Users/casiano/local/src/javascript/eloquent-javascript-3/juanIrache-solutions/20_3_public_space/tutu.txt
 ```
 
-### Clientes para APIS REST
+## Clientes para APIS REST
 
 {% include rest-clients.md %}
 
