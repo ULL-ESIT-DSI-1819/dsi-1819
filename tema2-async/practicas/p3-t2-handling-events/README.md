@@ -6,6 +6,7 @@ previous:
   url: /tema1-introduccion/practicas/p3-t1-c3-http/
 ---
 
+
 # Práctica p3-t2-handling-events
 
 * Siguiendo el capítulo *[Handling Events](https://eloquentjavascript.net/15_event.html)*  de EJS escribe tus propios apuntes con ejemplos
