@@ -14,28 +14,52 @@
     * [index.html](https://github.com/ULL-MII-SYTWS-1920/promise-example/blob/master/index.html)
     * [script.js](https://github.com/ULL-MII-SYTWS-1920/promise-example/blob/master/script.js)
 
+* [Very Simple Examples of Promises](promise-examples) (uai2015)
+
+
 ### Promise Chaining
 
 * [Promise Chaining](https://javascript.info/promise-chaining)
   * A call to `promise.then` returns a promise, so that we can call the next `.then` on it.
   * A handler, used in `.then(handler)` may create and return a promise. In that case further handlers wait until it settles, and then get its result.
   * [Promises Chaining fetch example]({{site.baseurl}}/tema1-introduccion-a-javascript/promises-chaining-fetch-example)
-   * If a `.then` (or `catch/finally`, doesn’t matter) handler returns a promise, the rest of the chain waits until it settles. When it does, its result (or error) is passed further.
+  * If a `.then` (or `catch/finally`, doesn’t matter) handler returns a promise, the rest of the chain waits until it settles. When it does, its result (or error) is passed further.
   * [Repo ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io: exercises/promises/promise-chaining](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises/promise-chaining)
 
 ### Error Handling
 
-* [Error handling with promises](https://javascript.info/promise-error-handling)
-  * [Exercises: Exceptions and Promises](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises/exception-inside-promise)
-* [Promise API](https://javascript.info/promise-api)
-* [Promisification](https://javascript.info/promisify)
-  * [Ejercicio](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises/promisify)
-* [Microtasks](https://javascript.info/microtask-queue)
-  * Example of [Order: Promises vs Callbacks]({{site.baseurl}}/tema2-async/promise-examples#orden-promises-versus-callbacks)
-  * Example of [Unhandled Rejection]({{site.baseurl}}/tema2-async/promise-examples#unhandled-promise-rejection)
-* [Async/await](https://javascript.info/async-await)
+[Error handling with promises](https://javascript.info/promise-error-handling)
 
-* [Very Simple Examples of Promises](promise-examples) (uai2015)
+```
+[~/.../exception-inside-promise(master)]$ pwd -P
+/Users/casiano/campus-virtual/1920/pl1920/apuntes/tema1-introduccion-a-javascript/event-loop/exercises/promises/exception-inside-promise
+```
+
+[Exercises: Exceptions and Promises](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises/exception-inside-promise)
+
+
+### [Promise API](https://javascript.info/promise-api)
+
+<!-- RETO
+* [Promise.all exercise]({{site.baseurl}}/tema1-introduccion-a-javascript/event-loop/exercises/promises/promise-all)
+-->
+
+
+### [Promisification](https://javascript.info/promisify)
+
+<!-- RETO
+  * [Ejercicio](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema2-async/exercises/promises/promisify)
+
+[~/.../promises(master)]$ cd promisify/
+[~/.../promisify(master)]$ pwd -P
+/Users/casiano/campus-virtual/1920/pl1920/apuntes/tema1-introduccion-a-javascript/event-loop/exercises/promises/promisify
+-->
+
+
+### [Microtasks](https://javascript.info/microtask-queue)
+
+### [Async/await](https://javascript.info/async-await)
+
 
 ## Ejercicios
 

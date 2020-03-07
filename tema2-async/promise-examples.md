@@ -1,6 +1,6 @@
 ## Examples of Promises
 
-### UAI 2015 Example. Request to Norris Jokes Service
+### Ejemplo Sencillo  (Chuck Norris jokes service)
 
 `local/src/uai/uai2015/promise-ejemplo`
 
