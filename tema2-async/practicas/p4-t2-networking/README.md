@@ -43,7 +43,7 @@
     * [Mocha](https://mochajs.org/)
     * [chai](https://www.chaijs.com/)
 
-### Recursos para el profesor:
+### Recursos para el profesor
 
 * Paths related:
 
