@@ -71,14 +71,14 @@
 
 ### Recursos para el profesor
 
-* Paths related:
+* [GitHub repo ULL-MII-CA-1819/nodejs-the-right-way](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way) (private repo)
+  * Paths related:
+    ```
 
-  ```
-  [~/sol-nodejs-the-right-way/networking-with-sockets-chapter-3(master)]$ pwd -P
-  /Users/casiano/local/src/CA/sol-nodejs-the-right-way/networking-with-sockets-chapter-3
+    [~/sol-nodejs-the-right-way/networking-with-sockets-chapter-3(master)]$ pwd -P
+    /Users/casiano/local/src/CA/sol-nodejs-the-right-way/networking-with-sockets-chapter-3
 
-  ```
-
-* [sol-c](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way/tree/master/networking-with-sockets-chapter-3)
+    ```
+* [sol-c](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way/tree/master/networking-with-sockets-chapter-3) (private repo)
   - See the branch `chapter3-exercises`
-* [Sol -ai](https://github.com/ULL-MII-CA-1819/networking-ale-ivan)
+* [Sol -ai](https://github.com/ULL-MII-CA-1819/networking-ale-ivan)  (private repo)
