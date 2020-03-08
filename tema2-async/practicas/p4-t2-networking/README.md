@@ -56,13 +56,16 @@
 * [Apuntes de Travis]({{site.baseurl}}/tema1-introduccion/travis)
 * [Travis](https://crguezl.github.io/ull-esit-1617/_book/apuntes/pruebas/travis.html)
 
-### Documentación:  
+### Documentación
+
 * [documentation.js](http://documentation.js.org/), 
 * [jsdoc](https://www.npmjs.com/package/jsdoc), 
 * [docco](http://jashkenas.github.io/docco/)
 
 ### Pruebas
 
+
+* [pruebas]({{site.baseurl}}/tema1-introduccion/pruebas)
 * [Mocha](https://mochajs.org/)
 * [chai](https://www.chaijs.com/)
 
