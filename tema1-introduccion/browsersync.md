@@ -61,9 +61,8 @@ a page reload.
 
 #### Vídeo: A Quick Introduction to BrowserSync
 
-{% youtube %}https://youtu.be/heNWfzc7ufQ{% endyoutube %}
+[Vídeo: A Quick Introduction to BrowserSync](https://youtu.be/heNWfzc7ufQ)
 
 #### Vídeo: Using Gulp, SASS and Browser-Sync for you front end web development
 
-{% youtube %}https://youtu.be/Rv5f_v5gqw4{% endyoutube %}
-
+[Vídeo: Using Gulp, SASS and Browser-Sync for you front end web development](https://youtu.be/Rv5f_v5gqw4)

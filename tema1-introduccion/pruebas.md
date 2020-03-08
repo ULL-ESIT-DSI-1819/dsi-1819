@@ -3,19 +3,22 @@
 
 ### Apuntes sobre Herramientas para Pruebas
 
+* [Mocha](mocha)
+* [Should](mocha#should)
+* [Travis](travis)
+* [Chai](chai)
+* [Sinon](sinon)
+* [Karma](karma)
+* [Covering](covering)
+* [Blanket](blanket)
+* [Istanbul](istanbul)
+* [BrowserSync](browsersync)
+
 * [Sección Pruebas en los Apuntes del curso 16/17](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pruebas/)
-  * [Mocha](mocha)
-  * [Should](mocha#should)
-  * [Travis](travis)
-  * [Chai](chai)
-  * [Sinon](sinon)
-  * [Karma](karma)
-  * [Covering](covering)
-  * [Blanket](blanket)
-  * [Istanbul](istanbul)
-  * [BrowserSync](browsersync)
+
 
 #### Pruebas en el Navegador/Browser
+
 
 * [Learning JavaScript Test-Driven Development by Example](https://www.sitepoint.com/learning-javascript-test-driven-development-by-example/) SitePoint Tutorial
 * [Mocha y Chai en el navegador. Apuntes del curso 15/16](https://casianorodriguezleon.gitbooks.io/pl1516/content/practicas/mochachaisinon.html)
