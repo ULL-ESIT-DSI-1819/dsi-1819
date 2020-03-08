@@ -31,7 +31,7 @@
 ### Node.js the Right Way book
 
 * [BULL PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/puntoq/)
-* Node.js 8 the Right Way]({{site.bull_permanente}}/15vbjs7/ullsfx4340000000247287)
+* [Node.js 8 the Right Way]({{site.bull_permanente}}/15vbjs7/ullsfx4340000000247287)
 * [Book "Node.js 8 the Right Way"](https://books.google.es/books?id=oA9QDwAAQBAJ&lpg=PT96&dq=should%20ldjclient%20emit%20a%20close%20event&hl=es&pg=PT61#v=onepage&q=should%20ldjclient%20emit%20a%20close%20event&f=false) 2018 Edition. Google Books
 * [GitHub repo ULL-MII-CA-1819/nodejs-the-right-way](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way) (private repo)
 
