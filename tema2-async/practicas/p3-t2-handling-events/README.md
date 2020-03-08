@@ -4,6 +4,8 @@ title: p3-t2-handling-events/
 permalink: /tema2-async/practicas/p3-t2-handling-events/index.html
 previous:
   url: /tema1-introduccion/practicas/p3-t1-c3-http/
+next:
+  url: /tema2-async/practicas/p4-t2-networking
 ---
 
 # Práctica p3-t2-handling-events

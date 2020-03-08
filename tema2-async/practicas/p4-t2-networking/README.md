@@ -1,3 +1,11 @@
+---
+layout: default
+title: p4-t2-networking/
+permalink: /tema2-async/practicas/p4-t2-networking/
+previous:
+  url: /tema2-async/practicas/p3-t2-handling-events/
+---
+
 # Práctica p4-t2-networking
 
 * Lea el Capítulo 3 "Networking with Sockets" de [Node.js 8 the Right Way]({{site.bull_permanente}}/15vbjs7/ullsfx4340000000247287) y resuelva los problemas en la secciónes *Testability* y *Robustness*

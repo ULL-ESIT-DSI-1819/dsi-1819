@@ -83,6 +83,10 @@ practicas:
   - title: 07p3-t2-handling-events
     myurl: /tema2-async/practicas/p3-t2-handling-events/index.html
     name: Práctica p3-t2-handling-events
+  - title: 08p4-t2-networking
+    myurl: /tema2-async/practicas/p4-t2-networking/
+    name: Práctica p4-t2-networking
+
 biblio:
   wilson: https://puntoq.ull.es/permalink/f/15vbjs7/ullsfx4340000000247287
 exclude: 
