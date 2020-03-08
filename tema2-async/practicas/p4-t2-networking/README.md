@@ -33,7 +33,7 @@
 * [BULL PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/puntoq/)
 * Node.js 8 the Right Way]({{site.bull_permanente}}/15vbjs7/ullsfx4340000000247287)
 * [Book "Node.js 8 the Right Way"](https://books.google.es/books?id=oA9QDwAAQBAJ&lpg=PT96&dq=should%20ldjclient%20emit%20a%20close%20event&hl=es&pg=PT61#v=onepage&q=should%20ldjclient%20emit%20a%20close%20event&f=false) 2018 Edition. Google Books
-* [GitHub repo ULL-MII-CA-1819/nodejs-the-right-way](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
+* [GitHub repo ULL-MII-CA-1819/nodejs-the-right-way](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way) (private repo)
 
 ### UPM MOOC on Node.JS
 
@@ -54,7 +54,7 @@
 ### CI and Travis
 
 * [Apuntes de Travis]({{site.baseurl}}/tema1-introduccion/travis)
-* [Travis](https://crguezl.github.io/ull-esit-1617/_book/apuntes/pruebas/travis.html)
+* [Viejos apuntes de Travis 16/17](https://crguezl.github.io/ull-esit-1617/_book/apuntes/pruebas/travis.html)
 
 ### Documentación
 
@@ -65,7 +65,7 @@
 ### Pruebas
 
 
-* [pruebas]({{site.baseurl}}/tema1-introduccion/pruebas)
+* [Apuntes: Sección pruebas]({{site.baseurl}}/tema1-introduccion/pruebas)
 * [Mocha](https://mochajs.org/)
 * [chai](https://www.chaijs.com/)
 
