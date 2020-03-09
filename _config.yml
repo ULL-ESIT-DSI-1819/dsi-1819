@@ -52,6 +52,9 @@ temas:
   - title: 'Tema 3: Entornos de Trabajo y Patrones para la Web'
     url: tema3-web/index.html
     hover: 'web'
+  - title: 'Tema 4: Entornos de Trabajo y Patrones para el Despliegue'
+    url: tema4-devops/index.html
+    hover: 'despliegue'
 practicas:
   - title: 00cuestionarioghalu
     myurl: https://campusvirtual.ull.es/1920/mod/assign/view.php?id=14697
