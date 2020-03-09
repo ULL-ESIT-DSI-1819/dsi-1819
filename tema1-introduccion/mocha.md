@@ -27,8 +27,6 @@
 * [A GENTLE INTRODUCTION TO JAVASCRIPT TEST DRIVEN DEVELOPMENT: PART 2](http://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-ajax/)
 * [A GENTLE INTRODUCTION TO JAVASCRIPT TEST DRIVEN DEVELOPMENT: PART 3](http://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-html-dom/)
 
-
-
 ## Should {#should}
 
 * [Should npm](https://www.npmjs.com/package/should)
