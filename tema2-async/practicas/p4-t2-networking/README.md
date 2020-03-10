@@ -30,7 +30,7 @@ previous:
 
 * [Añadan pruebas](#pruebas)
 * [Añada documentación](#documentaci%C3%B3n)
-* Añada Integración Contínua usando Travis (Haga un badge en su README.md)
+* Añada Integración Contínua usando Travis (Haga un badge en su README.md) o bien use [GitHub Actions]({{site.baseurl}}/tema4-devops/github-actions)
 * Use Jekyll y GitHub Pages para desplegar su informe de práctica
 * Añada un `gulpfile.js` para facilitar la ejecución de las tareas
 
