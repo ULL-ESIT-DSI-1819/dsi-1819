@@ -209,7 +209,7 @@ Bundle updated!
 
 * [Change site.url to localhost during jekyll local development](https://stackoverflow.com/questions/27386169/change-site-url-to-localhost-during-jekyll-local-development)
 
-"
+
 
 This is a common problem between different Jekyll environments.
 
