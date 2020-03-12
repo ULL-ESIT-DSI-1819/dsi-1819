@@ -94,4 +94,6 @@ del array `sockets`
 ## Recursos para el profesor
 
 * [sol c](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way/blob/master/networking-with-sockets-chapter-3/chat-server.js)
-* Path: `/Users/casiano/local/src/CA/sol-nodejs-the-right-way/networking-with-sockets-chapter-3`
+  * Path: `/Users/casiano/local/src/CA/sol-nodejs-the-right-way/networking-with-sockets-chapter-3`
+* [Second solution with user names](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way-private/tree/master/networking-with-sockets-chapter-3/chat-tcp-server)
+  * Path: `/Users/casiano/local/src/CA/sol-nodejs-the-right-way/networking-with-sockets-chapter-3/chat-tcp-server`
