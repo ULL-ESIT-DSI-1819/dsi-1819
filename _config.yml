@@ -14,6 +14,7 @@ baseurl: '/dsi-1819'
 url: https://ull-esit-dsi-1819.github.io/dsi-1819/
 future: true
 show_downloads: false
+google_plus: https://plus.google.com/u/1/communities/101210698918846038099
 disqus: 
   url: https://desarrollo-de-sistemas-informaticos.disqus.com/embed.js
   comments: true
