@@ -92,7 +92,7 @@ del array `sockets`
   * Documentación de [indexOf](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/indexOf)
 
 
-## Reto 2: Using Names for the Clients
+# Reto 2: Using Names for the Clients
 
 Una posible extensión del chat anterior es hacer que el cliente al comienzo de la 
 conexión indique su nombre:
@@ -130,7 +130,7 @@ Julio Cesar
 - Welcome to the Chatbox, There are 1 active users: [Julio Cesar ]
 > Marco Antonio : Hola Julito!
 ```
-## Recursos para el profesor
+# Recursos para el profesor
 
 * [sol c](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way/blob/master/networking-with-sockets-chapter-3/chat-server.js)
   * Path: `/Users/casiano/local/src/CA/sol-nodejs-the-right-way/networking-with-sockets-chapter-3`
