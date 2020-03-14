@@ -1,6 +1,6 @@
 # Bibliografía y Referencias
 
-## Resources for the Student
+## Resources for the Teachers
 
 * [Recursos de Bibliografía]({{site.books_shared}}) (privado)
 * [ManzDev/dsi1920](https://github.com/ManzDev/dsi1920) (privado)
