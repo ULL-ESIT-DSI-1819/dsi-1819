@@ -94,13 +94,18 @@ del array `sockets`
 
 # Reto 2: Using Names for the Clients
 
+
 Una posible extensión del chat anterior es hacer que el cliente al comienzo de la 
 conexión indique su nombre:
+
+## Arrancando el server
 
 ```
 [~/.../networking-with-sockets-chapter-3/chat-tcp-server(master)]$ node index.js
 Listening on port 4000
 ```
+
+## Cliente: Julio Cesar
 
 ```
 [~/.../p2-t1-testing-crguezl(master)]$ telnet localhost 4000
@@ -111,6 +116,8 @@ Please enter your name (Press twice enter to send the message)
 Julio Cesar
 - Welcome to the Chatbox, There are 1 active users: [Julio Cesar ]
 ```
+
+## Cliente: Marco Antonio
 
 ```
 [~/.../p1-t1-iaas-Jorge-Acevedo(master)]$ telnet localhost 4000
