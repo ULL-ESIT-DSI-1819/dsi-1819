@@ -2,7 +2,9 @@
 
 ## Resources for the Student
 
-* [Recursos de Bibliografía]({{site.books_shared}})
+* [Recursos de Bibliografía]({{site.books_shared}}) (privado)
+* [ManzDev/dsi1920](https://github.com/ManzDev/dsi1920) (privado)
+
 
 ## JS
 
