@@ -1,4 +1,4 @@
-# Reto para la práctica p4-t2-networking
+# Reto 1 para la práctica p4-t2-networking
 
 Escriba un servidor que permita un *chat*&nbsp; donde los clientes se conectan
 via `telnet` o `netcat`.
