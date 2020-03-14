@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Comunicado extraordinario del Viernes 13/03/2020"
+title:  "Crisis COVID-19: Comunicado Viernes 13/03/2020"
 categories: Clases
 ---
 
