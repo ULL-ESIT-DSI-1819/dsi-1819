@@ -23,6 +23,8 @@ logo: DSIlogo.png
 teachers:
   - name: Casiano
     url: https://www.ull.es/apps/guias/guias/view_teacher_niu/588/(%3FPcrguezl.*)/
+  - name: Vicente
+    url: https://www.ull.es/apps/guias/guias/view_teacher_niu/588/(%3FPvblanco.*)/
   - name: Manz
     url: https://www.emezeta.com/manz
 campus_virtual: https://campusvirtual.ull.es/1920/course/view.php?id=201911055
@@ -94,6 +96,11 @@ practicas:
   - title: 08p4-t2-networking
     myurl: /tema2-async/practicas/p4-t2-networking/
     name: Práctica p4-t2-networking
+  - title: 09slackchannel
+    myurl: https://campusvirtual.ull.es/1920/mod/assign/view.php?id=212260
+    name: Tarea Unirse al Canal de Slack
+ 
+    
 
 biblio:
   wilson: https://puntoq.ull.es/permalink/f/15vbjs7/ullsfx4340000000247287
