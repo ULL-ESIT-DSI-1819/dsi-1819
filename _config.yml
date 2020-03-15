@@ -90,9 +90,15 @@ practicas:
   - title: 06p3-t1-c3-http
     myurl: /tema1-introduccion/practicas/p3-t1-c3-http/
     name: Práctica p3-t1-c3-http
+    reto:
+      url: /tema1-introduccion/practicas/p3-t1-c3-http/reto-async-serialize
+      title: Async Serialize
   - title: 07p3-t2-handling-events
     myurl: /tema2-async/practicas/p3-t2-handling-events/index.html
     name: Práctica p3-t2-handling-events
+    reto:
+      url: /tema2-async/practicas/p3-t2-handling-events/reto2
+      title: Promise.all and Promisify
   - title: 08p4-t2-networking
     myurl: /tema2-async/practicas/p4-t2-networking/
     name: Práctica p4-t2-networking
