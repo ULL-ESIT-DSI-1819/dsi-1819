@@ -20,7 +20,11 @@ disqus:
   comments: true
 repo: ULL-ESIT-DSI-1819/dsi-1819
 logo: DSIlogo.png
-teacher: https://www.ull.es/apps/guias/guias/view_teacher_niu/588/(%3FPcrguezl.*)/
+teachers:
+  - name: Casiano
+    url: https://www.ull.es/apps/guias/guias/view_teacher_niu/588/(%3FPcrguezl.*)/
+  - name: Manz
+    url: https://www.emezeta.com/manz
 campus_virtual: https://campusvirtual.ull.es/1920/course/view.php?id=201911055
 tareas: https://campusvirtual.ull.es/1920/mod/assign/index.php?id=201911055
 calificador: https://campusvirtual.ull.es/1920/grade/report/grader/index.php?id=201911055
