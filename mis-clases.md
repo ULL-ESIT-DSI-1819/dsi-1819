@@ -4,6 +4,15 @@ layout: default
 
 # Clases
 
+# Clases
+
+## Segunda Parte
+
+  {% include clases-segunda-parte.md %}
+
+
+## Primera Parte
+
   {% assign previousMonth = "0" %}
   {% for post in site.posts %}
      {% assign currentMonth = post.date | date: "%B" %}
