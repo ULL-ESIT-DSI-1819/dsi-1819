@@ -4,8 +4,6 @@ layout: default
 
 # Clases
 
-# Clases
-
 ## Segunda Parte
 
   {% include clases-segunda-parte.md %}
