@@ -5,6 +5,9 @@
 * [Recursos de Bibliografía]({{site.books_shared}}) (privado)
 * [ManzDev/dsi1920](https://github.com/ManzDev/dsi1920) (privado)
 
+## CheatSheets
+
+* [CheatSheets](https://github.com/ULL-ESIT-DSI-1920/dsi1920/tree/master/cheatsheets)
 
 ## JS
 
