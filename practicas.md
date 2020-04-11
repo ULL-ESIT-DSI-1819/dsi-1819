@@ -3,7 +3,7 @@ layout: default
 permalink: practicas
 ---
 
-## Enlaces
+# Enlaces
 
 * [Al Libro de Calificaciones en el Campus]({{site.calificador}})
 * [A la lista de Tareas en el Campus]({{site.tareas}})
