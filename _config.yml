@@ -102,6 +102,9 @@ practicas:
   - title: 08p4-t2-networking
     myurl: /tema2-async/practicas/p4-t2-networking/
     name: Práctica p4-t2-networking
+    reto:
+      url: /tema2-async/practicas/p4-t2-networking/reto
+      title: Telnet Chat    
   - title: 09slackchannel
     myurl: https://campusvirtual.ull.es/1920/mod/assign/view.php?id=212260
     name: Tarea Unirse al Canal de Slack
