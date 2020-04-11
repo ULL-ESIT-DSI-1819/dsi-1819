@@ -1,10 +1,10 @@
 # Segunda Parte 
 
-## [Clases](https://github.com/ULL-ESIT-DSI-1920/dsi1920/tree/master/apuntes)
+## Clases
 
 {% include clases-segunda-parte.md %}
 
-## [Prácticas](https://github.com/ULL-ESIT-DSI-1920/dsi1920/tree/master/apuntes)
+## Prácticas
 
 {% include practicas-segunda-parte.md %}
 
