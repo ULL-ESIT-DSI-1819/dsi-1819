@@ -219,7 +219,9 @@ $ curl -X PUT -d "hello world!" localhost:8000/tutu.txt
 * Libro [Pro REST API Development with Node.js by Fernando Doglio. Apress 2015](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781484209172) Book PuntoQ BULL
 * [REST with Hypermedia - Hot or Not?](https://reflectoring.io/rest-hypermedia/) blog by Tom Hombergs
   - [mikekelly/hal-browser](https://github.com/mikekelly/hal-browser)
-  
+* [Learn API Design](https://github.com/dwyl/learn-api-design)
+
+
 ### [REST API concepts and examples](https://youtu.be/7YcW25PHnAA) (Youtube video)
 
 ### [API for beginners](https://youtu.be/oBW_VNg4qD0) (Youtube video) por Le Wagon
@@ -264,3 +266,8 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
    3. [Google APIs Client Library for JavaScript](https://github.com/google/google-api-javascript-client)
    4. [Google API Client Libraries JavaScript. Tutorial](https://developers.google.com/api-client-library/javascript/start/start-js)
 
+# GitHub API
+
+## Getting started with the API
+
+* [Getting started with the API](https://help.github.com/en/github/extending-github/getting-started-with-the-api)
