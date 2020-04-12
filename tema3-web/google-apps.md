@@ -28,3 +28,7 @@ sheetsTutorial: https://codelabs.developers.google.com/codelabs/apps-script-fund
 ## What is Google Apps Script? (Video)
 
 * [What is Google Apps Script?](https://youtu.be/2eElfBgqJLY) YouTube
+
+## Google Apps Script bot
+
+* [Google Apps Script bot](https://developers.google.com/hangouts/chat/quickstart/apps-script-bot)
