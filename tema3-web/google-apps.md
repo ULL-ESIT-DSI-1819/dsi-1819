@@ -10,8 +10,6 @@ sheetsTutorial: https://codelabs.developers.google.com/codelabs/apps-script-fund
 
 ## Fundamentals of Apps Script with Google Sheets
 
-
-
 ### Fundamentals of Apps Script with Google Sheets #1: Macros & Custom Functions
 
 * [Fundamentals of Apps Script with Google Sheets #1: Macros & Custom Functions]({{page.sheetsTutorial}}#0)
@@ -26,3 +24,7 @@ sheetsTutorial: https://codelabs.developers.google.com/codelabs/apps-script-fund
 ###  Fundamentals of Apps Script with Google Sheets #2: Spreadsheets, Sheets, and Ranges
 
 * [Fundamentals of Apps Script with Google Sheets #2: Spreadsheets, Sheets, and Ranges](https://codelabs.developers.google.com/codelabs/apps-script-fundamentals-2/index.html?index=..%2F..index#0)
+
+## What is Google Apps Script? (Video)
+
+* [What is Google Apps Script?](https://youtu.be/2eElfBgqJLY) YouTube
