@@ -38,4 +38,10 @@ git remote set-url origin $(git remote -v | head -n 1  | grep -o 'github\.com.*g
 This is a different task per student. A group will make `git-all-pull` and another 
 `git-all-remote`, etc.
 
+## git-assignment-clone
 
+git assignment clone ORGANIZATION/assignment-prefix
+
+crea  un repo con submodulos los repos de esa asignación
+
+list of github students to download in a file
