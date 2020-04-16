@@ -33,6 +33,9 @@ of students lab with GH Classroom:
 git remote set-url origin $(git remote -v | head -n 1  | grep -o 'github\.com.*git' | awk '{print "https://"$1}')
 ```
 
+## Plan
 
+This is a different task per student. A group will make `git-all-pull` and another 
+`git-all-remote`, etc.
 
 
