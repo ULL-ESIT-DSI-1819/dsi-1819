@@ -9,7 +9,7 @@
 5. Write a GitHub Action to add CI
 6. Publish your module at GitHub Registry inside this subject organization
 
-# git all
+## git all
 
 Lo ideal sería tener una serie de comandos `all`:
 
@@ -45,3 +45,11 @@ git assignment clone ORGANIZATION/assignment-prefix
 crea  un repo con submodulos los repos de esa asignación
 
 list of github students to download in a file
+
+## git-all-submodule
+
+Crearía un repo con submódulos los repos que están en el directorio
+
+## See
+
+* https://www.npmjs.com/package/git-submodule-tool
