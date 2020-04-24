@@ -7,7 +7,11 @@ Back in the days, whenever you wanted to configure DNS resolvers in Linux you wo
 
 This file still exists but it is a [symlink](https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/) controlled by the systemd-resolved service and **should not be edited manually**.
 
+## Netplan
+
 Netplan configuration files are stored in the `/etc/netplan` directory. You’ll probably find one or two YAML files in this directory. The file name may differ from setup to setup. Usually, the file is named either `01-netcfg.yaml` or `50-cloud-init.yaml` but in your system, it may be different.
+
+## /etc/netplan
 
 ```
 usuario@ubuntu:/etc/netplan$ pwd -P
@@ -19,6 +23,8 @@ total 8
 usuario@ubuntu:/etc/netplan$
 ```
 
+## Some DNS resolvers
+
 Below are some of the most popular public DNS resolvers:
 
 ```
@@ -28,13 +34,15 @@ OpenDNS (208.67.222.222, 208.67.220.220)
 Level3 (209.244.0.3, 209.244.0.4)
 ```
 
+## Editing /etc/netplan/01-netcfg.yaml
+
 To configure the DNS servers we open the interface configuration file with our editor:
 
 ```
 sudo vi /etc/netplan/01-netcfg.yaml
 ```
 
-```
+```yml
 network:
   version: 2
   renderer: networkd
@@ -48,11 +56,15 @@ network:
           addresses: [8.8.8.8, 8.8.4.4]
 ```
 
+## sudo netplan apply
+
 ```
 $ sudo netplan apply
 ```
 
-Netplan will generate the configuration files for the systemd-resolved service.
+Netplan will generate the configuration files for the `systemd-resolved` service.
+
+## systemd-resolve
 
 To verify that the new DNS resolvers are set, run the following command:
 
@@ -65,7 +77,8 @@ We are using `grep` to filter the `'DNS Servers'` string.
 
 The output will look something like this:
 
-`usuario@ubuntu:/etc/netplan$ systemd-resolve --status | grep 'DNS Servers' -A4
+```
+usuario@ubuntu:/etc/netplan$ systemd-resolve --status | grep 'DNS Servers' -A4
          DNS Servers: 8.8.8.8
                       8.8.4.4
                       1.1.1.1
@@ -73,15 +86,23 @@ The output will look something like this:
                       209.244.0.3
 ```
 
+## Servidores DNS en la ULL
+
 En el caso de máquinas del iaas.ull.es los servidores DNS deberán ser los de la ULL. 
 
-Pueden averiguarse cuales son esos DNS dependiendo de cual sea el O.S.:
+Pueden averiguarse cuales son esos DNS dependiendo de cual sea el O.S.. 
+
+### O.S. viejo
+
+En tomas1, con un O.S viejo:
 
 ```
 usuario@ubuntu:~$ cat /etc/resolv.conf
 nameserver 10.4.9.30
 nameserver 10.4.9.29
 ```
+
+### /var/systemd/resolve
 
 En una máquina con IP dinámica:
 
@@ -98,6 +119,8 @@ total 8
 -rw-r--r-- 1 systemd-resolve systemd-resolve 607 abr 24 12:52 resolv.conf
 -rw-r--r-- 1 systemd-resolve systemd-resolve 715 abr 24 12:52 stub-resolv.conf
 ```
+
+### /var/run/systemd/resolve/resolv.conf
 
 ```
 usuario@ubuntu:~$ cat /var/run/systemd/resolve/resolv.conf
