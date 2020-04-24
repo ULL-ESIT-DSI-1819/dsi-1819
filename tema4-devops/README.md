@@ -2,6 +2,8 @@
 
 ## [Software Development Cycle: Git Submodules, WorkFlows, Registry](control-version)
 
+## [DNS](dns)
+
 ## [GitHub Actions](github-actions)
 
 ## [Performance](performance)
