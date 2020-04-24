@@ -72,3 +72,75 @@ The output will look something like this:
                       1.0.0.1
                       209.244.0.3
 ```
+
+En el caso de máquinas del iaas.ull.es los servidores DNS deberán ser los de la ULL. 
+
+Pueden averiguarse cuales son esos DNS dependiendo de cual sea el O.S.:
+
+```
+usuario@ubuntu:~$ cat /etc/resolv.conf
+nameserver 10.4.9.30
+nameserver 10.4.9.29
+```
+
+En una máquina con IP dinámica:
+
+```
+[~]$ ssh pl
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-54-generic x86_64)
+```
+
+Nos vamos a `/var/systemd/resolve`:
+
+```
+usuario@ubuntu:~$ ls -l /var/run/systemd/resolve/
+total 8
+-rw-r--r-- 1 systemd-resolve systemd-resolve 607 abr 24 12:52 resolv.conf
+-rw-r--r-- 1 systemd-resolve systemd-resolve 715 abr 24 12:52 stub-resolv.conf
+```
+
+```
+usuario@ubuntu:~$ cat /var/run/systemd/resolve/resolv.conf
+```
+
+```
+# This file is managed by man:systemd-resolved(8). Do not edit.
+#
+# This is a dynamic resolv.conf file for connecting local clients directly to
+# all known uplink DNS servers. This file lists all configured search domains.
+#
+# Third party programs must not access this file directly, but only through the
+# symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a different way,
+# replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 10.4.9.30
+nameserver 10.4.9.29
+```
+
+```
+usuario@ubuntu:~$ cat /var/run/systemd/resolve/stub-resolv.conf
+```
+
+```
+# This file is managed by man:systemd-resolved(8). Do not edit.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "systemd-resolve --status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs must not access this file directly, but only through the
+# symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a different way,
+# replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+options edns0
+```
