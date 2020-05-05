@@ -27,11 +27,11 @@ teachers:
     url: https://www.ull.es/apps/guias/guias/view_teacher_niu/588/(%3FPvblanco.*)/
   - name: Manz
     url: https://www.emezeta.com/manz
-campus_virtual: https://campusvirtual.ull.es/1920/course/view.php?id=201911055
-tareas: https://campusvirtual.ull.es/1920/mod/assign/index.php?id=201911055
-calificador: https://campusvirtual.ull.es/1920/grade/report/grader/index.php?id=201911055
-participantes: https://campusvirtual.ull.es/1920/user/index.php?id=201911055
-foros: https://campusvirtual.ull.es/1920/mod/forum/index.php?id=201911055
+campus_virtual: https://campusvirtual.ull.es/ingenieriaytecnologia/1920/course/view.php?id=201911055
+tareas: https://campusvirtual.ull.es/ingenieriaytecnologia/1920/mod/assign/index.php?id=201911055
+calificador: https://campusvirtual.ull.es/ingenieriaytecnologia/1920/grade/report/grader/index.php?id=201911055
+participantes: https://campusvirtual.ull.es/ingenieriaytecnologia/1920/user/index.php?id=201911055
+foros: https://campusvirtual.ull.es/ingenieriaytecnologia/1920/mod/forum/index.php?id=201911055
 bull_permanente: https://puntoq.ull.es/permalink/f
 github_classroom: https://classroom.github.com/classrooms/53047716-ull-esit-dsi-1920
 guia_docente: https://www.ull.es/apps/guias/guias/view_subject_guide/139263524/
@@ -64,10 +64,10 @@ temas:
     hover: 'despliegue'
 practicas:
   - title: 00cuestionarioghalu
-    myurl: https://campusvirtual.ull.es/1920/mod/assign/view.php?id=14697
+    myurl: https://campusvirtual.ull.es/ingenieriaytecnologia/1920/mod/assign/view.php?id=14697
     name: Tarea Formulario Usuario de Github
   - title: 01comunidadgpluspl
-    myurl: https://campusvirtual.ull.es/1920/mod/assign/view.php?id=188638
+    myurl: https://campusvirtual.ull.es/ingenieriaytecnologia/1920/mod/assign/view.php?id=188638
     name: Tarea Comunidad G+ de DSI
   - title: 02pb-gh-campus-expert
     myurl: /tema0-presentacion/pb-gh-campus-expert/
@@ -106,7 +106,7 @@ practicas:
       url: /tema2-async/practicas/p4-t2-networking/reto
       title: Telnet Chat    
   - title: 09slackchannel
-    myurl: https://campusvirtual.ull.es/1920/mod/assign/view.php?id=212260
+    myurl: https://campusvirtual.ull.es/ingenieriaytecnologia/1920/mod/assign/view.php?id=212260
     name: Tarea Unirse al Canal de Slack
  
     
